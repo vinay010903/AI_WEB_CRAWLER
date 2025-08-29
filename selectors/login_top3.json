@@ -1,0 +1,45 @@
+[
+  {
+    "tag": "a",
+    "attrs": {
+      "class": [
+        "nav-action-signin-button"
+      ]
+    },
+    "text": "Sign in",
+    "text_length": 7,
+    "has_children": true,
+    "parent_tag": "div",
+    "source": "link"
+  },
+  {
+    "tag": "a",
+    "attrs": {
+      "class": [
+        "nav-a",
+        "nav-a-2",
+        "nav-progressive-attribute"
+      ]
+    },
+    "text": "Hello, sign inAccount & Lists",
+    "text_length": 29,
+    "has_children": true,
+    "parent_tag": "div",
+    "source": "link"
+  },
+  {
+    "tag": "button",
+    "attrs": {
+      "class": [
+        "nav-flyout-button",
+        "nav-icon",
+        "nav-arrow"
+      ]
+    },
+    "text": "",
+    "text_length": 0,
+    "has_children": false,
+    "parent_tag": "div",
+    "source": "button"
+  }
+]

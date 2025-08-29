@@ -1,0 +1,13 @@
+{
+    "username": [
+        "input[type=\"email\"]",
+        "input[name=\"email\"]",
+        "#ap_email_login"
+    ],
+    "continue": [
+        "#continue",
+        "#next",
+        "input[id^=\"continue\"]",
+        "input[id^=\"next\"]"
+    ]
+}

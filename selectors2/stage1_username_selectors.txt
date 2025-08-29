@@ -1,0 +1,2 @@
+<input type="email" id="ap_email_login" name="email" class="a-input-text">
+<input type="password" id="auth-credential-autofill-hint" name="password" class="a-input-text aok-hidden">

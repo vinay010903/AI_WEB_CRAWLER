@@ -1,0 +1,5 @@
+<input id="unifiedLocation1ClickAddress" name="dropdown-selection" type="hidden" value="pmnmprjmqrkq" class="nav-progressive-attribute">
+<input id="ubbShipTo" name="dropdown-selection-ubb" type="hidden" value="pmnmprjmqrkq" class="nav-progressive-attribute">
+<input id="glowValidationToken" name="glow-validation-token" type="hidden" value="hJbPLw9TqQWJ/tmCH4TwiX3t0NjUuRqNbCLSXXurFVmkAAAAAGixX5kAAAAB" class="nav-progressive-attribute">
+<input id="glowDestinationType" name="glow-destination-type" type="hidden" value="DEFAULT_ADDRESS" class="nav-progressive-attribute">
+<input type="text" id="twotabsearchtextbox" value="polo Tshirt" name="field-keywords" class="nav-input nav-progressive-attribute">

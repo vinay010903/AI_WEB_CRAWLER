@@ -1,0 +1,15 @@
+{
+    "username": [
+        "input[name=\"email\"]",
+        "input[id*=\"email\"]",
+        "input[type=\"email\"]"
+    ],
+    "continue": [
+        "#continue",
+        "#next",
+        "#submit",
+        "input[name=\"continue\"]",
+        "input[id*=\"continue\"]",
+        "button[name=\"continue\"]"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "search_box": [
+        "#twotabsearchtextbox",
+        "input[name=\"field-keywords\"]"
+    ],
+    "search_button": [
+        "input[type=\"submit\"]",
+        "#search",
+        "button[type=\"submit\"]",
+        ".nav-search-submit",
+        "#nav-search-submit-button",
+        "span.nav-search-submit-button"
+    ]
+}

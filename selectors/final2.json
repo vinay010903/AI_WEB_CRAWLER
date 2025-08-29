@@ -1,0 +1,6 @@
+[
+    {
+        "hover_selector": "a.nav-a-2.nav-progressive-attribute[data-nav-ref=\"nav_ya_signin\"]",
+        "login_selector": "a.nav-action-signin-button[data-nav-role=\"signin\"]"
+    }
+]
