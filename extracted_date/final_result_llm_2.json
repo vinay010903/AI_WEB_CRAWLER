@@ -1,0 +1,876 @@
+{
+    "search_query": "polo Tshirt",
+    "total_products_found": 5,
+    "products_processed": 1,
+    "products": [
+        {
+            "product_index": 1,
+            "product_title": "No title found",
+            "product_url": "https://www.amazon.in/Allen-Solly-Regular-AMKP317G04249_Jet-Black_X-Large/dp/B06Y2CH63N/ref=sr_1_5?crid=3VIONW6VL8D12&dib=eyJ2IjoiMSJ9.vjX9k4VZ666ydehD6PKLsBL3vokLympqBnWaKhUdJe1wZyWnXnMOHmfjvliDRmMToRBxnmdO0pHOKD5UcXnFIzZIezGfxqjprzPH8UmNNFkZSO1B7nKMn6nE4fYxNelS7J44d3wI5Xq8l68a0BgU8o524l0j5OOsKMInLNDML4kG2WByIJ4tL1HlBvbU86nUBw3v7S8yMp8bhBzy9AmISqgAFhqPwAaH_dxdcV0xT3ejTeXNhMFWLhORGzKNQ6yjcH2LVsZ9K-ghf-d3fnvru9XJzmscbeX6oDshSL-uKDs.6RPzlv-pcGblneO2WDrLOBV1rG6MFixTY39LdyvxKBE&dib_tag=se&keywords=polo+shirt&qid=1756475055&sprefix=polo+tshirt%2Caps%2C278&sr=8-5",
+            "review_page_url": "https://www.amazon.in/product-reviews/B0756Y7RBX/ref=cm_cr_getr_d_paging_btm_next_10/523-9480841-6004948?pd_rd_w=VmU03&content-id=amzn1.sym.aef73018-e935-4f38-8aa6-34add793f754&pf_rd_p=aef73018-e935-4f38-8aa6-34add793f754&pf_rd_r=60S142QVYGTRR3PNXYXR&pd_rd_wg=S7mux&pd_rd_r=da576fc7-ee2e-4812-9b56-979cfd2c76c5&pd_rd_i=B0756Y7RBX&pageNumber=10",
+            "reviews_found": 86,
+            "reviews": [
+                {
+                    "review_text": "Good quality product 👍",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 20 June 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 1,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Best quality , made up of cotton , best fit",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 7 April 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Required more colour options",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 4 May 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "fabric is low quality",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 7 March 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 4,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Waste product don't buy fitting not good and fabric also bad",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 22 July 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 5,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Looks good, feels comfortble, bit loose from waist and big in size almost 1-2 inches. Order 36 and you can wear for 38 waist as well. I got it little tightened from waist without any other alteration. Wear it at work, outside or at home all okay. I use it as daily wear and local outing.",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 17 April 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 6,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Overall the is good 👍IT IS NOT STRETCHABLE.I HOPE THE QUALITY IS GOOD.I ALSO HOPE THAT THERE IS NO COLOUR FADE IN UPCOMING DAYS.COMFORT IS OK .IF YOU ARE CONFIDENT THEN YOU STYLE ANY OUTFIT. 😉 .",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 19 October 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Fit was good but the finishing looks like to be an old pants, colour fade probably. Wouldn't recommend at this price of ₹1000.00. Go for something branded or more reliable instead.",
+                    "reviewer_name": "Unknown",
+                    "rating": "2",
+                    "review_date": "Reviewed in India on 27 May 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Product was really good for price …Now just tried will review agin after usage of few weeks but for now looks fine and comfortable",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 7 August 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 9,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Adorable... Very comfortableThanks amazone",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 21 June 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 1,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "ठीक-ठाक था इतना अच्छा नहीं है जितना होना चाहिए था जितने पैसे लगे हैं उसके बराबर नहीं क्वालिटी थोड़ी कमजोर है कपड़े की",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 26 March 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Nice pants good for daily n casual events n parties it looks trendy .... colour may fade but looks amazing",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 13 May 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good for all, improve in colour",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 6 November 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 5,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "The quality and the fitting of the product is very good. About quality of the color will share after using for a few months.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 1 August 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Product is worth to buy.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 11 October 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Material and fit good.One concern, length of pant is smaller compare to standard sizes.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 21 July 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 9,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Nice material ... comfortable...good looking",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 12 April 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 10,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Overall good",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 4 October 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 1,
+                    "page_number": 3,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "For the price it is good. The cloth quality is average but for the price it is ok. Comfortable to wear.. Overall good product",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 18 March 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 3,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Poor quality of product, stitching came out just after first wear.",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 29 June 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 3,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good Quality, Satisfied. Color also I like. Thin cloth but okay. Good 👍🏻",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 10 May 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 4,
+                    "page_number": 3,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Very slim fit, hurts the knee while bending it",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 5 July 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 5,
+                    "page_number": 3,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "I ordered 34\" but was sent a wrong size 28\". Quality fabric is very poor. Not worth buying",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 20 June 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 6,
+                    "page_number": 3,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Loose fitHigher priceSemi CargoBobbling after wash",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 11 August 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 3,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Perfect value for money. 👍🏻",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 23 May 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 3,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Product is good, not very high quality but for this price, its good. Worth the money.",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 28 December 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 10,
+                    "page_number": 3,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "It's a used and washed product.. Really pathetic..",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 17 June 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 1,
+                    "page_number": 4,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "It's good but has some flaws like heavy snaps on flap pockets puts pressure on the mobile inside and may damage the screen other than than black color fades away slightly after few washes",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 17 August 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 4,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good quality, comfortable",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 27 January 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 4,
+                    "page_number": 4,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Number of size is not okay",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 31 March 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 6,
+                    "page_number": 4,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Material quality is very poor",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 15 March 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 4,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Quality of fabric is less than the last one I received. Mostly used for travel. I had to extend the length by adding a small piece. Not recommended for tall guys.",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 22 January 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 4,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Comfortable",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 24 January 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 9,
+                    "page_number": 4,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "The cloth Material is thin",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 8 July 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 10,
+                    "page_number": 4,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "The fabric is excellent and the fit is perfect.Though Symbol has a tendency to make the waist a bit bigger than the actual size,since i have bought three of them and all of have the same waist problem.Other than that,the cargos are very good. Light,good stitch,decent stretch in the fabric and nice press-button flaps pockets and hopefully durable too.Good for regular use.Edit:- The waist size issue is a creation either by Amazon or the seller(Symbol). It is surprising to note that the size is numbered 30 for a waist of 32inch,32 for 34 inch,34 for 36 inch and so on. Ludicrous sizes numbers given for respective waist sizes just for confusing buyers. Mindless size allocation.Simplicity be damned.Carefully read the size charts for the actual sizes before placing an order.",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 16 April 2018",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 5,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Value for money and product is too good.",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 24 April 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 5,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Love the product",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 13 February 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 4,
+                    "page_number": 5,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "I like to wear it and have 3 of it on different colours. They are really good and one down side is they get wrinkled easily.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 6 April 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 5,
+                    "page_number": 5,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Pros :Stitch  - No visible flaws in threading noticed.Looks - Color is as I seen in the website.Feel - Fabric is soft, didn't irritate my skin.Fit - It's a fit which 2k kids would prefer, tappers towards the ankles.Durability - doesn't run color when washing or shrink after wash.P.s - writing this review after two washes.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 27 January 2021",
+                    "verified_purchase": "Unknown",
+                    "review_index": 6,
+                    "page_number": 5,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Product is Same as shown in pictureNice quality I like it thanks Amazon team",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 19 October 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 5,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "After using for 2 weeks i found the Quality is some what ok but not up to expectations..quality and colour can be improved then it would be the best product5",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 10 January 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 5,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Not a good fit.",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 8 May 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 9,
+                    "page_number": 5,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Perfect fit & great quality.",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 29 November 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 10,
+                    "page_number": 5,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "The fabric used is of inferior quality after one wear visible wrinkles and worn out look will make it necessary to get it washed.  The quality of fabric spoils the overall good quality of stitching etc. Will not recommend anyone to buy till fabric quality is improved.",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 26 October 2022",
+                    "verified_purchase": "Unknown",
+                    "review_index": 1,
+                    "page_number": 6,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "No fade after wash. its a decent one. cloth quality can be more better but its ok on body",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 25 May 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 6,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "The product is comfortable, but I feel price wise the material given is not justified. If this was in a range of INR 700-800 then it would have been perfect.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 15 November 2022",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 6,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Not too good not too bad looking at price, just one suggestion Black color catches lot of dust so go for some other color .",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 27 January 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 4,
+                    "page_number": 6,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "I like the trousers but the quality is not so great.  New pair had a small hole(which I got fixed from a tailor)",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 2 January 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 6,
+                    "page_number": 6,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Nice fabric and perfect fit.",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 4 November 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 6,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Cloth material is good, comfortable, size is also perfect.",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 6 October 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 6,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Very good quality and fitting",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 23 October 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 9,
+                    "page_number": 6,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Product and quality is very good",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 9 October 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 10,
+                    "page_number": 6,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good product with nice fitting. I find size is correct in my case. brand size 32(waist size 33).",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 15 February 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 7,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Comfortable and good stich and fabric",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 5 October 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 7,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Comfortable cotton material. Stitching good but fit very poor. My item if 38 waist is way too short for my 6 feet height. Model is supposedly of height 6 feet, so it is totally a false claim shown on amazon site.Disappointing.",
+                    "reviewer_name": "Unknown",
+                    "rating": "2",
+                    "review_date": "Reviewed in India on 9 March 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 4,
+                    "page_number": 7,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "It's a good product, fits as expected and worth buying..  I've been using these since last 5 years, no complaints except unavailability ☹️ You can do rough use, casual use, i mean perfect in this range, no other products can match the fitting , stitching, Style, and material, it's just amazing. Not this is the first time i'm sharing my views on these product, (Black / Grey and Khaki especially as other colors i did not tried) Now not available ☹️ Amazon when this will be available, I need more cargos from this as my personal use stock is no more ☹️",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 28 January 2019",
+                    "verified_purchase": "Unknown",
+                    "review_index": 5,
+                    "page_number": 7,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good quality",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 7 October 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 7,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Super good quality and affordable price",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 3 September 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 7,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "The cutting of the ppant needs to improve but quality of the pant is ok",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 2 July 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 9,
+                    "page_number": 7,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "It is very good quality buy this product",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 2 August 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 1,
+                    "page_number": 8,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Fabric and quality of product is good.",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 3 August 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 8,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "It's ok. Not so good and not bad either. Justifying it's pricing.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 3 February 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 8,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "The fitting was large at the waist and had exchanged for a smaller size  - the trouser design & stitching & zip quality are all good - the trouser material is soft and comfortable - worth buying",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 20 July 2021",
+                    "verified_purchase": "Unknown",
+                    "review_index": 4,
+                    "page_number": 8,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Pant Fitting is good, Cloth quality is good but fades a bit after wash. Its very nice to wear. Looking for availability of other colors which are out of stock always.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 29 November 2021",
+                    "verified_purchase": "Unknown",
+                    "review_index": 5,
+                    "page_number": 8,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "The tag says its a regular fit. Anyway, the material is decent and is comfortable. Buy 30 if you’re size is 32. Read the size chart fully before ordering. 30 for this pant is 31ish..Its good overall.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 22 April 2021",
+                    "verified_purchase": "Unknown",
+                    "review_index": 6,
+                    "page_number": 8,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Please don't buy it...very poor quality",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 29 March 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 8,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Fit is good. Stitching and fabric is awesome. But colour of trouser is too light as seen in picture. But worth for money.",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 26 October 2022",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 8,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Poor stitching.. 👎🏻",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 13 April 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 9,
+                    "page_number": 8,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Skin friendly cloth, value for money product, enhance your appearance. Great product for its utility.",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 13 May 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 10,
+                    "page_number": 8,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Fits nicely but it is little large on waist so have to wear with belt",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 11 April 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 1,
+                    "page_number": 9,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "The material is very suitable for summer. The design and style is very attractive.",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 27 April 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 9,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "At Rs 749 this is a great product - well stichted, reasonably sized pockets, etc.  I would have liked them a bit baggier but if you are OK with slimmer fitting go for it; A good product compared with the badly designed rubbish offered by some other competitors.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 29 April 2019",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 9,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "It's not made of cargo pants fabric; rather, it's akin to formal pants fabric. Considering its price range, it's definitely worth it.",
+                    "reviewer_name": "Unknown",
+                    "rating": "2",
+                    "review_date": "Reviewed in India on 13 March 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 4,
+                    "page_number": 9,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good product and great fit",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 12 December 2022",
+                    "verified_purchase": "Unknown",
+                    "review_index": 5,
+                    "page_number": 9,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Color is not that dark. Rest order one size big.",
+                    "reviewer_name": "Unknown",
+                    "rating": "3",
+                    "review_date": "Reviewed in India on 2 February 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 6,
+                    "page_number": 9,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Justified for the amount that i paid",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 18 May 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 9,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Soft and durable stuff.Fitting is also perfect Recommended",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 30 April 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 9,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good 👍 looking",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 17 January 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 9,
+                    "page_number": 9,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Material is soft and comfortable",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 17 April 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 10,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Basically now a days pants come in skinny slim....n not everyone are skinny slim ...some of them are footballers who have a huge thighs...pls cater to them alsoI need to buy a size bigger and alter the waist",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 28 June 2019",
+                    "verified_purchase": "Unknown",
+                    "review_index": 4,
+                    "page_number": 10,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "It's okay quality not good and not too bad an average quality product in this price segment.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 23 August 2021",
+                    "verified_purchase": "Unknown",
+                    "review_index": 5,
+                    "page_number": 10,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Its color and shine goes away after washing it two or four times.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 13 February 2022",
+                    "verified_purchase": "Unknown",
+                    "review_index": 6,
+                    "page_number": 10,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good overall",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 10 December 2022",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 10,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "It was nice and good quality but I have to return it unwillingly due to size issue.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 29 August 2021",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 10,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "the garment looks very good. fits well. the size chart is not accessible in certain cases. please take care of it.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 17 March 2021",
+                    "verified_purchase": "Unknown",
+                    "review_index": 9,
+                    "page_number": 10,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good material, value for money, this is my 3rd Symbol cargo pants. This time wrong size, wrong colour has been delivered. I ordered size 36, mountain grey colour but received 38 khaki colour. However I have kept it to gift it.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 19 January 2019",
+                    "verified_purchase": "Unknown",
+                    "review_index": 10,
+                    "page_number": 10,
+                    "extraction_method": "llm_container_based"
+                }
+            ]
+        }
+    ]
+}

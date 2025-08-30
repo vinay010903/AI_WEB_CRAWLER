@@ -7,7 +7,7 @@ import time
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 api_key = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=api_key)
@@ -744,7 +744,7 @@ async def extract_reviews_from_current_page(page, selectors, max_reviews=20):
         # Save page source for debugging
         try:
             content = await page.content()
-            with open("debug_review_page.html", "w", encoding="utf-8") as f:
+            with open("../debug_review_page.html", "w", encoding="utf-8") as f:
                 f.write(content)
             print("Saved page source to debug_review_page.html for inspection")
         except:
@@ -774,8 +774,8 @@ async def process_products_and_reviews(page, product_links, max_products=3):
             elements_product, l_product = await extract_selectors(page, "review_link")
             
             # Save product page elements for debugging
-            os.makedirs("selectors2", exist_ok=True)
-            file_path_product = f"selectors2/product_{i + 1}_review_link_selectors.txt"
+            os.makedirs("../selectors2", exist_ok=True)
+            file_path_product = f"../selectors2/product_{i + 1}_review_link_selectors.txt"
             with open(file_path_product, "w", encoding="utf-8") as f:
                 for element in elements_product:
                     f.write(element + "\n")
@@ -798,7 +798,7 @@ async def process_products_and_reviews(page, product_links, max_products=3):
                 elements_review_page, l_review_page = await extract_selectors(page, "review_page")
                 
                 # Save review page elements for debugging
-                file_path_review_page = f"selectors2/product_{i + 1}_review_page_selectors.txt"
+                file_path_review_page = f"../selectors2/product_{i + 1}_review_page_selectors.txt"
                 with open(file_path_review_page, "w", encoding="utf-8") as f:
                     for element in elements_review_page:
                         f.write(element + "\n")
@@ -964,7 +964,7 @@ async def perform_password_entry(page, selectors, password):
 
 # ---- Main Pipeline ----
 async def run_pipeline():
-    with open("selectors/final2.json", "r") as f:
+    with open("../selectors/final2.json", "r") as f:
         selectors = json.load(f)
     hover_selector = selectors[0].get("hover_selector")
     login_selector = selectors[0].get("login_selector")
@@ -990,15 +990,15 @@ async def run_pipeline():
         print("📊 Extracting username page selectors...")
         elements, l = await extract_selectors(page, "username")
         # Create directories if they don't exist
-        os.makedirs("selectors2", exist_ok=True)
-        os.makedirs("selectors", exist_ok=True)
+        os.makedirs("../selectors2", exist_ok=True)
+        os.makedirs("../selectors", exist_ok=True)
         # Save username page elements
-        file_path1 = "selectors2/stage1_username_selectors.txt"
+        file_path1 = "../selectors2/stage1_username_selectors.txt"
         with open(file_path1, "w", encoding="utf-8") as f:
             for element in elements:
                 f.write(element + "\n")
         
-        file_path_temp = "selectors2/username_page.html"
+        file_path_temp = "../selectors2/username_page.html"
         with open(file_path_temp, "w", encoding="utf-8") as f:
             f.write(l)
 
@@ -1010,7 +1010,7 @@ async def run_pipeline():
         # Parse LLM response for username page
         username_selectors = json.loads(temp_selectors)
 
-        file_path2 = "selectors/stage2_username_selectors.json"
+        file_path2 = "../selectors/stage2_username_selectors.json"
         with open(file_path2, "w", encoding="utf-8") as f:
             json.dump(username_selectors, f, indent=4)
 
@@ -1027,12 +1027,12 @@ async def run_pipeline():
         elements_pwd, l_pwd = await extract_selectors(page, "password")
         
         # Save password page elements
-        file_path3 = "selectors2/stage1_password_selectors.txt"
+        file_path3 = "../selectors2/stage1_password_selectors.txt"
         with open(file_path3, "w", encoding="utf-8") as f:
             for element in elements_pwd:
                 f.write(element + "\n")
         
-        file_path_temp_pwd = "selectors2/password_page.html"
+        file_path_temp_pwd = "../selectors2/password_page.html"
         with open(file_path_temp_pwd, "w", encoding="utf-8") as f:
             f.write(l_pwd)
 
@@ -1044,7 +1044,7 @@ async def run_pipeline():
         # Parse LLM response for password page
         password_selectors = json.loads(temp_pwd_selectors)
 
-        file_path4 = "selectors/stage2_password_selectors.json"
+        file_path4 = "../selectors/stage2_password_selectors.json"
         with open(file_path4, "w", encoding="utf-8") as f:
             json.dump(password_selectors, f, indent=4)
 
@@ -1064,12 +1064,12 @@ async def run_pipeline():
         elements_search, l_search = await extract_selectors(page, "search")
         
         # Save main page search elements
-        file_path5 = "selectors2/stage1_search_selectors.txt"
+        file_path5 = "../selectors2/stage1_search_selectors.txt"
         with open(file_path5, "w", encoding="utf-8") as f:
             for element in elements_search:
                 f.write(element + "\n")
         
-        file_path_temp_search = "selectors2/main_page.html"
+        file_path_temp_search = "../selectors2/main_page.html"
         with open(file_path_temp_search, "w", encoding="utf-8") as f:
             f.write(l_search)
 
@@ -1081,7 +1081,7 @@ async def run_pipeline():
         # Parse LLM response for search
         search_selectors = json.loads(temp_search_selectors)
 
-        file_path6 = "selectors/stage2_search_selectors.json"
+        file_path6 = "../selectors/stage2_search_selectors.json"
         with open(file_path6, "w", encoding="utf-8") as f:
             json.dump(search_selectors, f, indent=4)
 
@@ -1098,7 +1098,7 @@ async def run_pipeline():
             elements_results, l_results = await extract_selectors(page, "search")
             
             # Save search results elements
-            file_path7 = "selectors2/stage1_results_selectors.txt"
+            file_path7 = "../selectors2/stage1_results_selectors.txt"
             with open(file_path7, "w", encoding="utf-8") as f:
                 for element in elements_results:
                     f.write(element + "\n")
@@ -1111,7 +1111,7 @@ async def run_pipeline():
             # Parse LLM response for product links
             product_link_selectors = json.loads(temp_product_selectors)
             
-            file_path8 = "selectors/stage2_product_selectors.json"
+            file_path8 = "../selectors/stage2_product_selectors.json"
             with open(file_path8, "w", encoding="utf-8") as f:
                 json.dump(product_link_selectors, f, indent=4)
             
@@ -1128,9 +1128,10 @@ async def run_pipeline():
                 final_results['search_query'] = search_product
                 
                 # Save final results
-                final_file_path = "extracted_date/final_result_llm_2.json"
+                os.makedirs("../extracted_date", exist_ok=True)  # Ensure directory exists
+                final_file_path = "../extracted_date/final_result_llm_2.json"
                 with open(final_file_path, "w", encoding="utf-8") as f:
-                    json.dump(final_results, f, indent=4, ensure_ascii=False)
+                    json.dump(final_results, f, indent=4, ensure_ascii=False)  # Overwrite if exists
                 
                 print(f"🎉 All data extracted and saved to {final_file_path}")
                 print(f"📊 Summary:")

@@ -1,0 +1,48 @@
+{
+    "id_selectors": [],
+    "class_selectors": [],
+    "name_selectors": [
+        {
+            "uuid": "ab8362ae-6887-4ed2-803e-08db1b6ad602",
+            "selector": "[name='viewport']",
+            "tag": "meta",
+            "type": "",
+            "text_content": ""
+        }
+    ],
+    "type_selectors": [],
+    "attribute_selectors": [],
+    "input_selectors": [],
+    "button_selectors": [],
+    "link_selectors": [
+        {
+            "uuid": "198631f2-011f-4cc7-9173-60bba7c66848",
+            "selector": "a[href='https://www.iana.org/domains/example']",
+            "href": "https://www.iana.org/domains/example",
+            "text": "More information...",
+            "id": "",
+            "class": ""
+        }
+    ],
+    "form_selectors": [],
+    "combined_selectors": [],
+    "statistics": {
+        "total_elements": 13,
+        "elements_with_id": 0,
+        "elements_with_class": 0,
+        "elements_with_name": 1,
+        "unique_tags": [
+            "body",
+            "a",
+            "head",
+            "html",
+            "style",
+            "div",
+            "h1",
+            "p",
+            "title",
+            "meta"
+        ],
+        "url": "https://example.com"
+    }
+}

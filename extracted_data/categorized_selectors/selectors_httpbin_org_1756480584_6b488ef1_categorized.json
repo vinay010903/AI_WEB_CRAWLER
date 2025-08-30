@@ -1,0 +1,82 @@
+{
+    "metadata": {
+        "original_file": "../extracted_data/selectors/selectors_httpbin_org_1756480584_6b488ef1.json",
+        "categorization_timestamp": "2025-08-30T19:29:50.276330",
+        "original_url": "https://httpbin.org/status/200",
+        "total_original_selectors": {
+            "id_selectors": 0,
+            "class_selectors": 0,
+            "name_selectors": 0,
+            "input_selectors": 0,
+            "button_selectors": 0,
+            "link_selectors": 0,
+            "form_selectors": 0
+        }
+    },
+    "categories": {
+        "navigation_layout": {
+            "name": "Navigation & Layout",
+            "description": "Navigation menus, headers, footers, breadcrumbs, page structure elements"
+        },
+        "authentication_account": {
+            "name": "Authentication & User Account",
+            "description": "Login, registration, user profile, account settings, authentication forms"
+        },
+        "search_filters": {
+            "name": "Search & Filters",
+            "description": "Search bars, filter options, sorting controls, search results"
+        },
+        "category_listing": {
+            "name": "Category & Product Listing Pages",
+            "description": "Product lists, category pages, pagination, product cards, listing controls"
+        },
+        "product_details": {
+            "name": "Product Details",
+            "description": "Product pages, specifications, reviews, ratings, add to cart, product images"
+        },
+        "support_misc": {
+            "name": "Support & Miscellaneous",
+            "description": "Help, contact, customer service, notifications, alerts, other elements"
+        }
+    },
+    "categorized_selectors": {
+        "navigation_layout": [],
+        "authentication_account": [],
+        "search_filters": [],
+        "category_listing": [],
+        "product_details": [],
+        "support_misc": []
+    },
+    "categorization_summary": {
+        "total_categorized": 0,
+        "category_counts": {
+            "navigation_layout": 0,
+            "authentication_account": 0,
+            "search_filters": 0,
+            "category_listing": 0,
+            "product_details": 0,
+            "support_misc": 0
+        },
+        "average_confidence": 0.0
+    },
+    "original_selectors": {
+        "id_selectors": [],
+        "class_selectors": [],
+        "name_selectors": [],
+        "type_selectors": [],
+        "attribute_selectors": [],
+        "input_selectors": [],
+        "button_selectors": [],
+        "link_selectors": [],
+        "form_selectors": [],
+        "combined_selectors": [],
+        "statistics": {
+            "total_elements": 0,
+            "elements_with_id": 0,
+            "elements_with_class": 0,
+            "elements_with_name": 0,
+            "unique_tags": [],
+            "url": "https://httpbin.org/status/200"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id_selectors": [],
+    "class_selectors": [],
+    "name_selectors": [],
+    "type_selectors": [],
+    "attribute_selectors": [],
+    "input_selectors": [],
+    "button_selectors": [],
+    "link_selectors": [],
+    "form_selectors": [],
+    "combined_selectors": [],
+    "statistics": {
+        "total_elements": 0,
+        "elements_with_id": 0,
+        "elements_with_class": 0,
+        "elements_with_name": 0,
+        "unique_tags": [],
+        "url": "https://httpbin.org/status/200"
+    }
+}
