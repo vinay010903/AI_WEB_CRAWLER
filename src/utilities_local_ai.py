@@ -8,7 +8,7 @@ from datetime import datetime
 from groq import Groq
 from dotenv import load_dotenv
 import httpx
-
+from test_extract_selector import extract_all_selectors
 # Load environment variables
 load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
@@ -106,6 +106,6 @@ def local_ai_selector_categorizer(selectors: list[dict], model_name: str) -> lis
     
     return final_result
     
+import os, pathlib
+from main import group_selectors_by_category
 
-
-    

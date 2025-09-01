@@ -1,6 +1,0 @@
-{
-    "product_links": [
-        "a[href*='/dp/']",
-        "[data-component-type='s-search-result'] a"
-    ]
-}
