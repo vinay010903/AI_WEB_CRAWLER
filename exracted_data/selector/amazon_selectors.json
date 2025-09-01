@@ -1,0 +1,4277 @@
+{
+    "id_selectors": [
+        {
+            "uuid": "3b75c52a-c0f4-4e72-89da-09b9b2f3ac1c",
+            "selector": "#a-page",
+            "tag": "div",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows..inDelivering "
+        },
+        {
+            "uuid": "6aa62f76-a181-418f-a06d-c0d562cec7de",
+            "selector": "#nav-top",
+            "tag": "a",
+            "text_content": ""
+        },
+        {
+            "uuid": "cd02fa5a-7f51-4d10-aad0-e234240aad4d",
+            "selector": "#shortcut-menu",
+            "tag": "nav",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows."
+        },
+        {
+            "uuid": "53826e29-71dd-4672-832b-4b10919316f5",
+            "selector": "#nav-assistant-links-heading",
+            "tag": "h2",
+            "text_content": "Skip to"
+        },
+        {
+            "uuid": "096f4a46-c9e9-4254-acc1-6ed394c6f9c2",
+            "selector": "#nav-assist-skip-to-main-content",
+            "tag": "a",
+            "text_content": "Main content"
+        },
+        {
+            "uuid": "7cb4c4dc-ddaf-4efc-9d08-76113163b67c",
+            "selector": "#nav-assist-shortcuts-heading",
+            "tag": "h2",
+            "text_content": "Keyboard shortcuts"
+        },
+        {
+            "uuid": "0d2f1db6-4e4a-4a51-ae3f-7125b9786d0d",
+            "selector": "#nav-assist-shortcuts-container",
+            "tag": "ul",
+            "text_content": "Searchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+Z"
+        },
+        {
+            "uuid": "db4b5849-cb16-4c3e-a89e-86bf575e3a76",
+            "selector": "#nav-assist-search",
+            "tag": "a",
+            "text_content": "Searchalt+/"
+        },
+        {
+            "uuid": "a4f2570c-c9d8-44ae-a48f-a42877fce454",
+            "selector": "#nav-assist-cart",
+            "tag": "a",
+            "text_content": "Cartshift+alt+C"
+        },
+        {
+            "uuid": "a22d076d-6e0b-4dae-a756-84553be5effe",
+            "selector": "#nav-assist-home",
+            "tag": "a",
+            "text_content": "Homeshift+alt+H"
+        },
+        {
+            "uuid": "d8e6e107-8c5c-4d40-b327-42d67978b43c",
+            "selector": "#nav-assist-your-orders",
+            "tag": "a",
+            "text_content": "Ordersshift+alt+O"
+        },
+        {
+            "uuid": "f06cb2d4-ee75-4018-b371-325803174e07",
+            "selector": "#nav-assist-show-shortcuts",
+            "tag": "button",
+            "text_content": "Show/Hide shortcutsshift+alt+Z"
+        },
+        {
+            "uuid": "374705e3-4189-4c50-b3b9-7fd902b433e4",
+            "selector": "#nav-assist-shortcut-help",
+            "tag": "div",
+            "text_content": "To move between items, use your keyboard's up or down arrows."
+        },
+        {
+            "uuid": "1c8a19ec-8204-46e0-bf67-79c1ddf7518f",
+            "selector": "#navbar-main",
+            "tag": "header",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "aa205fc2-95f7-4b9f-8eb4-b05bb8492ad2",
+            "selector": "#navbar",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "666bbb85-ff8a-4ff5-9f9d-bcd6c3d3ee77",
+            "selector": "#nav-belt",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "ba726446-f0e1-472f-ab8c-5313dbb9b7da",
+            "selector": "#nav-logo",
+            "tag": "div",
+            "text_content": ".in"
+        },
+        {
+            "uuid": "79f76895-651e-4bfc-9b88-784ab652ee80",
+            "selector": "#nav-logo-sprites",
+            "tag": "a",
+            "text_content": ".in"
+        },
+        {
+            "uuid": "bbcee150-877d-4f5e-a623-fc8847fc0d6f",
+            "selector": "#logo-ext",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "9c8bf5b8-a577-4411-a8fc-5fb68a687230",
+            "selector": "#nav-global-location-slot",
+            "tag": "div",
+            "text_content": "Delivering to Delhi 110001Update location"
+        },
+        {
+            "uuid": "e639b571-f4f3-49c4-bb49-47ff448cdd0a",
+            "selector": "#nav-global-location-data-modal-action",
+            "tag": "span",
+            "text_content": "Delivering to Delhi 110001Update location"
+        },
+        {
+            "uuid": "0be43f12-658e-4b0e-8ec2-a1514777a2a2",
+            "selector": "#nav-global-location-popover-link",
+            "tag": "a",
+            "text_content": "Delivering to Delhi 110001Update location"
+        },
+        {
+            "uuid": "1e8ae954-cdf3-4e70-ab03-2913fc4b03d5",
+            "selector": "#nav-packard-glow-loc-icon",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "590c4019-31d6-4cfc-9e30-14b6dea343a5",
+            "selector": "#glow-ingress-block",
+            "tag": "div",
+            "text_content": "Delivering to Delhi 110001Update location"
+        },
+        {
+            "uuid": "9073fb44-2c99-46a4-b203-5bec7d33feff",
+            "selector": "#glow-ingress-line1",
+            "tag": "span",
+            "text_content": "Delivering to Delhi 110001"
+        },
+        {
+            "uuid": "6a500471-8c9f-477d-8c3c-7bf47f921006",
+            "selector": "#glow-ingress-line2",
+            "tag": "span",
+            "text_content": "Update location"
+        },
+        {
+            "uuid": "2a434645-ac0d-454f-b116-288902d5a635",
+            "selector": "#unifiedLocation1ClickAddress",
+            "tag": "input",
+            "text_content": ""
+        },
+        {
+            "uuid": "b574995e-edb0-4e93-aceb-9d7f01fab63a",
+            "selector": "#ubbShipTo",
+            "tag": "input",
+            "text_content": ""
+        },
+        {
+            "uuid": "68dbfd0b-e743-47fa-a2ec-ab0074b194f5",
+            "selector": "#glowValidationToken",
+            "tag": "input",
+            "text_content": ""
+        },
+        {
+            "uuid": "65c5e16f-bf1c-4e37-8a13-392cccaffd8d",
+            "selector": "#glowDestinationType",
+            "tag": "input",
+            "text_content": ""
+        },
+        {
+            "uuid": "18610618-f45e-4c8c-8da2-e0a4d19306bb",
+            "selector": "#nav-global-location-toaster-script-container",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "c1bf68fa-dda3-4726-8566-d66818bf8a09",
+            "selector": "#nav-fill-search",
+            "tag": "div",
+            "text_content": "AllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksC"
+        },
+        {
+            "uuid": "1163d5a0-5cfc-4043-831a-1b653cc0be8c",
+            "selector": "#nav-search",
+            "tag": "div",
+            "text_content": "AllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksC"
+        },
+        {
+            "uuid": "dbceed67-4559-4eb5-80c7-5d413e8c9ce3",
+            "selector": "#nav-bar-left",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "018371d9-0251-412e-8223-10c73d55cdd1",
+            "selector": "#nav-search-bar-form",
+            "tag": "form",
+            "text_content": "AllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksC"
+        },
+        {
+            "uuid": "bfbacc53-f6fa-4350-ad4b-d1e843deb4d1",
+            "selector": "#nav-search-dropdown-card",
+            "tag": "div",
+            "text_content": "AllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksC"
+        },
+        {
+            "uuid": "1bf20a9e-db17-4bf0-811b-2fdd18ea442a",
+            "selector": "#nav-search-label-id",
+            "tag": "span",
+            "text_content": "All"
+        },
+        {
+            "uuid": "444b0675-ec80-4128-abcb-681cdc834dd7",
+            "selector": "#searchDropdownDescription",
+            "tag": "label",
+            "text_content": "Select the department you want to search in"
+        },
+        {
+            "uuid": "9863dbf7-fe92-43ed-a4ec-5fd69cdf5b13",
+            "selector": "#searchDropdownBox",
+            "tag": "select",
+            "text_content": "All CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksCar & MotorbikeClothing & AccessoriesCollectibl"
+        },
+        {
+            "uuid": "f6d2a78d-2a43-4123-9ec4-1a8183ee2f8f",
+            "selector": "#twotabsearchtextbox",
+            "tag": "input",
+            "text_content": ""
+        },
+        {
+            "uuid": "50dad386-aa72-4fbb-a7a0-23f0bf6434eb",
+            "selector": "#nav-iss-attach",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "edf17552-8d63-4a1b-a607-beb3f3ae03dd",
+            "selector": "#nav-search-submit-text",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "df999854-4ad0-4af3-81f0-f65bd6faeb61",
+            "selector": "#nav-search-submit-button",
+            "tag": "input",
+            "text_content": ""
+        },
+        {
+            "uuid": "4d4634de-92e1-4bf4-ab37-f03448648a8d",
+            "selector": "#nav-tools",
+            "tag": "div",
+            "text_content": "ENHello, sign inAccount & ListsReturns& Orders0Cart"
+        },
+        {
+            "uuid": "ccb1e695-0de9-42e5-9bc6-b51a1761661d",
+            "selector": "#icp-nav-flyout",
+            "tag": "div",
+            "text_content": "EN"
+        },
+        {
+            "uuid": "77d5eca2-01e9-4187-9de7-2a95eeb8588c",
+            "selector": "#nav-link-accountList",
+            "tag": "div",
+            "text_content": "Hello, sign inAccount & Lists"
+        },
+        {
+            "uuid": "f94e53b7-df3a-44a1-831e-e91f203c1b1c",
+            "selector": "#nav-link-accountList-nav-line-1",
+            "tag": "span",
+            "text_content": "Hello, sign in"
+        },
+        {
+            "uuid": "fdef0d0c-d3c9-49f6-b1ec-b6104d27ff09",
+            "selector": "#nav-orders",
+            "tag": "a",
+            "text_content": "Returns& Orders"
+        },
+        {
+            "uuid": "dc81a81a-8e49-4e5d-867c-9dc1c0b49b42",
+            "selector": "#nav-cart",
+            "tag": "a",
+            "text_content": "0Cart"
+        },
+        {
+            "uuid": "6ad4f157-18d2-4cd2-a85a-2d4bd3566ec2",
+            "selector": "#nav-cart-count-container",
+            "tag": "div",
+            "text_content": "0"
+        },
+        {
+            "uuid": "d50b4586-5399-4067-9aec-e483f5d02e30",
+            "selector": "#nav-cart-count",
+            "tag": "span",
+            "text_content": "0"
+        },
+        {
+            "uuid": "b885a0c6-36e7-4530-975a-e5468390284f",
+            "selector": "#nav-cart-text-container",
+            "tag": "div",
+            "text_content": "Cart"
+        },
+        {
+            "uuid": "7063dea2-2d06-4047-b7bb-4d8fc795acb7",
+            "selector": "#nav-belt-search",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "e5478955-ee53-43ca-b4db-a63e4e1b8eb1",
+            "selector": "#nav-main",
+            "tag": "div",
+            "text_content": "AllFreshMX PlayerSellBestsellersMobilesToday's DealsPrimeCustomer ServiceElectronicsNew ReleasesFashionHome & KitchenAmazon PayComputersBooksBeauty & Personal CareCar & MotorbikeHome ImprovementToys &"
+        },
+        {
+            "uuid": "6fa30224-49bd-4da6-8805-7fcd2156bd37",
+            "selector": "#nav-hamburger-menu",
+            "tag": "a",
+            "text_content": "All"
+        },
+        {
+            "uuid": "5259afc3-25fc-4c2e-bda3-56a5b0e9c220",
+            "selector": "#nav-shop",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "84a16d29-1aa5-49c1-a7c0-c03d99d44498",
+            "selector": "#nav-xshop-container",
+            "tag": "div",
+            "text_content": "FreshMX PlayerSellBestsellersMobilesToday's DealsPrimeCustomer ServiceElectronicsNew ReleasesFashionHome & KitchenAmazon PayComputersBooksBeauty & Personal CareCar & MotorbikeHome ImprovementToys & Ga"
+        },
+        {
+            "uuid": "c8c4a987-f271-47c1-b8ff-3ebe537ff3ee",
+            "selector": "#nav-xshop",
+            "tag": "div",
+            "text_content": "FreshMX PlayerSellBestsellersMobilesToday's DealsPrimeCustomer ServiceElectronicsNew ReleasesFashionHome & KitchenAmazon PayComputersBooksBeauty & Personal CareCar & MotorbikeHome ImprovementToys & Ga"
+        },
+        {
+            "uuid": "8076992d-3d6a-41d4-b5c1-478cffb0fd29",
+            "selector": "#nav-link-groceries",
+            "tag": "div",
+            "text_content": "Fresh"
+        },
+        {
+            "uuid": "969e168e-c78d-41c2-9e74-15590d09fffb",
+            "selector": "#nav-link-amazonprime",
+            "tag": "div",
+            "text_content": "Prime"
+        },
+        {
+            "uuid": "9d3b9ced-b766-40bc-9fe7-cef93bc83a17",
+            "selector": "#nav-swmslot",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "378dbcfd-9493-4744-9b80-f38eedd3adf3",
+            "selector": "#nav-subnav-toaster",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "3b75f299-0511-40e1-9656-273ad79c544a",
+            "selector": "#nav-progressive-subnav",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "f23cefd0-05d2-4209-9fa3-10d6ad68b254",
+            "selector": "#skippedLink",
+            "tag": "a",
+            "text_content": ""
+        },
+        {
+            "uuid": "161e0076-d952-4bff-97c5-1798bd19ebd0",
+            "selector": "#pageContent",
+            "tag": "div",
+            "text_content": "Previous slideNext slideRevamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore allAppliances for your home | Up to 55% offAir conditioner"
+        },
+        {
+            "uuid": "b665d1a9-fa00-4dc5-b940-c3c611641952",
+            "selector": "#desktop-banner",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "dac42d2d-37d4-40c6-88ca-9fc9e0d9bd71",
+            "selector": "#gw-desktop-herotator",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "3eea4be6-ad66-4599-b8f7-056e5d4770ca",
+            "selector": "#gw-ftGr-desktop-hero-1",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "4e2bde1d-42fe-4fba-b772-4aaa7dd8420f",
+            "selector": "#CardInstancecNbNaYXCb_iOo5IkQqeU3A",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "7b4d839a-981d-443e-8dc1-1115b51655c5",
+            "selector": "#gw-ftGr-desktop-hero-2",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "99fc6cac-3387-4a6d-973c-f1bbce9103a5",
+            "selector": "#gw-ftGr-desktop-hero-3",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "743421e5-4927-407d-a231-3ec48bf971b9",
+            "selector": "#gw-ftGr-desktop-hero-4",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "1d5f99db-ef92-4224-a209-8e03a4c2cf94",
+            "selector": "#gw-ftGr-desktop-hero-5",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "10f89785-ff9a-4a1a-acba-68fd2b9aa394",
+            "selector": "#gw-layout",
+            "tag": "div",
+            "text_content": "Revamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore allAppliances for your home | Up to 55% offAir conditionersRefrigeratorsMicrowaves"
+        },
+        {
+            "uuid": "1bbab963-94d1-4849-968d-44d2fa84e472",
+            "selector": "#gw-card-layout",
+            "tag": "div",
+            "text_content": "Revamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore allAppliances for your home | Up to 55% offAir conditionersRefrigeratorsMicrowaves"
+        },
+        {
+            "uuid": "6cc3ca00-57e9-4d1f-b095-27aeac7167fc",
+            "selector": "#desktop-grid-1",
+            "tag": "div",
+            "text_content": "Revamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore all"
+        },
+        {
+            "uuid": "c3791915-c6cd-4456-96b9-e0ac8164232d",
+            "selector": "#CardInstancecKnwQCbK2rnyrCP3b3IHtw",
+            "tag": "div",
+            "text_content": "Revamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore all"
+        },
+        {
+            "uuid": "5f557d3c-4086-429d-af7e-ea8718a0c1d3",
+            "selector": "#desktop-grid-2",
+            "tag": "div",
+            "text_content": "Appliances for your home | Up to 55% offAir conditionersRefrigeratorsMicrowavesWashing machinesSee more"
+        },
+        {
+            "uuid": "486306da-e46b-4c83-b814-2d66e80f84bc",
+            "selector": "#CardInstanceAQgbQyljt56LRLKWEENd1A",
+            "tag": "div",
+            "text_content": "Appliances for your home | Up to 55% offAir conditionersRefrigeratorsMicrowavesWashing machinesSee more"
+        },
+        {
+            "uuid": "12bf1052-8bf4-47ad-9849-6a637a65ce5d",
+            "selector": "#desktop-grid-3",
+            "tag": "div",
+            "text_content": "Starting ₹149 | HeadphonesStarting ₹249 | boAtStarting ₹349 | boultStarting ₹649 | NoiseStarting ₹149 | ZebronicsSee all offers"
+        },
+        {
+            "uuid": "01f1df4b-8802-4b96-ae92-1a989bfe9122",
+            "selector": "#CardInstance7G3PS5NATir8b1eztJqsFg",
+            "tag": "div",
+            "text_content": "Starting ₹149 | HeadphonesStarting ₹249 | boAtStarting ₹349 | boultStarting ₹649 | NoiseStarting ₹149 | ZebronicsSee all offers"
+        },
+        {
+            "uuid": "7f397a5f-6527-4ebb-bead-8f27a1d59a74",
+            "selector": "#desktop-grid-4",
+            "tag": "div",
+            "text_content": "Under ₹499 | Deals on home improvement essentialsUnder ₹199 | Cleaning suppliesUnder ₹399 | Bathroom accessoriesUnder ₹499 | Home toolsUnder ₹299 | WallpapersExplore all"
+        },
+        {
+            "uuid": "809e0da5-c628-4f6e-8bba-08a1962cd88c",
+            "selector": "#CardInstanceDIhnSZSwu2otM5PTMVZX-Q",
+            "tag": "div",
+            "text_content": "Under ₹499 | Deals on home improvement essentialsUnder ₹199 | Cleaning suppliesUnder ₹399 | Bathroom accessoriesUnder ₹499 | Home toolsUnder ₹299 | WallpapersExplore all"
+        },
+        {
+            "uuid": "b72fe7ee-c48b-411d-a0a0-127c0e157f06",
+            "selector": "#gw-content-grid",
+            "tag": "div",
+            "text_content": "Customers’ Most-Loved Fashion for youExplore moreUp to 50% off | International brandsSee all offersBest Sellers in Computers & AccessoriesUp to 60% off | Best offers on kitchen products | Amazon Launc"
+        },
+        {
+            "uuid": "4b763f75-9537-42db-93e6-0e1b9b36f47c",
+            "selector": "#main-content",
+            "tag": "div",
+            "text_content": "Customers’ Most-Loved Fashion for youExplore moreUp to 50% off | International brandsSee all offersBest Sellers in Computers & AccessoriesUp to 60% off | Best offers on kitchen products | Amazon Launc"
+        },
+        {
+            "uuid": "1233f88d-2a66-4461-86e8-2e2fa5586575",
+            "selector": "#desktop-btf-grid-1",
+            "tag": "div",
+            "text_content": "Customers’ Most-Loved Fashion for youExplore more"
+        },
+        {
+            "uuid": "82b5ebfc-c988-486f-b4f7-05e3d55c0254",
+            "selector": "#CardInstance5_AH-GmBaNbZ4He1TwPyjQ",
+            "tag": "div",
+            "text_content": "Customers’ Most-Loved Fashion for youExplore more"
+        },
+        {
+            "uuid": "1938d8db-85b8-485b-8e04-0fe50b2be3bf",
+            "selector": "#desktop-btf-grid-2",
+            "tag": "div",
+            "text_content": "Up to 50% off | International brandsSee all offers"
+        },
+        {
+            "uuid": "84c8a596-e06e-425a-8935-3ad1ace18241",
+            "selector": "#CardInstanceL9oHBLPqyNxS5L01o1-Daw",
+            "tag": "div",
+            "text_content": "Up to 50% off | International brandsSee all offers"
+        },
+        {
+            "uuid": "4e8112c9-ddcd-4955-b4e6-f0a0a44c721c",
+            "selector": "#desktop-btf-grid-3",
+            "tag": "div",
+            "text_content": "Best Sellers in Computers & Accessories"
+        },
+        {
+            "uuid": "41b208f9-03d2-4724-aaae-d0d069e05c3d",
+            "selector": "#CardInstanceLxtzAxiaYZ568clkCzHwpw",
+            "tag": "div",
+            "text_content": "Best Sellers in Computers & Accessories"
+        },
+        {
+            "uuid": "2c1bcfe6-0dc8-4a87-8299-60de4e3bc8cb",
+            "selector": "#desktop-btf-grid-4",
+            "tag": "div",
+            "text_content": "Up to 60% off | Best offers on kitchen products | Amazon Launchpad"
+        },
+        {
+            "uuid": "9a10e723-b704-4bd9-8885-9f356f68cc87",
+            "selector": "#CardInstanceDhBYz_kNUkAnasJ-UKRh6A",
+            "tag": "div",
+            "text_content": "Up to 60% off | Best offers on kitchen products | Amazon Launchpad"
+        },
+        {
+            "uuid": "58cd2dca-6bf9-4031-8822-81a4a2c0d181",
+            "selector": "#rhf",
+            "tag": "div",
+            "text_content": "Your recently viewed items and featured recommendations›View or edit your browsing historyAfter viewing product detail pages, look here to find an easy way to navigate back to pages you are interested"
+        },
+        {
+            "uuid": "cdbf99c7-f132-4292-8dde-98faf13de7e8",
+            "selector": "#rhf-container",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "a96a1265-74ce-42d3-8df8-5374bfb845aa",
+            "selector": "#rhf-context",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "7d3da18b-180f-448f-8d96-c423a9c094df",
+            "selector": "#rhf-error",
+            "tag": "div",
+            "text_content": "Your recently viewed items and featured recommendations›View or edit your browsing historyAfter viewing product detail pages, look here to find an easy way to navigate back to pages you are interested"
+        },
+        {
+            "uuid": "dadba57b-7956-4bd7-b4d1-e6308d6af823",
+            "selector": "#navFooter",
+            "tag": "div",
+            "text_content": "Back to topGet to Know UsAbout AmazonCareersPress ReleasesAmazon ScienceConnect with UsFacebookTwitterInstagramMake Money with UsSell on AmazonSell under Amazon AcceleratorProtect and Build Your Brand"
+        },
+        {
+            "uuid": "7af9a53c-5d8c-4e90-a83d-1b41d19351bf",
+            "selector": "#navBackToTop",
+            "tag": "a",
+            "text_content": "Back to top"
+        },
+        {
+            "uuid": "b806f555-7d30-41e2-b3ea-161116cd2ac5",
+            "selector": "#icp-touch-link-language",
+            "tag": "div",
+            "text_content": "English"
+        },
+        {
+            "uuid": "a259d594-9503-449c-8d1d-b82d97e57854",
+            "selector": "#icp-touch-link-country",
+            "tag": "a",
+            "text_content": "India"
+        },
+        {
+            "uuid": "91b1ebff-30e5-46e6-9585-116892b9c12f",
+            "selector": "#sis_pixel_r2",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "a4811797-06b7-4ca5-afe6-c2ce3f5e1b1d",
+            "selector": "#be",
+            "tag": "div",
+            "text_content": ""
+        }
+    ],
+    "class_selectors": [
+        {
+            "uuid": "dc90229d-62b7-4492-806f-758bf73c9822",
+            "selector": ".a-no-js",
+            "tag": "html",
+            "text_content": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.inSkip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hi"
+        },
+        {
+            "uuid": "f102f22c-97a4-4d0e-88d6-25a95c97cc2d",
+            "selector": ".a-aui_72554-c",
+            "tag": "body",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows..inDelivering "
+        },
+        {
+            "uuid": "e199b14b-c474-4122-a670-1d8cd4049dc5",
+            "selector": ".a-aui_a11y_6_837773-c",
+            "tag": "body",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows..inDelivering "
+        },
+        {
+            "uuid": "312feacb-06a6-4189-a67c-b1e21ad8d6a2",
+            "selector": ".a-aui_killswitch_csa_logger_372963-t1",
+            "tag": "body",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows..inDelivering "
+        },
+        {
+            "uuid": "64ea2c4d-0edb-4792-9618-aee4b8f0153e",
+            "selector": ".a-aui_template_weblab_cache_333406-c",
+            "tag": "body",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows..inDelivering "
+        },
+        {
+            "uuid": "1797c3b6-19bb-4272-889f-f103742cc131",
+            "selector": ".a-bw_aui_cxc_alert_measurement_1074111-c",
+            "tag": "body",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows..inDelivering "
+        },
+        {
+            "uuid": "fec6f192-fca4-4712-b49d-e438d1d1c64a",
+            "selector": ".a-bw_aui_switch_redesign_measurement_1206055-c",
+            "tag": "body",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows..inDelivering "
+        },
+        {
+            "uuid": "91aedba8-50e8-40d2-a6d5-dd27f289b275",
+            "selector": ".nav-assistant",
+            "tag": "nav",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows."
+        },
+        {
+            "uuid": "ee62e6b2-5178-41b1-b068-72a593df2e58",
+            "selector": ".nav-assistant-heading",
+            "tag": "h2",
+            "text_content": "Skip to"
+        },
+        {
+            "uuid": "c7663000-d920-4db4-b976-05e1999b6ee6",
+            "selector": ".nav-assistant-headers-font",
+            "tag": "h2",
+            "text_content": "Skip to"
+        },
+        {
+            "uuid": "534cec3f-282a-4e6a-8145-b0b23ffa3375",
+            "selector": ".nav-assistant-links-container",
+            "tag": "ul",
+            "text_content": "Main content"
+        },
+        {
+            "uuid": "6ba11fb2-6968-4107-b5e0-b1c39486fba1",
+            "selector": ".nav-assistant-list-item",
+            "tag": "li",
+            "text_content": "Main content"
+        },
+        {
+            "uuid": "0b3f710e-ac03-4717-9685-a5e6e3e8c0bc",
+            "selector": ".nav-assistant-link",
+            "tag": "a",
+            "text_content": "Main content"
+        },
+        {
+            "uuid": "3a4496de-1e67-4a94-a597-d63a671e7a2e",
+            "selector": ".nav-assistant-menu-item",
+            "tag": "a",
+            "text_content": "Main content"
+        },
+        {
+            "uuid": "ea466f38-4a2c-4041-932b-aa0f86c5435a",
+            "selector": ".nav-assistant-link-item",
+            "tag": "a",
+            "text_content": "Main content"
+        },
+        {
+            "uuid": "7f2c6983-7ae2-4fa1-809d-d75eda6a975c",
+            "selector": ".a-color-base",
+            "tag": "a",
+            "text_content": "Main content"
+        },
+        {
+            "uuid": "0a5b6e77-6bec-4c88-894c-917ebfd74bf8",
+            "selector": ".a-color-link",
+            "tag": "a",
+            "text_content": "Main content"
+        },
+        {
+            "uuid": "cc31ea55-3d46-47ff-9422-a0ab0e3048a1",
+            "selector": ".nav-assistant-separator",
+            "tag": "hr",
+            "text_content": ""
+        },
+        {
+            "uuid": "e4a22dad-fbd0-4650-940f-f8465ceb2e46",
+            "selector": ".font-color",
+            "tag": "h2",
+            "text_content": "Keyboard shortcuts"
+        },
+        {
+            "uuid": "007d3738-f720-468f-9614-293a47b074f0",
+            "selector": ".aok-hidden",
+            "tag": "h2",
+            "text_content": "Keyboard shortcuts"
+        },
+        {
+            "uuid": "30aaa89e-12eb-4323-98be-c0d7ab7eb66f",
+            "selector": ".keyboard-shortcuts-list-container",
+            "tag": "ul",
+            "text_content": "Searchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+Z"
+        },
+        {
+            "uuid": "a6038286-adbf-4864-a5af-f9626cde4a6a",
+            "selector": ".nav-assistant-keyboard-shortcut-item",
+            "tag": "a",
+            "text_content": "Searchalt+/"
+        },
+        {
+            "uuid": "41cf118a-7ecd-43b5-859a-85aeeb8c8611",
+            "selector": ".keyboard-shortcut-menu-container",
+            "tag": "a",
+            "text_content": "Searchalt+/"
+        },
+        {
+            "uuid": "f5e39139-700a-4686-95c9-6a1d7009ebbd",
+            "selector": ".keyboard-shortcut-container",
+            "tag": "div",
+            "text_content": "Searchalt+/"
+        },
+        {
+            "uuid": "f22e5243-dd5f-4621-b0fb-a882becd5e84",
+            "selector": ".shortcut-name",
+            "tag": "span",
+            "text_content": "Search"
+        },
+        {
+            "uuid": "0c203f65-cbdd-4b07-987c-b087f844257a",
+            "selector": ".nav-assistant-card-font",
+            "tag": "span",
+            "text_content": "Search"
+        },
+        {
+            "uuid": "834f4a38-63fb-47ae-baf8-e09b32188845",
+            "selector": ".shortcut-keys-container",
+            "tag": "div",
+            "text_content": "alt+/"
+        },
+        {
+            "uuid": "3b44bd2b-f0de-494f-8d2b-a6fab0691023",
+            "selector": ".shortcut-key",
+            "tag": "span",
+            "text_content": "alt"
+        },
+        {
+            "uuid": "bd497d37-b8f4-4241-8ba3-47ff47fd77cb",
+            "selector": ".plus-sign-color",
+            "tag": "span",
+            "text_content": "+"
+        },
+        {
+            "uuid": "6eb89350-d1ed-4bd1-a604-742328f40c0d",
+            "selector": ".nav-assistant-link-button",
+            "tag": "button",
+            "text_content": "Show/Hide shortcutsshift+alt+Z"
+        },
+        {
+            "uuid": "32603c84-2bb7-4494-ba66-8ab24ef61202",
+            "selector": ".shortcut-help-container",
+            "tag": "div",
+            "text_content": "To move between items, use your keyboard's up or down arrows."
+        },
+        {
+            "uuid": "7e180f85-3dce-4f16-aa85-f021bd3d6fea",
+            "selector": ".shortcut-help-item-container",
+            "tag": "div",
+            "text_content": "To move between items, use your keyboard's up or down arrows."
+        },
+        {
+            "uuid": "4db9e737-d8db-4924-84b2-d339aaee5460",
+            "selector": ".icon-container",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "b9dca5c2-089a-491e-88c3-fbbe05723867",
+            "selector": ".a-icon",
+            "tag": "i",
+            "text_content": ""
+        },
+        {
+            "uuid": "ed88236f-5da0-461b-8da0-8f6f0101919d",
+            "selector": ".a-icon-info",
+            "tag": "i",
+            "text_content": ""
+        },
+        {
+            "uuid": "8babbbde-d6cd-43e9-a61e-7cf7d3b2ecd9",
+            "selector": ".a-icon-mini",
+            "tag": "i",
+            "text_content": ""
+        },
+        {
+            "uuid": "48fc1fc6-7a1d-42b3-83d4-d8ccf2bf392e",
+            "selector": ".shortcut-help-icon",
+            "tag": "i",
+            "text_content": ""
+        },
+        {
+            "uuid": "9e10e720-d0b0-4645-885f-3b0f82e03560",
+            "selector": ".help-text-container",
+            "tag": "div",
+            "text_content": "To move between items, use your keyboard's up or down arrows."
+        },
+        {
+            "uuid": "d2fe2cb1-bb40-43b5-87fc-de62877ac085",
+            "selector": ".shortcut-help-text",
+            "tag": "span",
+            "text_content": "To move between items, use your keyboard's up or down arrows."
+        },
+        {
+            "uuid": "96718b22-7fbc-46a7-847c-d84195c777ed",
+            "selector": ".nav-opt-sprite",
+            "tag": "header",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "1e906bc8-1a29-4aa2-9071-748b1cdb0656",
+            "selector": ".nav-flex",
+            "tag": "header",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "f33c10ba-688c-4f7f-bb07-1ae8e0dc8631",
+            "selector": ".nav-locale-in",
+            "tag": "header",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "6ada5e19-c0a6-4d26-b199-df61ee2aeef4",
+            "selector": ".nav-lang-en",
+            "tag": "header",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "a8c1ab04-7873-4041-b54f-6bdcc4787747",
+            "selector": ".nav-ssl",
+            "tag": "header",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "160d68f4-b0f7-4f4e-ae00-a5faf9ea50ea",
+            "selector": ".nav-unrec",
+            "tag": "header",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "70877296-7770-48c6-a118-510f7a13b661",
+            "selector": ".nav-progressive-attribute",
+            "tag": "header",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "c75dade1-089a-49f0-bbd4-b9b0d449dbd0",
+            "selector": ".nav-sprite-v1",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "418f95bc-1518-46fb-b952-e3f02ab02842",
+            "selector": ".celwidget",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "4ea9eed9-2543-4242-9a78-e2ef3acb9270",
+            "selector": ".nav-bluebeacon",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "5f808d18-4157-48dd-8162-f417697faec5",
+            "selector": ".nav-a11y-t1",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "1edb8989-b27a-4ad3-88ee-e45d9253197a",
+            "selector": ".bold-focus-hover",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "40debd4d-0a4b-4934-803d-7f37d8fcb703",
+            "selector": ".layout2",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "920fa34f-9f19-4056-afd0-d487c952d72c",
+            "selector": ".layout3",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "1efecb7a-4e2b-42eb-a4f1-c1fc42ac8c59",
+            "selector": ".layout3-alt",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "101d0f86-d0fb-423d-a647-5a0c05201b5f",
+            "selector": ".nav-packard-glow",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "4a13e039-c4f3-4275-ad2f-05cbbc23c1d5",
+            "selector": ".hamburger",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "71f3cad9-aea0-4933-9123-2830d9baa87d",
+            "selector": ".nav-left",
+            "tag": "div",
+            "text_content": ".inDelivering to Delhi 110001Update location"
+        },
+        {
+            "uuid": "73d805d0-d7f6-41cc-b072-1a868f355213",
+            "selector": ".nav-logo-link",
+            "tag": "a",
+            "text_content": ".in"
+        },
+        {
+            "uuid": "2807f06d-f6f6-45c8-8663-7a11b1f95b2f",
+            "selector": ".nav-sprite",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "b1e86617-0a12-4b38-b5a8-5038be4a9318",
+            "selector": ".nav-logo-base",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "8ee8716c-a5b9-4d05-8978-b810cd45c56c",
+            "selector": ".nav-logo-ext",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "41737aed-dd95-4f9f-9d12-d280598fccfa",
+            "selector": ".nav-progressive-content",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "7da14500-faf6-4597-b713-243d35f852a7",
+            "selector": ".nav-logo-locale",
+            "tag": "span",
+            "text_content": ".in"
+        },
+        {
+            "uuid": "9275df48-9839-4d5d-aaf4-e74464e74ae0",
+            "selector": ".a-declarative",
+            "tag": "span",
+            "text_content": "Delivering to Delhi 110001Update location"
+        },
+        {
+            "uuid": "bcf63913-8079-43a6-9374-f05f01d5f38c",
+            "selector": ".nav-a",
+            "tag": "a",
+            "text_content": "Delivering to Delhi 110001Update location"
+        },
+        {
+            "uuid": "f4d2c8e3-156d-48d6-8e65-858a2b306143",
+            "selector": ".nav-a-2",
+            "tag": "a",
+            "text_content": "Delivering to Delhi 110001Update location"
+        },
+        {
+            "uuid": "cdca2e45-ea77-4d11-a2a9-a4cfe520ee1d",
+            "selector": ".a-popover-trigger",
+            "tag": "a",
+            "text_content": "Delivering to Delhi 110001Update location"
+        },
+        {
+            "uuid": "c5802a7d-fdb0-4373-afa9-d416f72dd52f",
+            "selector": ".nav-line-1",
+            "tag": "span",
+            "text_content": "Delivering to Delhi 110001"
+        },
+        {
+            "uuid": "f6385d85-0068-48d0-9ba6-802233fa536c",
+            "selector": ".nav-line-2",
+            "tag": "span",
+            "text_content": "Update location"
+        },
+        {
+            "uuid": "abbd31bd-ca75-44c3-9e0f-90f50f218bcc",
+            "selector": ".nav-fill",
+            "tag": "div",
+            "text_content": "AllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksC"
+        },
+        {
+            "uuid": "6d6302d1-694a-4003-b1d6-496975ddd578",
+            "selector": ".nav-searchbar",
+            "tag": "form",
+            "text_content": "AllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksC"
+        },
+        {
+            "uuid": "63d8f825-a863-481c-84c9-3e9003e99834",
+            "selector": ".nav-search-scope",
+            "tag": "div",
+            "text_content": "AllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksC"
+        },
+        {
+            "uuid": "77309966-0431-4424-a369-79c561d9e0b9",
+            "selector": ".nav-search-facade",
+            "tag": "div",
+            "text_content": "All"
+        },
+        {
+            "uuid": "42eec0fc-77eb-4c70-be58-f49de1aa5f51",
+            "selector": ".nav-search-label",
+            "tag": "span",
+            "text_content": "All"
+        },
+        {
+            "uuid": "8738e862-a0cd-4a2e-92e0-0e2a0daa2f81",
+            "selector": ".nav-icon",
+            "tag": "i",
+            "text_content": ""
+        },
+        {
+            "uuid": "49d86f81-a41f-4f1f-97d1-9c7bcaacebf6",
+            "selector": ".nav-search-dropdown",
+            "tag": "select",
+            "text_content": "All CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksCar & MotorbikeClothing & AccessoriesCollectibl"
+        },
+        {
+            "uuid": "15633691-20fe-464f-8270-854653527c84",
+            "selector": ".searchSelect",
+            "tag": "select",
+            "text_content": "All CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksCar & MotorbikeClothing & AccessoriesCollectibl"
+        },
+        {
+            "uuid": "265183d7-281c-4ff1-b2e5-4fc5b48b4680",
+            "selector": ".nav-progressive-attrubute",
+            "tag": "select",
+            "text_content": "All CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksCar & MotorbikeClothing & AccessoriesCollectibl"
+        },
+        {
+            "uuid": "c97bc8cf-cb4c-4ed6-99b4-0c91b0723289",
+            "selector": ".nav-progressive-search-dropdown",
+            "tag": "select",
+            "text_content": "All CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksCar & MotorbikeClothing & AccessoriesCollectibl"
+        },
+        {
+            "uuid": "2a608431-5911-48ec-9f53-4634406e343e",
+            "selector": ".nav-search-field",
+            "tag": "div",
+            "text_content": "Search Amazon.in"
+        },
+        {
+            "uuid": "1a32e5f2-f2cd-43b7-99d1-30c8ff868083",
+            "selector": ".nav-input",
+            "tag": "input",
+            "text_content": ""
+        },
+        {
+            "uuid": "d352fa8c-3b7a-4de9-bb0e-8962451356cf",
+            "selector": ".nav-right",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "7e2829fc-91f1-4b98-a91b-d8a8c92d0f6b",
+            "selector": ".nav-search-submit",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "8cf76795-397d-4531-8ad6-c6d64e504c55",
+            "selector": ".nav-search-submit-text",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "9b3ab2c4-b2eb-4f12-80c1-e320aecc4b12",
+            "selector": ".layoutToolbarPadding",
+            "tag": "div",
+            "text_content": "ENHello, sign inAccount & ListsReturns& Orders0Cart"
+        },
+        {
+            "uuid": "bd76f139-f9b4-47be-b274-8880c9236b3e",
+            "selector": ".nav-div",
+            "tag": "div",
+            "text_content": "EN"
+        },
+        {
+            "uuid": "9bbb70fb-7ea6-41d1-9013-064c2789932e",
+            "selector": ".icp-link-style-2",
+            "tag": "a",
+            "text_content": "EN"
+        },
+        {
+            "uuid": "875b65da-9378-45d8-8b6f-6972c4a33c0d",
+            "selector": ".icp-nav-link-inner",
+            "tag": "span",
+            "text_content": "EN"
+        },
+        {
+            "uuid": "fbf6f203-485b-4851-bb6c-8c89ad2d53ee",
+            "selector": ".icp-nav-flag",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "726d2b12-8479-4288-a0df-cf9fbedb1e26",
+            "selector": ".icp-nav-flag-in",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "12191be0-e115-4067-a34b-ed36541f4d58",
+            "selector": ".icp-nav-flag-lop",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "38c8bc90-20bd-45fd-975c-ab5fd51f3732",
+            "selector": ".nav-flyout-button",
+            "tag": "button",
+            "text_content": ""
+        },
+        {
+            "uuid": "e9287a03-774a-41b1-b6d4-4386ee0e8df7",
+            "selector": ".nav-arrow",
+            "tag": "button",
+            "text_content": ""
+        },
+        {
+            "uuid": "a0cf7748-edc1-4eee-83a1-1fdb7efbcbab",
+            "selector": ".nav-line-1-container",
+            "tag": "div",
+            "text_content": "Hello, sign in"
+        },
+        {
+            "uuid": "cd6ad58b-08de-43cc-9139-9ae50d0812a5",
+            "selector": ".nav-cart-count",
+            "tag": "span",
+            "text_content": "0"
+        },
+        {
+            "uuid": "64f3beb5-1ccb-4fec-8f7c-2d973006ba5c",
+            "selector": ".nav-cart-0",
+            "tag": "span",
+            "text_content": "0"
+        },
+        {
+            "uuid": "8c47cdd6-fba1-4f68-869a-14495f05d2a3",
+            "selector": ".nav-cart-icon",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "ba69f69d-677a-4b5b-b88e-cb2841859b77",
+            "selector": ".hm-icon",
+            "tag": "i",
+            "text_content": ""
+        },
+        {
+            "uuid": "61f0f0cc-bee1-43f6-a86e-bc68712e8a22",
+            "selector": ".hm-icon-label",
+            "tag": "span",
+            "text_content": "All"
+        },
+        {
+            "uuid": "0d20798a-5729-4439-8707-d880fe5dd174",
+            "selector": ".nav-ul",
+            "tag": "ul",
+            "text_content": "FreshMX PlayerSellBestsellersMobilesToday's DealsPrimeCustomer ServiceElectronicsNew ReleasesFashionHome & KitchenAmazon PayComputersBooksBeauty & Personal CareCar & MotorbikeHome ImprovementToys & Ga"
+        },
+        {
+            "uuid": "3beff655-ae24-47a9-b1c1-fbd3e9c7f467",
+            "selector": ".nav-li",
+            "tag": "li",
+            "text_content": "Fresh"
+        },
+        {
+            "uuid": "9fa87b4d-723b-4aca-b5fd-7ccb65f7aae0",
+            "selector": ".a-section",
+            "tag": "div",
+            "text_content": "Previous slideNext slideRevamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore allAppliances for your home | Up to 55% offAir conditioner"
+        },
+        {
+            "uuid": "0ce8ed63-20ea-42e9-ad62-faa012393452",
+            "selector": ".a-spacing-none",
+            "tag": "div",
+            "text_content": "Previous slideNext slideRevamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore allAppliances for your home | Up to 55% offAir conditioner"
+        },
+        {
+            "uuid": "1f50cf27-bc4c-4fe1-9193-4dd285cc6659",
+            "selector": ".aok-relative",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "c480f25f-ebf2-4df8-a272-197fba0f48d0",
+            "selector": ".tall",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "3a82a679-5a16-4fb3-baf2-08d67a004677",
+            "selector": ".a-begin",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "94167ddc-b8c4-47f3-972b-4361cb4a5a7c",
+            "selector": ".a-carousel-container",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "79c11bf5-3c4f-4d19-b289-29bc8c407667",
+            "selector": ".a-carousel-static",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "c044d632-1c2f-42d4-8c8e-3ef52130096f",
+            "selector": ".a-carousel-display-single",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "d88b7165-287a-4d19-a676-b9795c2fda0e",
+            "selector": ".a-carousel-transition-slideCircular",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "d1bf0cf6-b477-4590-8f3d-45f90a324466",
+            "selector": ".gw-desktop-herotator",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "750f78ca-a739-4204-9b4a-3d598fe4328c",
+            "selector": ".a-carousel-firstvisibleitem",
+            "tag": "input",
+            "text_content": ""
+        },
+        {
+            "uuid": "b550c23a-0684-49a7-9773-8c06a081bd97",
+            "selector": ".a-row",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "8ff2e20f-6eaa-4b24-af0c-fc6ec722664c",
+            "selector": ".a-carousel-controls",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "52a7d41d-fe8b-45b8-9779-42aa8914fac6",
+            "selector": ".a-carousel-row",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "3590bafd-c186-43b3-a55e-3f11bc928577",
+            "selector": ".a-carousel-has-buttons",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "f7942ec6-932b-4199-a7f5-a39097ae4b0a",
+            "selector": ".a-carousel-overlay-buttons",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "26682a0a-3a24-4e81-a633-eb614f97c2ef",
+            "selector": ".a-carousel-rounded-buttons",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "489a6cc1-25b7-4e7b-885d-868a8ba37e48",
+            "selector": ".a-carousel-row-inner",
+            "tag": "div",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "a5e05209-057a-4045-ad2b-26a18748ea64",
+            "selector": ".a-carousel-col",
+            "tag": "div",
+            "text_content": "Previous slide"
+        },
+        {
+            "uuid": "aaaf5a6b-a025-4322-b150-0fce08fc5b4f",
+            "selector": ".a-carousel-left",
+            "tag": "div",
+            "text_content": "Previous slide"
+        },
+        {
+            "uuid": "1117324f-dc40-4c88-9837-e603e6aecb2e",
+            "selector": ".a-carousel-goto-prevpage",
+            "tag": "a",
+            "text_content": "Previous slide"
+        },
+        {
+            "uuid": "aa112585-2eb9-4822-8c88-ecae735d93e7",
+            "selector": ".a-icon-previous-rounded",
+            "tag": "i",
+            "text_content": "Previous slide"
+        },
+        {
+            "uuid": "ef4ab4bd-23f1-47a2-926e-1cdc850d5f26",
+            "selector": ".a-icon-alt",
+            "tag": "span",
+            "text_content": "Previous slide"
+        },
+        {
+            "uuid": "97bfaa90-6557-4cc4-822f-6f9539af514c",
+            "selector": ".a-carousel-center",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "74b0563e-e226-4e2f-9983-fdf940e39b7e",
+            "selector": ".a-carousel-viewport",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "643548df-795e-41a2-9844-c8f0126b83c2",
+            "selector": ".a-carousel",
+            "tag": "ol",
+            "text_content": ""
+        },
+        {
+            "uuid": "e5895a19-2bef-4784-b544-e7fd0b7a9266",
+            "selector": ".a-carousel-card",
+            "tag": "li",
+            "text_content": ""
+        },
+        {
+            "uuid": "68329f14-61f3-4dc1-98a8-f1b63e4e719a",
+            "selector": ".gw-ftGr-desktop-hero",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "08b3667e-bece-4e38-a785-c8280a759bb9",
+            "selector": ".gw-critical-content",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "ef19f911-1f47-44d4-85c8-1a79d9e20cf6",
+            "selector": ".csm-placement-id-02403f2a-002e-4d18-9cf4-be06c1ab600e",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "def169a7-eadf-40cf-99f3-b01c4fcd3165",
+            "selector": ".desktop-gateway-hero_63ba4d13-8d34-46b2-a68d-b7a29055ccae",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "ee411c2a-1ac8-499a-9933-a71ee25fdb4a",
+            "selector": ".pd_rd_wg-yGVhJ",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "2014f806-f5d4-49c3-a117-878c1efb3722",
+            "selector": ".pd_rd_w-8mWNz",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "4e955578-abad-473d-b613-ff798eb341f4",
+            "selector": ".pd_rd_r-9d464064-7caf-4961-b8dc-a5c95017fe5a",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "1ad0c9a7-5dfc-492c-87af-f4500fcd9f9f",
+            "selector": ".a-text-'center'",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "e12d7446-9d0d-4cec-98e4-f8b8dc44bac4",
+            "selector": ".scalable-image-link",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "d2450e3b-7e3c-4cdb-8028-595e009ec944",
+            "selector": ".scalable-image-map",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "d9c9ee72-6b7b-449d-94e1-43c0e6a532e6",
+            "selector": ".card-lite",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "88d8b1c3-3b67-4f05-96dd-df1b7641a44a",
+            "selector": ".a-link-normal",
+            "tag": "a",
+            "text_content": ""
+        },
+        {
+            "uuid": "6493ee20-d80e-4ea0-b897-8344b823c741",
+            "selector": ".a-lazy-loaded",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "ccf16f5e-2b5e-4013-9fd2-abc03103cc0d",
+            "selector": ".csm-placement-id-cf237d10-9488-4ff3-b71a-fdb735a8dd73",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "d66f1865-9734-4436-8035-8a038bcb7b35",
+            "selector": ".desktop-gateway-hero_7fb3f3ce-f0a0-4e27-a088-50ea5e0a88a1",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "e21614a4-7930-42dd-82b9-3f52fb910725",
+            "selector": ".pd_rd_w-UxLh6",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "84fce5de-10a9-4e2e-89d9-a9e991bfa1c9",
+            "selector": ".csm-placement-id-c00d5c8c-3d26-468f-b7cf-8c61ec91c518",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "09ba27d8-3add-4138-9865-5b391d50e32f",
+            "selector": ".desktop-gateway-hero_0d7d419e-3013-4781-9c96-669311751773",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "47e76405-abf6-44ce-a1a5-761013006b38",
+            "selector": ".pd_rd_w-wjdv3",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "397d883a-ab61-4e49-8aaf-1168a4994d88",
+            "selector": ".csm-placement-id-c6c74db1-d56d-4ef4-9fac-a553078ff1b6",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "032ae1d0-d24c-47c7-8d20-136744919c6e",
+            "selector": ".desktop-gateway-hero_3a4dd9ea-27d1-4c51-9c12-ebd36d6db54a",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "02902638-9033-40ca-b0d3-68bcd0349908",
+            "selector": ".pd_rd_w-HDTRs",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "80daa9f5-9ef8-4990-8d98-7e34858bc914",
+            "selector": ".csm-placement-id-e6aefc2b-c546-49d1-9d23-2b8b1cefc8a8",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "992ee47d-e2fd-4443-9a11-23de36c2040d",
+            "selector": ".desktop-gateway-hero_4603b73b-8396-4f86-9722-8112c5398360",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "3254c434-88f0-45e8-bdf4-7f57e0134027",
+            "selector": ".pd_rd_w-rhGp0",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "f880d710-cef0-4bdf-a3e7-b0d7eff94d64",
+            "selector": ".a-carousel-right",
+            "tag": "div",
+            "text_content": "Next slide"
+        },
+        {
+            "uuid": "eca98be6-37a3-4d18-88e8-787d28afcf0d",
+            "selector": ".a-carousel-goto-nextpage",
+            "tag": "a",
+            "text_content": "Next slide"
+        },
+        {
+            "uuid": "8e2da31b-92ef-42fd-a726-83da6ea28913",
+            "selector": ".a-icon-next-rounded",
+            "tag": "i",
+            "text_content": "Next slide"
+        },
+        {
+            "uuid": "9eecfdfb-e137-4a66-97f6-f7679f0b0129",
+            "selector": ".a-end",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "4a9770e4-83ba-4155-847d-9245834f1300",
+            "selector": ".gw-card-layout",
+            "tag": "div",
+            "text_content": "Revamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore allAppliances for your home | Up to 55% offAir conditionersRefrigeratorsMicrowaves"
+        },
+        {
+            "uuid": "8c31709d-e51f-470b-9042-73f46421a7bc",
+            "selector": ".gw-col",
+            "tag": "div",
+            "text_content": "Revamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore all"
+        },
+        {
+            "uuid": "b76878b8-7215-415a-8e92-e6c5cadb5efe",
+            "selector": ".csm-placement-id-f8e82c51-0408-4554-a158-9be4d776850d",
+            "tag": "div",
+            "text_content": "Revamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore all"
+        },
+        {
+            "uuid": "96f2365e-3c8a-4c11-9684-b7289e59cf54",
+            "selector": ".DYNAMIC_FALLBACK_90c63080-57f8-47fb-bfea-f0a232e8f109",
+            "tag": "div",
+            "text_content": "Revamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore all"
+        },
+        {
+            "uuid": "2f3bab03-657c-4e94-b170-a876c25230c3",
+            "selector": ".a-cardui",
+            "tag": "div",
+            "text_content": "Revamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore all"
+        },
+        {
+            "uuid": "519f40a8-2cb6-4e20-8f45-a22567e619f7",
+            "selector": "._Zmx1a_fluidQuadImageLabel_3b-Iv",
+            "tag": "div",
+            "text_content": "Revamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore all"
+        },
+        {
+            "uuid": "d2b5ec56-8ce1-4986-be7a-1158d619fefe",
+            "selector": ".a-cardui-header",
+            "tag": "div",
+            "text_content": "Revamp your home in style"
+        },
+        {
+            "uuid": "3d6e3658-7d7d-4b6a-bd2e-40a22f04078a",
+            "selector": ".headline",
+            "tag": "h2",
+            "text_content": "Revamp your home in style"
+        },
+        {
+            "uuid": "d060032c-63e6-4db2-b184-61e3fc521a14",
+            "selector": ".truncate-2line",
+            "tag": "h2",
+            "text_content": "Revamp your home in style"
+        },
+        {
+            "uuid": "bd215b57-170a-449a-9017-42eaa2e8964f",
+            "selector": "._Zmx1a_fluidQuadImageLabelBody_3tld0",
+            "tag": "div",
+            "text_content": "Cushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutions"
+        },
+        {
+            "uuid": "6f04baed-2302-4774-9024-808c68987137",
+            "selector": ".a-spacing-small",
+            "tag": "div",
+            "text_content": "Cushion covers, bedsheets & moreFigurines, vases & more"
+        },
+        {
+            "uuid": "b44ede8d-0fe0-4b10-9224-0fda9b15cd6f",
+            "selector": "._Zmx1a_gridRowOne_1t0zL",
+            "tag": "div",
+            "text_content": "Cushion covers, bedsheets & moreFigurines, vases & more"
+        },
+        {
+            "uuid": "b2d662d5-e0cb-406f-ae2c-901e436b86bb",
+            "selector": "._Zmx1a_quadrantContainer_3TMqG",
+            "tag": "div",
+            "text_content": "Cushion covers, bedsheets & more"
+        },
+        {
+            "uuid": "3beb9c3f-ef95-4e53-b599-187236354ecc",
+            "selector": "._Zmx1a_leftQuadrant_21nVp",
+            "tag": "div",
+            "text_content": "Cushion covers, bedsheets & more"
+        },
+        {
+            "uuid": "68458c3f-149d-44eb-9abc-12f9ae00a2f0",
+            "selector": "._Zmx1a_centerImage_30wh-",
+            "tag": "a",
+            "text_content": "Cushion covers, bedsheets & more"
+        },
+        {
+            "uuid": "457c136d-3972-441f-8653-53ebfdfb94e8",
+            "selector": ".aok-block",
+            "tag": "a",
+            "text_content": "Cushion covers, bedsheets & more"
+        },
+        {
+            "uuid": "b6802972-8a44-43d5-b513-a70356678b7d",
+            "selector": ".image-window",
+            "tag": "a",
+            "text_content": "Cushion covers, bedsheets & more"
+        },
+        {
+            "uuid": "0ffdf008-a855-48e6-9310-6cbde6cf95a3",
+            "selector": "._Zmx1a_fluidImageContainer_2SOMr",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "4a538902-6105-4753-9be3-5fca738ad44d",
+            "selector": "._Zmx1a_fluidLandscapeImage_2euAK",
+            "tag": "img",
+            "text_content": ""
+        },
+        {
+            "uuid": "590b11ce-637d-4322-a3d6-ec6e8b5c9e5f",
+            "selector": "._Zmx1a_fluidImage_gTBjA",
+            "tag": "img",
+            "text_content": ""
+        },
+        {
+            "uuid": "eafed864-4cda-457a-8e3f-9c016e329694",
+            "selector": "._Zmx1a_imageLabel_3ANSV",
+            "tag": "div",
+            "text_content": "Cushion covers, bedsheets & more"
+        },
+        {
+            "uuid": "f5e7d182-cecf-4eb3-8270-dcc7758d89c1",
+            "selector": ".aok-inline-block",
+            "tag": "div",
+            "text_content": "Cushion covers, bedsheets & more"
+        },
+        {
+            "uuid": "ccdd6da1-0be7-449b-a970-dfaf213fbbab",
+            "selector": ".aok-align-center",
+            "tag": "div",
+            "text_content": "Cushion covers, bedsheets & more"
+        },
+        {
+            "uuid": "efef7399-b88c-4921-bd43-908d3387d88d",
+            "selector": ".a-size-small",
+            "tag": "span",
+            "text_content": "Cushion covers, bedsheets & more"
+        },
+        {
+            "uuid": "da2bd67c-284d-4f8f-97d6-0e53817262b1",
+            "selector": "._Zmx1a_rightQuadrant_PI01n",
+            "tag": "div",
+            "text_content": "Figurines, vases & more"
+        },
+        {
+            "uuid": "a1e27687-d3e8-4694-ad33-a4c17a543f35",
+            "selector": "._Zmx1a_gridRowTwo_15woW",
+            "tag": "div",
+            "text_content": "Home storageLighting solutions"
+        },
+        {
+            "uuid": "fe743abc-fd9b-48b4-9752-d241c1f10763",
+            "selector": ".a-cardui-footer",
+            "tag": "div",
+            "text_content": "Explore all"
+        },
+        {
+            "uuid": "9d00f2eb-e27a-4778-876a-b6373b63058f",
+            "selector": ".a-truncate",
+            "tag": "span",
+            "text_content": "Explore all"
+        },
+        {
+            "uuid": "0fb66bd4-4749-46af-9408-88defc2579cc",
+            "selector": ".a-truncate-full",
+            "tag": "span",
+            "text_content": "Explore all"
+        },
+        {
+            "uuid": "7091308c-2c65-4a9d-aace-bd23312c1bd6",
+            "selector": ".a-truncate-cut",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "2bc91cce-b722-43d1-9c6e-18fca5f7c182",
+            "selector": ".a-hidden",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "a37d87ae-ee41-46c6-b969-e27378ba8ac6",
+            "selector": ".csm-placement-id-58c90a12-100b-4a2f-8e15-7c06f1abe2be",
+            "tag": "div",
+            "text_content": "Appliances for your home | Up to 55% offAir conditionersRefrigeratorsMicrowavesWashing machinesSee more"
+        },
+        {
+            "uuid": "05d8b5e0-f951-46f6-aac1-0d6f7472834d",
+            "selector": ".DYNAMIC_FALLBACK_27a3e82b-99da-4c50-b72c-f95ff72cb93b",
+            "tag": "div",
+            "text_content": "Appliances for your home | Up to 55% offAir conditionersRefrigeratorsMicrowavesWashing machinesSee more"
+        },
+        {
+            "uuid": "29eb4ce4-e5bc-40c0-96b3-09350b5d2257",
+            "selector": ".csm-placement-id-82b20790-8877-4d70-8f73-9d8246e460aa",
+            "tag": "div",
+            "text_content": "Starting ₹149 | HeadphonesStarting ₹249 | boAtStarting ₹349 | boultStarting ₹649 | NoiseStarting ₹149 | ZebronicsSee all offers"
+        },
+        {
+            "uuid": "c9b42320-1332-4a24-a1bf-e49c54eca6e6",
+            "selector": ".DYNAMIC_FALLBACK_bfe5d255-fb1d-42e7-8d6c-8fb752e728b1",
+            "tag": "div",
+            "text_content": "Starting ₹149 | HeadphonesStarting ₹249 | boAtStarting ₹349 | boultStarting ₹649 | NoiseStarting ₹149 | ZebronicsSee all offers"
+        },
+        {
+            "uuid": "eaee3f12-0713-4f05-a158-d760b4e5165f",
+            "selector": ".csm-placement-id-0a250fc6-18a4-49da-8c15-ae7cde5579f2",
+            "tag": "div",
+            "text_content": "Under ₹499 | Deals on home improvement essentialsUnder ₹199 | Cleaning suppliesUnder ₹399 | Bathroom accessoriesUnder ₹499 | Home toolsUnder ₹299 | WallpapersExplore all"
+        },
+        {
+            "uuid": "7021c013-fe79-4da1-9a80-fee5fe402e32",
+            "selector": ".DYNAMIC_FALLBACK_37be371e-6a8f-4154-a7c8-0a56b860a1fa",
+            "tag": "div",
+            "text_content": "Under ₹499 | Deals on home improvement essentialsUnder ₹199 | Cleaning suppliesUnder ₹399 | Bathroom accessoriesUnder ₹499 | Home toolsUnder ₹299 | WallpapersExplore all"
+        },
+        {
+            "uuid": "51b1b56b-1018-4cb2-8a70-c91f95d7797f",
+            "selector": ".card-flow-row-break",
+            "tag": "hr",
+            "text_content": ""
+        },
+        {
+            "uuid": "6c2a76e6-321b-4228-898a-501a43a65191",
+            "selector": ".a-spacing-large",
+            "tag": "div",
+            "text_content": "Customers’ Most-Loved Fashion for youExplore moreUp to 50% off | International brandsSee all offersBest Sellers in Computers & AccessoriesUp to 60% off | Best offers on kitchen products | Amazon Launc"
+        },
+        {
+            "uuid": "16b3d275-32bf-4e40-bf5e-059240e54455",
+            "selector": ".csm-placement-id-de84ee3f-a07f-47cd-ac44-50f5d6cbb587",
+            "tag": "div",
+            "text_content": "Customers’ Most-Loved Fashion for youExplore more"
+        },
+        {
+            "uuid": "3f21f135-8cbd-43a0-a6e2-d2442bfaae40",
+            "selector": ".DYNAMIC_FALLBACK_f3dd46e7-d961-453c-88a3-209cb3f266cd",
+            "tag": "div",
+            "text_content": "Customers’ Most-Loved Fashion for youExplore more"
+        },
+        {
+            "uuid": "4b19d76a-c069-4e3b-9cd0-346ddac1552c",
+            "selector": "._quad-multi-asin-card-v2_fluid_fluidCard__3hmFA",
+            "tag": "div",
+            "text_content": "Customers’ Most-Loved Fashion for youExplore more"
+        },
+        {
+            "uuid": "4e9dece9-bd60-4360-9226-2a65196cf7aa",
+            "selector": ".a-cardui-body",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "44027608-7c5d-49fa-8970-b3029bab9df8",
+            "selector": "._quad-multi-asin-card-v2_fluid_fluidCardBody__3TzJ4",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "40a790e6-daa6-48ee-90f9-12efea1276fa",
+            "selector": "._quad-multi-asin-card-v2_style_cardBodyHasFooter__1l9jS",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "411c8cfa-3cfe-4e36-8dd8-3f0c6d66f234",
+            "selector": ".a-spacing-base",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "9308173d-7e6b-4978-8fc4-f5dd5bf9b740",
+            "selector": ".aok-clearfix",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "69f9c31f-4094-4d6b-8fe1-357eb2e12201",
+            "selector": "._quad-multi-asin-card-v2_style_quadrantContainer__1hEF5",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "df524495-4385-4dee-a3bf-de82b85fb6e8",
+            "selector": ".aok-float-left",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "a57a9cf3-87c7-4bcf-a3a0-d6b1b6d31fab",
+            "selector": "._quad-multi-asin-card-v2_style_quadrant__3xH-V",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "d254d288-8856-40ae-badd-460afbf16ff6",
+            "selector": "._quad-multi-asin-card-v2_style_topLeftQuadrant__yF7Ht",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "8c57d271-0f16-4f00-b634-cc1b5fe953af",
+            "selector": "._quad-multi-asin-card-v2_style_linkContainer__1pWUv",
+            "tag": "a",
+            "text_content": ""
+        },
+        {
+            "uuid": "dccfe073-fbf8-4d38-bc74-0cf98d09203b",
+            "selector": ".a-text-normal",
+            "tag": "a",
+            "text_content": ""
+        },
+        {
+            "uuid": "ab704080-a97c-44e2-90be-06160745f398",
+            "selector": ".a-image-container",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "65ac80ae-40d6-4aa9-a6ee-27c987374481",
+            "selector": ".a-dynamic-image-container",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "fcc9a247-1242-4f2f-ba5a-8f80db3252ef",
+            "selector": "._quad-multi-asin-card-v2_style_quadrantImageContainer__2QeUm",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "bededa2b-3f3a-4b57-bbb7-44508677b6ba",
+            "selector": "._quad-multi-asin-card-v2_style_topRightQuadrant__2rEJ7",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "0b3ec160-f5f7-414c-9940-36ecc2412479",
+            "selector": "._quad-multi-asin-card-v2_style_bottomLeftQuadrant__2r-kp",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "3fa0ab8f-6cb9-469c-ba55-f3a351c0907d",
+            "selector": "._quad-multi-asin-card-v2_style_bottomRightQuadrant__2OYLZ",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "4811f4e9-8eed-4d6b-a936-9a8e109884bf",
+            "selector": ".csm-placement-id-a95e7412-77e6-4c7d-b438-2bfe15191377",
+            "tag": "div",
+            "text_content": "Up to 50% off | International brandsSee all offers"
+        },
+        {
+            "uuid": "2439f1ca-4bf4-4ccb-bcaf-a59b746bc692",
+            "selector": ".DYNAMIC_FALLBACK_ce550ddb-53f3-4d86-a45a-fa869b22c284",
+            "tag": "div",
+            "text_content": "Up to 50% off | International brandsSee all offers"
+        },
+        {
+            "uuid": "451a9a85-264e-4a5f-b503-00a774f89139",
+            "selector": "._Zmx1a_fluidFatImageLink_1nw4J",
+            "tag": "div",
+            "text_content": "Up to 50% off | International brandsSee all offers"
+        },
+        {
+            "uuid": "970bc257-c627-4ebe-9655-cdde8c4dc663",
+            "selector": "._Zmx1a_bodyFooterLink_9LvH0",
+            "tag": "a",
+            "text_content": "See all offers"
+        },
+        {
+            "uuid": "4e7e7d74-79f6-4cf8-8a7c-f984382872a3",
+            "selector": "._Zmx1a_fluidImageContainer_2vGwp",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "f48d981b-8e70-4f96-9bf6-f2b641ee6010",
+            "selector": "._Zmx1a_footer_2cH0y",
+            "tag": "div",
+            "text_content": "See all offers"
+        },
+        {
+            "uuid": "a730e5fe-b0ed-49c2-b24b-69504bc237f5",
+            "selector": ".csm-placement-id-211684f4-ebe1-443f-8a4a-0773471e979f",
+            "tag": "div",
+            "text_content": "Best Sellers in Computers & Accessories"
+        },
+        {
+            "uuid": "411bcac5-0d69-43a7-8377-01b4c25f8f15",
+            "selector": ".DYNAMIC_FALLBACK_44e20012-485c-484b-896c-4f9b5a58cc81",
+            "tag": "div",
+            "text_content": "Best Sellers in Computers & Accessories"
+        },
+        {
+            "uuid": "aebfff24-b6b2-4c03-a5a3-7b678b90d53b",
+            "selector": "._quad-multi-asin-card-v2_style_cardBodyNoFooter__2ZUai",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "821fcd62-811e-44ef-8f57-91579877e963",
+            "selector": ".csm-placement-id-beef13f6-99a4-4169-9ba1-3b944ebbe980",
+            "tag": "div",
+            "text_content": "Up to 60% off | Best offers on kitchen products | Amazon Launchpad"
+        },
+        {
+            "uuid": "030cb61c-1e9f-4536-bd82-84a77c992846",
+            "selector": ".DYNAMIC_FALLBACK_bf952bd1-ba37-4d02-af98-e3b9bd08d4b1",
+            "tag": "div",
+            "text_content": "Up to 60% off | Best offers on kitchen products | Amazon Launchpad"
+        },
+        {
+            "uuid": "b96e1e0b-2231-4146-968c-b5896912bacc",
+            "selector": ".copilot-secure-display",
+            "tag": "div",
+            "text_content": "Your recently viewed items and featured recommendations›View or edit your browsing historyAfter viewing product detail pages, look here to find an easy way to navigate back to pages you are interested"
+        },
+        {
+            "uuid": "4576882f-7d02-4259-8a28-af70ac972a1b",
+            "selector": ".rhf-frame",
+            "tag": "div",
+            "text_content": "Your recently viewed items and featured recommendations›View or edit your browsing historyAfter viewing product detail pages, look here to find an easy way to navigate back to pages you are interested"
+        },
+        {
+            "uuid": "0c61ed38-d57a-482d-ba66-6cac3f7e489e",
+            "selector": ".rhf-loading-outer",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "75927112-03a1-4f10-837e-34978099c36c",
+            "selector": ".rhf-loading-middle",
+            "tag": "table",
+            "text_content": ""
+        },
+        {
+            "uuid": "dbaad945-142d-47a4-aaf1-ee761522b4c9",
+            "selector": ".rhf-loading-inner",
+            "tag": "td",
+            "text_content": ""
+        },
+        {
+            "uuid": "acd99077-4fdc-44ea-be58-2d2a36890939",
+            "selector": ".rhf-border",
+            "tag": "div",
+            "text_content": "Your recently viewed items and featured recommendations›View or edit your browsing historyAfter viewing product detail pages, look here to find an easy way to navigate back to pages you are interested"
+        },
+        {
+            "uuid": "d2e415b4-7e1e-4b9c-8d79-98a7b20c7da5",
+            "selector": ".rhf-header",
+            "tag": "div",
+            "text_content": "Your recently viewed items and featured recommendations"
+        },
+        {
+            "uuid": "68a26002-efac-4369-8ac9-cd33beffd743",
+            "selector": ".rhf-footer",
+            "tag": "div",
+            "text_content": "›View or edit your browsing historyAfter viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in."
+        },
+        {
+            "uuid": "24b4ec78-abef-4fdb-8b30-e98c1808586b",
+            "selector": ".rvi-container",
+            "tag": "div",
+            "text_content": "›View or edit your browsing historyAfter viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in."
+        },
+        {
+            "uuid": "58afb368-cde7-4387-8ea2-0042d55da9d5",
+            "selector": ".ybh-edit",
+            "tag": "div",
+            "text_content": "›View or edit your browsing history"
+        },
+        {
+            "uuid": "8d6915a3-053e-4918-bfc8-56e30077f67a",
+            "selector": ".ybh-edit-arrow",
+            "tag": "div",
+            "text_content": "›"
+        },
+        {
+            "uuid": "a6b8e931-4b1d-4f05-a2a5-a56bcbd7cffb",
+            "selector": ".ybh-edit-link",
+            "tag": "div",
+            "text_content": "View or edit your browsing history"
+        },
+        {
+            "uuid": "53de4a78-0c0b-4740-bf57-660f407c74fe",
+            "selector": ".no-rvi-message",
+            "tag": "span",
+            "text_content": "After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in."
+        },
+        {
+            "uuid": "1f7bb840-7cfc-4d67-b80c-d033f03475a5",
+            "selector": ".navLeftFooter",
+            "tag": "div",
+            "text_content": "Back to topGet to Know UsAbout AmazonCareersPress ReleasesAmazon ScienceConnect with UsFacebookTwitterInstagramMake Money with UsSell on AmazonSell under Amazon AcceleratorProtect and Build Your Brand"
+        },
+        {
+            "uuid": "93842d06-080d-4605-820b-bb0414334c1b",
+            "selector": ".navFooterBackToTop",
+            "tag": "div",
+            "text_content": "Back to top"
+        },
+        {
+            "uuid": "f0b2d5cc-0919-4912-bdf1-47616fe5b3f8",
+            "selector": ".navFooterBackToTopText",
+            "tag": "span",
+            "text_content": "Back to top"
+        },
+        {
+            "uuid": "9a9e16bd-3aa6-4891-9d19-9c8914846819",
+            "selector": ".navFooterVerticalColumn",
+            "tag": "div",
+            "text_content": "Get to Know UsAbout AmazonCareersPress ReleasesAmazon ScienceConnect with UsFacebookTwitterInstagramMake Money with UsSell on AmazonSell under Amazon AcceleratorProtect and Build Your BrandAmazon Glob"
+        },
+        {
+            "uuid": "7ca59d07-8f46-4819-bd9f-577bb2260e1c",
+            "selector": ".navAccessibility",
+            "tag": "div",
+            "text_content": "Get to Know UsAbout AmazonCareersPress ReleasesAmazon ScienceConnect with UsFacebookTwitterInstagramMake Money with UsSell on AmazonSell under Amazon AcceleratorProtect and Build Your BrandAmazon Glob"
+        },
+        {
+            "uuid": "7aa7fc7e-7aff-4f85-a67e-752a5740d040",
+            "selector": ".navFooterVerticalRow",
+            "tag": "div",
+            "text_content": "Get to Know UsAbout AmazonCareersPress ReleasesAmazon ScienceConnect with UsFacebookTwitterInstagramMake Money with UsSell on AmazonSell under Amazon AcceleratorProtect and Build Your BrandAmazon Glob"
+        },
+        {
+            "uuid": "d0618b21-dede-4b48-a69a-b03c58b98daa",
+            "selector": ".navFooterLinkCol",
+            "tag": "div",
+            "text_content": "Get to Know UsAbout AmazonCareersPress ReleasesAmazon Science"
+        },
+        {
+            "uuid": "445d7f9d-9f24-4883-b6ad-588b05fff29c",
+            "selector": ".navFooterColHead",
+            "tag": "div",
+            "text_content": "Get to Know Us"
+        },
+        {
+            "uuid": "6267cf42-1bac-4d8c-ae73-3bb21cd609b6",
+            "selector": ".nav_first",
+            "tag": "li",
+            "text_content": "About Amazon"
+        },
+        {
+            "uuid": "471cf96d-f7f8-45b5-9c3a-73888613130a",
+            "selector": ".nav_a",
+            "tag": "a",
+            "text_content": "About Amazon"
+        },
+        {
+            "uuid": "bc50b387-9b92-4914-a364-760a8c7841fc",
+            "selector": ".nav_last",
+            "tag": "li",
+            "text_content": "Amazon Science"
+        },
+        {
+            "uuid": "2009349a-a4ce-43f0-b92d-2244c9e90cfd",
+            "selector": ".navFooterColSpacerInner",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "20555143-9c3d-4146-9921-911530ac580b",
+            "selector": ".nav-footer-line",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "a2c392f4-3672-4e5c-9482-c1d055e20d3b",
+            "selector": ".navFooterLine",
+            "tag": "div",
+            "text_content": "EnglishIndia"
+        },
+        {
+            "uuid": "1672a504-fecc-4ae1-924d-0cd96ee875e3",
+            "selector": ".navFooterLinkLine",
+            "tag": "div",
+            "text_content": "EnglishIndia"
+        },
+        {
+            "uuid": "bed44210-81f0-4deb-a54a-621c2f660c8d",
+            "selector": ".navFooterPadItemLine",
+            "tag": "div",
+            "text_content": "EnglishIndia"
+        },
+        {
+            "uuid": "ec66ece5-1cfd-47c1-a74c-bd7d5831941c",
+            "selector": ".navFooterLogoLine",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "5e0c5028-9253-41d9-87a2-7a2454c8aaed",
+            "selector": ".icp-container-desktop",
+            "tag": "span",
+            "text_content": "EnglishIndia"
+        },
+        {
+            "uuid": "a0475533-8a41-43e7-8ed8-f469cc07535d",
+            "selector": ".icp-button",
+            "tag": "div",
+            "text_content": "English"
+        },
+        {
+            "uuid": "3e776b84-d1a2-4697-a9e1-fab918cf420e",
+            "selector": ".icp-language-link",
+            "tag": "a",
+            "text_content": "English"
+        },
+        {
+            "uuid": "4aa1f375-033a-4ad2-bf9f-ae8f44b2ca57",
+            "selector": ".icp-nav-globe-img-2",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "f92293b1-e21e-4d53-9391-cf0226b5e238",
+            "selector": ".icp-button-globe-2",
+            "tag": "div",
+            "text_content": ""
+        },
+        {
+            "uuid": "58d44901-8f5b-4c65-af7d-32816fad27d7",
+            "selector": ".icp-color-base",
+            "tag": "span",
+            "text_content": "English"
+        },
+        {
+            "uuid": "c8567e75-000c-4a0a-af6d-822efdb280c9",
+            "selector": ".icp-up-down-arrow",
+            "tag": "button",
+            "text_content": ""
+        },
+        {
+            "uuid": "d4da9791-36e8-4dfa-ac7a-cfc7a5a536eb",
+            "selector": ".icp-flag-3",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "c006e0f7-1e9d-4f69-979f-7468b7abd24e",
+            "selector": ".icp-flag-3-in",
+            "tag": "span",
+            "text_content": ""
+        },
+        {
+            "uuid": "5b722378-08b0-45b9-8887-18c9d3633113",
+            "selector": ".navFooterDescLine",
+            "tag": "div",
+            "text_content": "AbeBooksBooks, art& collectiblesAmazon Web ServicesScalable CloudComputing ServicesAudibleDownloadAudio BooksIMDbMovies, TV& CelebritiesShopbopDesignerFashion BrandsAmazon BusinessEverything ForYour B"
+        },
+        {
+            "uuid": "8d9695ca-a502-48f3-9986-c8ffc6a827a2",
+            "selector": ".navFooterMoreOnAmazon",
+            "tag": "div",
+            "text_content": "AbeBooksBooks, art& collectiblesAmazon Web ServicesScalable CloudComputing ServicesAudibleDownloadAudio BooksIMDbMovies, TV& CelebritiesShopbopDesignerFashion BrandsAmazon BusinessEverything ForYour B"
+        },
+        {
+            "uuid": "e99431df-40d1-450a-bda2-ef299868b2f6",
+            "selector": ".navFooterMoreOnAmazonWrapper",
+            "tag": "div",
+            "text_content": "AbeBooksBooks, art& collectiblesAmazon Web ServicesScalable CloudComputing ServicesAudibleDownloadAudio BooksIMDbMovies, TV& CelebritiesShopbopDesignerFashion BrandsAmazon BusinessEverything ForYour B"
+        },
+        {
+            "uuid": "5817dd8e-167b-4b6e-b22e-99ccfeb3921e",
+            "selector": ".navFooterDescItem",
+            "tag": "li",
+            "text_content": "AbeBooksBooks, art& collectibles"
+        },
+        {
+            "uuid": "993d349a-2b55-4eb9-8479-9bfbeab89892",
+            "selector": ".navFooterDescItem_heading",
+            "tag": "h5",
+            "text_content": "AbeBooks"
+        },
+        {
+            "uuid": "91b2c48b-4ec7-46bf-8bfe-e9d63dba44e9",
+            "selector": ".navFooterDescText",
+            "tag": "span",
+            "text_content": "Books, art& collectibles"
+        },
+        {
+            "uuid": "55d8a674-db05-42df-a1cc-cd4dae676b3f",
+            "selector": ".navFooterDescSpacer",
+            "tag": "li",
+            "text_content": ""
+        },
+        {
+            "uuid": "5bb31b43-46b9-40a9-b8dc-7895c75cc012",
+            "selector": ".navFooterCopyright",
+            "tag": "div",
+            "text_content": "Conditions of Use & SalePrivacy NoticeInterest-Based Ads© 1996-2025, Amazon.com, Inc. or its affiliates"
+        }
+    ],
+    "name_selectors": [
+        {
+            "uuid": "38290ace-83ba-4bc7-aaac-8f4899241574",
+            "selector": "[name='description']",
+            "tag": "meta",
+            "type": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "051c70cd-4f21-42ed-b24e-6563dec67d70",
+            "selector": "[name='keywords']",
+            "tag": "meta",
+            "type": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "dccd8e0c-fc90-4071-8df5-dbb23dd3987c",
+            "selector": "[name='google']",
+            "tag": "meta",
+            "type": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "030c502f-8959-4d8a-b814-a6e05ee473fe",
+            "selector": "[name='google-site-verification']",
+            "tag": "meta",
+            "type": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "64778f7a-07f3-4716-9a20-7a7d6bf5fdb4",
+            "selector": "[name='twitter:card']",
+            "tag": "meta",
+            "type": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "e4b55641-1c1e-42b1-9580-07fbe91cc9d6",
+            "selector": "[name='twitter:site:id']",
+            "tag": "meta",
+            "type": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "5f55988d-222a-4a70-a8c5-dff480476c31",
+            "selector": "[name='msvalidate.01']",
+            "tag": "meta",
+            "type": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "a8a2e74d-13e4-4e10-820d-d9329185b794",
+            "selector": "[name='encrypted-slate-token']",
+            "tag": "meta",
+            "type": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "93423cdb-81fd-4e93-b4e3-4fa9bddcc65a",
+            "selector": "[name='dropdown-selection']",
+            "tag": "input",
+            "type": "hidden",
+            "text_content": ""
+        },
+        {
+            "uuid": "a5917233-7551-476c-bd63-728ea2052d1b",
+            "selector": "[name='dropdown-selection-ubb']",
+            "tag": "input",
+            "type": "hidden",
+            "text_content": ""
+        },
+        {
+            "uuid": "906d64dc-f794-4bf2-adfa-124e78c7657c",
+            "selector": "[name='glow-validation-token']",
+            "tag": "input",
+            "type": "hidden",
+            "text_content": ""
+        },
+        {
+            "uuid": "f72fe8cd-72b9-494c-9af1-01429b37c87f",
+            "selector": "[name='glow-destination-type']",
+            "tag": "input",
+            "type": "hidden",
+            "text_content": ""
+        },
+        {
+            "uuid": "dd06746f-45bc-414c-87d3-9313846bb2da",
+            "selector": "[name='site-search']",
+            "tag": "form",
+            "type": "",
+            "text_content": "AllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksC"
+        },
+        {
+            "uuid": "6d104489-5ca5-44ac-aa30-7e2f20e75191",
+            "selector": "[name='url']",
+            "tag": "select",
+            "type": "",
+            "text_content": "All CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksCar & MotorbikeClothing & AccessoriesCollectibl"
+        },
+        {
+            "uuid": "a872c93f-7964-4453-9509-6cef55a45a19",
+            "selector": "[name='field-keywords']",
+            "tag": "input",
+            "type": "text",
+            "text_content": ""
+        },
+        {
+            "uuid": "ff530f8f-e276-4ea6-90e3-1997365e23e3",
+            "selector": "[name='top']",
+            "tag": "a",
+            "type": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "e24d1253-bd67-4326-809c-8bef971d5dd3",
+            "selector": "[name='ue_backdetect']",
+            "tag": "form",
+            "type": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "16b3c698-2aa2-4562-a389-e49f39a8f65b",
+            "selector": "[name='ue_back']",
+            "tag": "input",
+            "type": "hidden",
+            "text_content": ""
+        }
+    ],
+    "type_selectors": [
+        {
+            "uuid": "e68fda4a-88c5-44b5-b3c7-ae82215b716a",
+            "selector": "input[type='hidden']",
+            "tag": "input",
+            "name": "dropdown-selection",
+            "id": "unifiedLocation1ClickAddress",
+            "text_content": ""
+        },
+        {
+            "uuid": "4438773d-ab97-420d-88b9-f58afebc76b3",
+            "selector": "input[type='hidden']",
+            "tag": "input",
+            "name": "dropdown-selection-ubb",
+            "id": "ubbShipTo",
+            "text_content": ""
+        },
+        {
+            "uuid": "2ac58a7b-753b-439d-9199-952b2233e44a",
+            "selector": "input[type='hidden']",
+            "tag": "input",
+            "name": "glow-validation-token",
+            "id": "glowValidationToken",
+            "text_content": ""
+        },
+        {
+            "uuid": "26e2bba5-9084-4b36-abc8-cbe4b04d5578",
+            "selector": "input[type='hidden']",
+            "tag": "input",
+            "name": "glow-destination-type",
+            "id": "glowDestinationType",
+            "text_content": ""
+        },
+        {
+            "uuid": "5205e9a8-dcbb-4c38-8c60-036c40b95a7a",
+            "selector": "input[type='text']",
+            "tag": "input",
+            "name": "field-keywords",
+            "id": "twotabsearchtextbox",
+            "text_content": ""
+        },
+        {
+            "uuid": "61faf6b1-219a-4cad-9a2d-0edc539a99af",
+            "selector": "input[type='submit']",
+            "tag": "input",
+            "name": "",
+            "id": "nav-search-submit-button",
+            "text_content": ""
+        },
+        {
+            "uuid": "3e29ecdd-08ec-47bf-b2a2-d92f28519ee8",
+            "selector": "input[type='hidden']",
+            "tag": "input",
+            "name": "",
+            "id": "",
+            "text_content": ""
+        },
+        {
+            "uuid": "2c8e86f8-8d20-4196-ad16-92df92c442ef",
+            "selector": "input[type='hidden']",
+            "tag": "input",
+            "name": "ue_back",
+            "id": "",
+            "text_content": ""
+        }
+    ],
+    "attribute_selectors": [
+        {
+            "uuid": "ffb8c5e5-b206-44cc-aada-59ba6106673b",
+            "selector": "[role='navigation']",
+            "tag": "nav",
+            "attribute": "role",
+            "value": "navigation",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows."
+        },
+        {
+            "uuid": "7b26f842-087e-4a15-9a61-b0c68cbddc63",
+            "selector": "[aria-label='Shortcuts menu']",
+            "tag": "nav",
+            "attribute": "aria-label",
+            "value": "Shortcuts menu",
+            "text_content": "Skip toMain contentKeyboard shortcutsSearchalt+/Cartshift+alt+CHomeshift+alt+HOrdersshift+alt+OShow/Hide shortcutsshift+alt+ZTo move between items, use your keyboard's up or down arrows."
+        },
+        {
+            "uuid": "ca4afe83-ccd9-4b17-b6be-457f543204cc",
+            "selector": "[aria-label='main content']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "main content",
+            "text_content": "Main content"
+        },
+        {
+            "uuid": "6370d597-0ca0-4557-adbe-f9a120d87814",
+            "selector": "[role='link']",
+            "tag": "a",
+            "attribute": "role",
+            "value": "link",
+            "text_content": "Searchalt+/"
+        },
+        {
+            "uuid": "fcf9f500-8346-414c-b4bc-4f569eb7609d",
+            "selector": "[aria-label='Search, alt, forward slash']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Search, alt, forward slash",
+            "text_content": "Searchalt+/"
+        },
+        {
+            "uuid": "9ef576dd-4eb9-4b75-a1df-0bf70d009d10",
+            "selector": "[aria-label='Cart, shift, alt, c']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Cart, shift, alt, c",
+            "text_content": "Cartshift+alt+C"
+        },
+        {
+            "uuid": "12dfdeec-d987-40ee-81a9-227ee1ffb636",
+            "selector": "[aria-label='Home, shift, alt, h']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Home, shift, alt, h",
+            "text_content": "Homeshift+alt+H"
+        },
+        {
+            "uuid": "76b8074c-4972-4dc1-9426-ed320e999d4c",
+            "selector": "[aria-label='Your orders, shift, alt, o']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Your orders, shift, alt, o",
+            "text_content": "Ordersshift+alt+O"
+        },
+        {
+            "uuid": "2428ef10-7ea2-41ca-a185-14abe62d8340",
+            "selector": "[role='button']",
+            "tag": "button",
+            "attribute": "role",
+            "value": "button",
+            "text_content": "Show/Hide shortcutsshift+alt+Z"
+        },
+        {
+            "uuid": "f98154c7-0b9c-4d04-9ac4-481ca0461817",
+            "selector": "[aria-label='Show/hide shortcuts, shift, alt, z']",
+            "tag": "button",
+            "attribute": "aria-label",
+            "value": "Show/hide shortcuts, shift, alt, z",
+            "text_content": "Show/Hide shortcutsshift+alt+Z"
+        },
+        {
+            "uuid": "442003e0-bb4b-4bee-aa57-31ad087ec47d",
+            "selector": "[aria-label='Primary']",
+            "tag": "div",
+            "attribute": "aria-label",
+            "value": "Primary",
+            "text_content": ".inDelivering to Delhi 110001Update locationAllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesAp"
+        },
+        {
+            "uuid": "8ec7637e-d82e-4c5a-bac2-1f88d064c69c",
+            "selector": "[aria-label='Amazon.in']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Amazon.in",
+            "text_content": ".in"
+        },
+        {
+            "uuid": "8fa4d5e9-17c0-4201-951f-cfa67585ca2a",
+            "selector": "[role='search']",
+            "tag": "form",
+            "attribute": "role",
+            "value": "search",
+            "text_content": "AllSelect the department you want to search inAll CategoriesAlexa SkillsAmazon DevicesAmazon FashionAmazon FreshAmazon Fresh MeatAmazon PharmacyAppliancesApps & GamesAudible AudiobooksBabyBeautyBooksC"
+        },
+        {
+            "uuid": "7e364e1f-adf7-4274-b7e2-d6f71678525b",
+            "selector": "[role='searchbox']",
+            "tag": "input",
+            "attribute": "role",
+            "value": "searchbox",
+            "text_content": ""
+        },
+        {
+            "uuid": "5ff4b0a1-5468-4d61-ad65-635919dbcd5e",
+            "selector": "[aria-label='Search Amazon.in']",
+            "tag": "input",
+            "attribute": "aria-label",
+            "value": "Search Amazon.in",
+            "text_content": ""
+        },
+        {
+            "uuid": "d89fc911-9099-41a2-83c2-1951bb76a865",
+            "selector": "[placeholder='Search Amazon.in']",
+            "tag": "input",
+            "attribute": "placeholder",
+            "value": "Search Amazon.in",
+            "text_content": ""
+        },
+        {
+            "uuid": "e5e38543-c778-4ae9-9388-26799dad0cf8",
+            "selector": "[aria-label='Go']",
+            "tag": "span",
+            "attribute": "aria-label",
+            "value": "Go",
+            "text_content": ""
+        },
+        {
+            "uuid": "bbfdee2c-0fc2-47ae-9304-ce691ffc4c02",
+            "selector": "[aria-label='Choose a language for shopping in Amazon India. The current selection is English (EN).\n']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Choose a language for shopping in Amazon India. The current selection is English (EN).\n",
+            "text_content": "EN"
+        },
+        {
+            "uuid": "0eb44847-ac09-4a57-a4f8-0fcfb9a87d38",
+            "selector": "[role='img']",
+            "tag": "span",
+            "attribute": "role",
+            "value": "img",
+            "text_content": ""
+        },
+        {
+            "uuid": "96ce0ac7-f8af-4f0f-8447-463462129c03",
+            "selector": "[aria-label='India']",
+            "tag": "span",
+            "attribute": "aria-label",
+            "value": "India",
+            "text_content": ""
+        },
+        {
+            "uuid": "334f1a7f-d6f2-45f2-8aad-76a1a98662d2",
+            "selector": "[aria-label='Expand to Change Language or Country']",
+            "tag": "button",
+            "attribute": "aria-label",
+            "value": "Expand to Change Language or Country",
+            "text_content": ""
+        },
+        {
+            "uuid": "b1dfcec0-7054-49e0-bbb9-3dabb65f4bd9",
+            "selector": "[aria-label='Expand Account and Lists']",
+            "tag": "button",
+            "attribute": "aria-label",
+            "value": "Expand Account and Lists",
+            "text_content": ""
+        },
+        {
+            "uuid": "20a1fba2-b9ca-491c-8e1a-14f47665a020",
+            "selector": "[aria-label='0 items in cart']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "0 items in cart",
+            "text_content": "0Cart"
+        },
+        {
+            "uuid": "9d7f0c91-2bdc-41ce-95c2-40df495211f6",
+            "selector": "[aria-label='Open All Categories Menu']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Open All Categories Menu",
+            "text_content": "All"
+        },
+        {
+            "uuid": "102a6039-1c73-487a-8a65-ab2cb8782153",
+            "selector": "[aria-label='Fresh Details']",
+            "tag": "button",
+            "attribute": "aria-label",
+            "value": "Fresh Details",
+            "text_content": ""
+        },
+        {
+            "uuid": "1d37dc5d-ba18-4fba-8c42-994305e8ba3b",
+            "selector": "[aria-label='Prime Details']",
+            "tag": "button",
+            "attribute": "aria-label",
+            "value": "Prime Details",
+            "text_content": ""
+        },
+        {
+            "uuid": "389e23ea-ffca-43d0-b90b-6e8d3998af03",
+            "selector": "[role='main']",
+            "tag": "div",
+            "attribute": "role",
+            "value": "main",
+            "text_content": "Previous slideNext slideRevamp your home in styleCushion covers, bedsheets & moreFigurines, vases & moreHome storageLighting solutionsExplore allAppliances for your home | Up to 55% offAir conditioner"
+        },
+        {
+            "uuid": "cb138336-864b-41bc-934b-d9da15f30917",
+            "selector": "[role='banner']",
+            "tag": "div",
+            "attribute": "role",
+            "value": "banner",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "351c8661-1fa3-4523-a20f-9c501e0d5b4d",
+            "selector": "[aria-label='Featured content']",
+            "tag": "div",
+            "attribute": "aria-label",
+            "value": "Featured content",
+            "text_content": "Previous slideNext slide"
+        },
+        {
+            "uuid": "5a34b2dc-a7dd-4d47-bdb9-eccb1d465d2f",
+            "selector": "[role='list']",
+            "tag": "ol",
+            "attribute": "role",
+            "value": "list",
+            "text_content": ""
+        },
+        {
+            "uuid": "42166f26-60ea-4143-8301-a40104036561",
+            "selector": "[role='listitem']",
+            "tag": "li",
+            "attribute": "role",
+            "value": "listitem",
+            "text_content": ""
+        },
+        {
+            "uuid": "d520307e-7e2c-45f6-a165-ec07ce8519e0",
+            "selector": "[aria-label='Cushion covers, bedsheets & more']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Cushion covers, bedsheets & more",
+            "text_content": "Cushion covers, bedsheets & more"
+        },
+        {
+            "uuid": "c4d8af1c-2d13-441e-9ef3-8c7c0d0d7562",
+            "selector": "[aria-label='Figurines, vases & more']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Figurines, vases & more",
+            "text_content": "Figurines, vases & more"
+        },
+        {
+            "uuid": "ec153bd7-70dc-4363-b4c0-79442f627531",
+            "selector": "[aria-label='Home storage']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Home storage",
+            "text_content": "Home storage"
+        },
+        {
+            "uuid": "f51cdef3-aa0b-4980-8d28-8f0757ef3dd6",
+            "selector": "[aria-label='Lighting solutions']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Lighting solutions",
+            "text_content": "Lighting solutions"
+        },
+        {
+            "uuid": "a35b75ce-d80c-4057-9d5e-ca58bcaabf5a",
+            "selector": "[aria-label='Revamp your home in style - Explore all']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Revamp your home in style - Explore all",
+            "text_content": "Explore all"
+        },
+        {
+            "uuid": "4399ce8a-2053-4f47-b2db-1d38f6b8ca8d",
+            "selector": "[aria-label='ACs']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "ACs",
+            "text_content": "Air conditioners"
+        },
+        {
+            "uuid": "4248d589-9b68-4420-bb60-d9e3b0515d9b",
+            "selector": "[aria-label='Refrigerators']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Refrigerators",
+            "text_content": "Refrigerators"
+        },
+        {
+            "uuid": "b62ed6a5-b4e3-4a36-8525-a94ebae2ddd6",
+            "selector": "[aria-label='Microwaves']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Microwaves",
+            "text_content": "Microwaves"
+        },
+        {
+            "uuid": "cfc83608-eed3-4e37-961c-f99c55e0d352",
+            "selector": "[aria-label='Washing machines']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Washing machines",
+            "text_content": "Washing machines"
+        },
+        {
+            "uuid": "8a18d81d-ce5a-4c11-b8f7-0882db3dfb2d",
+            "selector": "[aria-label='Appliances for your home | Up to 55% off - See more']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Appliances for your home | Up to 55% off - See more",
+            "text_content": "See more"
+        },
+        {
+            "uuid": "59bb0ea4-a4c8-446f-aac0-d880d3bb12db",
+            "selector": "[aria-label='boAt']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "boAt",
+            "text_content": "Starting ₹249 | boAt"
+        },
+        {
+            "uuid": "5348590f-327e-4f8b-9077-ebd528535f6f",
+            "selector": "[aria-label='boult']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "boult",
+            "text_content": "Starting ₹349 | boult"
+        },
+        {
+            "uuid": "4d3a8562-e215-45ef-92f0-e6a821131af8",
+            "selector": "[aria-label='Noise']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Noise",
+            "text_content": "Starting ₹649 | Noise"
+        },
+        {
+            "uuid": "74fa64df-2a26-41ff-b97e-6f8483863ff9",
+            "selector": "[aria-label='Starting ₹149 | Zebronics']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Starting ₹149 | Zebronics",
+            "text_content": "Starting ₹149 | Zebronics"
+        },
+        {
+            "uuid": "66eeb8d0-1ab8-42dc-bc94-6f1a7484788e",
+            "selector": "[aria-label='Starting ₹149 | Headphones - See all offers']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Starting ₹149 | Headphones - See all offers",
+            "text_content": "See all offers"
+        },
+        {
+            "uuid": "b72824a7-4839-4d21-b677-813226745d09",
+            "selector": "[aria-label='Cleaning']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Cleaning",
+            "text_content": "Under ₹199 | Cleaning supplies"
+        },
+        {
+            "uuid": "f1f87418-1068-41b8-9795-26a8fe9ac51a",
+            "selector": "[aria-label='Bath accessories']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Bath accessories",
+            "text_content": "Under ₹399 | Bathroom accessories"
+        },
+        {
+            "uuid": "3abaa0d9-443c-4fa3-956e-e7617b26c831",
+            "selector": "[aria-label='Home tools']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Home tools",
+            "text_content": "Under ₹499 | Home tools"
+        },
+        {
+            "uuid": "80ab9d57-b767-416c-80eb-c9f46af71906",
+            "selector": "[aria-label='Wallpapers']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Wallpapers",
+            "text_content": "Under ₹299 | Wallpapers"
+        },
+        {
+            "uuid": "a74ddfb2-fee2-429d-ace9-a7b4d9d031b7",
+            "selector": "[aria-label='Under ₹499 | Deals on home improvement essentials - Explore all']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Under ₹499 | Deals on home improvement essentials - Explore all",
+            "text_content": "Explore all"
+        },
+        {
+            "uuid": "01517019-99f8-4fdf-9bc7-bd60bad40196",
+            "selector": "[aria-label='Customers’ Most-Loved Fashion for you - Explore more']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Customers’ Most-Loved Fashion for you - Explore more",
+            "text_content": "Explore more"
+        },
+        {
+            "uuid": "ef24945b-147b-4f8e-9fb7-5eb79e0ed703",
+            "selector": "[role='complementary']",
+            "tag": "div",
+            "attribute": "role",
+            "value": "complementary",
+            "text_content": "Your recently viewed items and featured recommendations›View or edit your browsing historyAfter viewing product detail pages, look here to find an easy way to navigate back to pages you are interested"
+        },
+        {
+            "uuid": "c953d545-482f-4439-842c-6117d36e29e9",
+            "selector": "[aria-label='Your recently viewed items and featured recommendations']",
+            "tag": "div",
+            "attribute": "aria-label",
+            "value": "Your recently viewed items and featured recommendations",
+            "text_content": "Your recently viewed items and featured recommendations›View or edit your browsing historyAfter viewing product detail pages, look here to find an easy way to navigate back to pages you are interested"
+        },
+        {
+            "uuid": "26924032-0bf2-4bae-b803-c77d4f8011c7",
+            "selector": "[aria-label='Back to top']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Back to top",
+            "text_content": "Back to top"
+        },
+        {
+            "uuid": "d8fcf93e-a66b-42f8-973a-9876e160d70d",
+            "selector": "[role='presentation']",
+            "tag": "div",
+            "attribute": "role",
+            "value": "presentation",
+            "text_content": "Get to Know UsAbout AmazonCareersPress ReleasesAmazon ScienceConnect with UsFacebookTwitterInstagramMake Money with UsSell on AmazonSell under Amazon AcceleratorProtect and Build Your BrandAmazon Glob"
+        },
+        {
+            "uuid": "ef2171d5-16f0-4b92-9968-b40e0eb8c842",
+            "selector": "[role='heading']",
+            "tag": "div",
+            "attribute": "role",
+            "value": "heading",
+            "text_content": "Get to Know Us"
+        },
+        {
+            "uuid": "aab86db0-593d-405d-ad36-b3465d39521f",
+            "selector": "[aria-label='Amazon India Home']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Amazon India Home",
+            "text_content": ""
+        },
+        {
+            "uuid": "01293f3c-83e7-4962-9921-a4ff985aa18f",
+            "selector": "[aria-label='Choose a language for shopping. Current selection is English. ']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Choose a language for shopping. Current selection is English. ",
+            "text_content": "English"
+        },
+        {
+            "uuid": "3a1daa31-f84f-439e-9a9b-9147fcb418c5",
+            "selector": "[aria-label='Choose a country/region for shopping. The current selection is India.']",
+            "tag": "a",
+            "attribute": "aria-label",
+            "value": "Choose a country/region for shopping. The current selection is India.",
+            "text_content": "India"
+        },
+        {
+            "uuid": "6caf7ebd-192e-45c3-aec7-5581466c2c52",
+            "selector": "[aria-label='More on Amazon']",
+            "tag": "div",
+            "attribute": "aria-label",
+            "value": "More on Amazon",
+            "text_content": "AbeBooksBooks, art& collectiblesAmazon Web ServicesScalable CloudComputing ServicesAudibleDownloadAudio BooksIMDbMovies, TV& CelebritiesShopbopDesignerFashion BrandsAmazon BusinessEverything ForYour B"
+        }
+    ],
+    "input_selectors": [
+        {
+            "uuid": "7a7380d9-b737-44a2-ac7b-1047c6dd112a",
+            "tag": "input",
+            "type": "hidden",
+            "name": "dropdown-selection",
+            "id": "unifiedLocation1ClickAddress",
+            "placeholder": "",
+            "selectors": [
+                "#unifiedLocation1ClickAddress",
+                "input[name='dropdown-selection']",
+                "input[type='hidden']"
+            ]
+        },
+        {
+            "uuid": "27685feb-e7b0-45e0-ab23-87c98c34a27c",
+            "tag": "input",
+            "type": "hidden",
+            "name": "dropdown-selection-ubb",
+            "id": "ubbShipTo",
+            "placeholder": "",
+            "selectors": [
+                "#ubbShipTo",
+                "input[name='dropdown-selection-ubb']",
+                "input[type='hidden']"
+            ]
+        },
+        {
+            "uuid": "15e723f8-1a63-437e-8cab-cc81fdaec99c",
+            "tag": "input",
+            "type": "hidden",
+            "name": "glow-validation-token",
+            "id": "glowValidationToken",
+            "placeholder": "",
+            "selectors": [
+                "#glowValidationToken",
+                "input[name='glow-validation-token']",
+                "input[type='hidden']"
+            ]
+        },
+        {
+            "uuid": "9b4902dc-9345-4205-acc9-d8abd16576c0",
+            "tag": "input",
+            "type": "hidden",
+            "name": "glow-destination-type",
+            "id": "glowDestinationType",
+            "placeholder": "",
+            "selectors": [
+                "#glowDestinationType",
+                "input[name='glow-destination-type']",
+                "input[type='hidden']"
+            ]
+        },
+        {
+            "uuid": "4729c634-be08-43b6-982f-64e261658941",
+            "tag": "input",
+            "type": "text",
+            "name": "field-keywords",
+            "id": "twotabsearchtextbox",
+            "placeholder": "Search Amazon.in",
+            "selectors": [
+                "#twotabsearchtextbox",
+                "input[name='field-keywords']",
+                "input[type='text']",
+                "input[placeholder='Search Amazon.in']"
+            ]
+        },
+        {
+            "uuid": "9874dead-ea17-46cf-b5e7-c00eb1747fe0",
+            "tag": "input",
+            "type": "submit",
+            "name": "",
+            "id": "nav-search-submit-button",
+            "placeholder": "",
+            "selectors": [
+                "#nav-search-submit-button",
+                "input[type='submit']"
+            ]
+        },
+        {
+            "uuid": "824a1aea-2716-4949-8d5f-0d0a1a975982",
+            "tag": "input",
+            "type": "hidden",
+            "name": "",
+            "id": "",
+            "placeholder": "",
+            "selectors": [
+                "input[type='hidden']"
+            ]
+        },
+        {
+            "uuid": "a9e1b7e7-7909-43e4-8411-efbfbf12c8c1",
+            "tag": "input",
+            "type": "hidden",
+            "name": "ue_back",
+            "id": "",
+            "placeholder": "",
+            "selectors": [
+                "input[name='ue_back']",
+                "input[type='hidden']"
+            ]
+        }
+    ],
+    "button_selectors": [
+        {
+            "uuid": "ee6957da-a255-47d8-b3cb-5b1179b24da9",
+            "tag": "input",
+            "type": "submit",
+            "text": "Go",
+            "id": "nav-search-submit-button",
+            "name": "",
+            "selectors": [
+                "#nav-search-submit-button",
+                "input[type='submit']"
+            ]
+        }
+    ],
+    "link_selectors": [
+        {
+            "uuid": "5bc5a2f4-67f8-4b30-8493-1fbb746e0c65",
+            "selector": "a[href='#skippedLink']",
+            "href": "#skippedLink",
+            "text": "Main content",
+            "id": "nav-assist-skip-to-main-content",
+            "class": "nav-assistant-link nav-assistant-menu-item nav-assistant-link-item a-color-base a-color-link"
+        },
+        {
+            "uuid": "d2cb700a-4c4c-4839-ad7c-243c30d364a6",
+            "selector": "a[href='/ref=nav_logo']",
+            "href": "/ref=nav_logo",
+            "text": ".in",
+            "id": "nav-logo-sprites",
+            "class": "nav-logo-link nav-progressive-attribute"
+        },
+        {
+            "uuid": "c8dd8dbb-c69e-49fc-b784-26a737a7737b",
+            "selector": "a[href='/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang']",
+            "href": "/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang",
+            "text": "EN",
+            "id": "",
+            "class": "nav-a nav-a-2 icp-link-style-2"
+        },
+        {
+            "uuid": "76178a3c-070e-4438-9ce1-c12d15b78fe4",
+            "selector": "a",
+            "href": "https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3F_encoding%3DUTF8%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0",
+            "text": "Hello, sign inAccount & Lists",
+            "id": "",
+            "class": "nav-a nav-a-2 nav-progressive-attribute"
+        },
+        {
+            "uuid": "5dab737d-d0eb-4b2e-b2bc-7056c2037711",
+            "selector": "a[href='/gp/css/order-history?ref_=nav_orders_first']",
+            "href": "/gp/css/order-history?ref_=nav_orders_first",
+            "text": "Returns& Orders",
+            "id": "nav-orders",
+            "class": "nav-a nav-a-2 nav-progressive-attribute"
+        },
+        {
+            "uuid": "8283d10d-ef6a-4558-bffd-845884295840",
+            "selector": "a[href='/gp/cart/view.html?ref_=nav_cart']",
+            "href": "/gp/cart/view.html?ref_=nav_cart",
+            "text": "0Cart",
+            "id": "nav-cart",
+            "class": "nav-a nav-a-2 nav-progressive-attribute"
+        },
+        {
+            "uuid": "b08d4546-cbdd-4d23-8312-7c74eaf75db5",
+            "selector": "a[href='/gp/site-directory?ref_=nav_em_js_disabled']",
+            "href": "/gp/site-directory?ref_=nav_em_js_disabled",
+            "text": "All",
+            "id": "nav-hamburger-menu",
+            "class": ""
+        },
+        {
+            "uuid": "30fd540d-9987-43ad-8cf9-abd2d1993319",
+            "selector": "a[href='/fresh?ref_=nav_cs_grocery']",
+            "href": "/fresh?ref_=nav_cs_grocery",
+            "text": "Fresh",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "10806546-af87-446c-81c1-592da3c7beb1",
+            "selector": "a[href='/minitv?ref_=nav_avod_desktop_topnav']",
+            "href": "/minitv?ref_=nav_avod_desktop_topnav",
+            "text": "MX Player",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "881b802a-5fa3-466a-b794-9924a065e459",
+            "selector": "a[href='/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3']",
+            "href": "/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3",
+            "text": "Sell",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "b3ec0f8a-a58e-4e6f-86a2-2f173d1fdcc8",
+            "selector": "a[href='/gp/bestsellers/?ref_=nav_cs_bestsellers']",
+            "href": "/gp/bestsellers/?ref_=nav_cs_bestsellers",
+            "text": "Bestsellers",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "07c23efd-46dc-43ba-be20-fa7727edcd24",
+            "selector": "a[href='/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles']",
+            "href": "/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles",
+            "text": "Mobiles",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "b552a572-f9c1-4403-8a74-9473dbb29fdd",
+            "selector": "a[href='/deals?ref_=nav_cs_gb']",
+            "href": "/deals?ref_=nav_cs_gb",
+            "text": "Today's Deals",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "549d93f0-e353-4c7f-9aff-1dd4ab38611c",
+            "selector": "a[href='/prime?ref_=nav_cs_primelink_nonmember']",
+            "href": "/prime?ref_=nav_cs_primelink_nonmember",
+            "text": "Prime",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "3ad8b4d4-c0d0-4d8f-b2aa-009397fa2b70",
+            "selector": "a[href='/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help']",
+            "href": "/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help",
+            "text": "Customer Service",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "ae75f7e3-c827-4924-8c1f-d6c842bb762d",
+            "selector": "a[href='/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics']",
+            "href": "/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics",
+            "text": "Electronics",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "b9cf53b4-9077-48bc-a33f-56c6bc1ef720",
+            "selector": "a[href='/gp/new-releases/?ref_=nav_cs_newreleases']",
+            "href": "/gp/new-releases/?ref_=nav_cs_newreleases",
+            "text": "New Releases",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "3d8fd284-4723-45d0-9f94-f9ff50e28434",
+            "selector": "a[href='/gp/browse.html?node=6648217031&ref_=nav_cs_fashion']",
+            "href": "/gp/browse.html?node=6648217031&ref_=nav_cs_fashion",
+            "text": "Fashion",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "dc9e68a0-eec1-43a6-9374-76b6a2d235f3",
+            "selector": "a[href='/Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home']",
+            "href": "/Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home",
+            "text": "Home & Kitchen",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "70de0c8c-1b96-4973-9a73-be9eb5de4eee",
+            "selector": "a[href='/gp/sva/dashboard?ref_=nav_cs_apay']",
+            "href": "/gp/sva/dashboard?ref_=nav_cs_apay",
+            "text": "Amazon Pay",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "c365ff4d-2d7a-48f0-ac23-b82783506182",
+            "selector": "a[href='/computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc']",
+            "href": "/computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc",
+            "text": "Computers",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "fc5de7ee-7f00-4a26-b50a-5ce5565bde6a",
+            "selector": "a[href='/Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books']",
+            "href": "/Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books",
+            "text": "Books",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "d0cfdde8-27e1-4122-93e6-530f7f97e3b8",
+            "selector": "a[href='/beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty']",
+            "href": "/beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty",
+            "text": "Beauty & Personal Care",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "4fd41aa5-efd4-411c-ac36-94d213103761",
+            "selector": "a[href='/Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive']",
+            "href": "/Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive",
+            "text": "Car & Motorbike",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "80693e45-c328-457a-a22f-97cf9131145d",
+            "selector": "a[href='/Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi']",
+            "href": "/Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi",
+            "text": "Home Improvement",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "ba9732a7-d374-4b51-b8fc-27091d21a3c3",
+            "selector": "a[href='/Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys']",
+            "href": "/Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys",
+            "text": "Toys & Games",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "8805733c-4999-493b-bb48-ab281511ab8c",
+            "selector": "a[href='/video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games']",
+            "href": "/video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games",
+            "text": "Video Games",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "0c2a9a64-e514-44d6-9f91-003202afdb7a",
+            "selector": "a[href='/Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports']",
+            "href": "/Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports",
+            "text": "Sports, Fitness & Outdoors",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "e97cbdec-e5ff-4ae2-ae42-c633c0f6b87c",
+            "selector": "a[href='/gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc']",
+            "href": "/gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc",
+            "text": "Gift Cards",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "7867393b-8584-454e-9900-e21fbc7560f0",
+            "selector": "a[href='/Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom']",
+            "href": "/Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom",
+            "text": "Custom Products",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "c60f3b59-1fb8-431c-b800-dedc4b001caf",
+            "selector": "a[href='/health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc']",
+            "href": "/health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc",
+            "text": "Health, Household & Personal Care",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "f8174393-0319-4bd5-8516-0819215e2143",
+            "selector": "a[href='/Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery']",
+            "href": "/Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery",
+            "text": "Grocery & Gourmet Foods",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "ad66adc9-65c4-4fb2-b154-1a8d08816ef8",
+            "selector": "a[href='/Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby']",
+            "href": "/Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby",
+            "text": "Baby",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "3f0dc6bf-c832-4ec5-80f9-a84088e3401a",
+            "selector": "a[href='/auto-deliveries/landing?ref_=nav_cs_sns']",
+            "href": "/auto-deliveries/landing?ref_=nav_cs_sns",
+            "text": "Subscribe & Save",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "c59e298c-df78-4d05-8e36-5a1091e1f2d5",
+            "selector": "a[href='/b/?node=6637738031&ref_=nav_cs_amazonbasics']",
+            "href": "/b/?node=6637738031&ref_=nav_cs_amazonbasics",
+            "text": "AmazonBasics",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "30482e7f-9e8a-4a85-8d5f-80f9e604db6d",
+            "selector": "a[href='/Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets']",
+            "href": "/Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets",
+            "text": "Pet Supplies",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "75f72af6-abf2-47d8-8c2f-90c53a53689a",
+            "selector": "a[href='/Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible']",
+            "href": "/Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible",
+            "text": "Audible",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "4ee1aa45-cffa-4fc1-ae23-7464ccfef546",
+            "selector": "a[href='/gcx/-/gfhz/?ref_=nav_cs_giftfinder']",
+            "href": "/gcx/-/gfhz/?ref_=nav_cs_giftfinder",
+            "text": "Gift Ideas",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "0483ca16-7520-4182-8992-774bd991792b",
+            "selector": "a[href='/flights?ref_=nav_cs_apay_desktop_topnav_flights']",
+            "href": "/flights?ref_=nav_cs_apay_desktop_topnav_flights",
+            "text": "Flights",
+            "id": "",
+            "class": "nav-a"
+        },
+        {
+            "uuid": "cc19324d-eaf5-40df-b136-ac76abbbb3d5",
+            "selector": "a[href='#']",
+            "href": "#",
+            "text": "Previous slide",
+            "id": "",
+            "class": "a-carousel-goto-prevpage"
+        },
+        {
+            "uuid": "342b047a-34d1-426a-ba93-1b2654c5c5a3",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&i=toys&rh=n%3A1350380031%2Cp_36%3A2485524031%2Cp_n_age_range%3A1480705031%257C1480706031%257C1480707031&dc=&qid=1741871368&rnid=1480704031&ref=sr_nr_p_n_age_range_3&ds=v1%3AfA61fYKOIZ%2FFtIejsMqUgp%2BDkz5O5Fau3bc%2FwQOLm2w&pd_rd_w=8mWNz&content-id=amzn1.sym.02403f2a-002e-4d18-9cf4-be06c1ab600e&pf_rd_p=02403f2a-002e-4d18-9cf4-be06c1ab600e&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=yGVhJ&pd_rd_r=9d464064-7caf-4961-b8dc-a5c95017fe5a&ref_=pd_hp_d_hero_unk",
+            "text": "",
+            "id": "",
+            "class": "a-link-normal"
+        },
+        {
+            "uuid": "920d02d7-f4d5-4769-bc1e-21f9b6d446c2",
+            "selector": "a[href='#']",
+            "href": "#",
+            "text": "Next slide",
+            "id": "",
+            "class": "a-carousel-goto-nextpage"
+        },
+        {
+            "uuid": "5256842a-e522-4dde-801a-7674b1fb1b9c",
+            "selector": "a",
+            "href": "/b/?_encoding=UTF8&node=1380442031&pd_rd_w=a8DBB&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Cushion covers, bedsheets & more",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "89439b93-e6e3-408d-9d79-249eb8c24a3c",
+            "selector": "a",
+            "href": "/b/?_encoding=UTF8&node=1380374031&pd_rd_w=a8DBB&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Figurines, vases & more",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "1256ad0d-5fc9-4bb8-bbeb-9e79e91380f1",
+            "selector": "a",
+            "href": "/b/?_encoding=UTF8&node=1380510031&pd_rd_w=a8DBB&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Home storage",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "00aa688f-af4c-400e-bfed-e8e1a42bd83f",
+            "selector": "a",
+            "href": "/b/?_encoding=UTF8&node=1380485031&pd_rd_w=a8DBB&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Lighting solutions",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "f754f6bb-2f5f-42d7-8af3-56df38bbf0ef",
+            "selector": "a",
+            "href": "/b/?_encoding=UTF8&node=12414705031&pd_rd_w=a8DBB&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Explore all",
+            "id": "",
+            "class": "a-link-normal aok-block"
+        },
+        {
+            "uuid": "5a9ed9d9-ecec-4d8a-aa03-ee92eee9f327",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&bbn=81107432031&rh=n%3A81107432031%2Cp_85%3A10440599031&pd_rd_w=ZJoEe&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Air conditioners",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "56390956-84ce-4f21-8f76-a9df03f2394f",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&bbn=81107433031&rh=n%3A81107433031%2Cp_85%3A10440599031&pd_rd_w=ZJoEe&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Refrigerators",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "548f23cd-143a-45af-bb33-c10c59fe8d1f",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&bbn=84514739031&rh=n%3A84514739031%2Cp_85%3A10440599031&pd_rd_w=ZJoEe&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Microwaves",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "333c6e7b-9331-4048-a1c7-c4d48150c407",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&bbn=84514752031&rh=n%3A84514752031%2Cp_85%3A10440599031&pd_rd_w=ZJoEe&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Washing machines",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "2ecc5b3b-4045-4be5-8d6d-d6147245e379",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&bbn=84514735031&rh=n%3A84514735031%2Cp_85%3A10440599031&pd_rd_w=ZJoEe&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "See more",
+            "id": "",
+            "class": "a-link-normal aok-block"
+        },
+        {
+            "uuid": "21753bf8-083b-41a7-8d61-4f8a3d2f4af1",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&bbn=1388921031&rh=n%3A1388921031%2Cp_89%3AboAt&pd_rd_w=sAFrU&content-id=amzn1.sym.82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_p=82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Starting ₹249 | boAt",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "5b92fac3-5715-4608-bb50-dd492a1b0d59",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&i=electronics&bbn=1388921031&rh=n%3A1388921031%2Cp_89%3ABoult&pd_rd_w=sAFrU&content-id=amzn1.sym.82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_p=82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Starting ₹349 | boult",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "b446029e-8ed9-410b-8d5a-548bf2c0f47a",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&k=noise&i=electronics&rh=n%3A1388921031%2Cp_n_condition-type%3A8609960031%2Cp_36%3A-200000&pd_rd_w=sAFrU&content-id=amzn1.sym.82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_p=82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Starting ₹649 | Noise",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "0ff7c122-4f92-4213-9cdb-0193690d752e",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&k=zebronics&i=electronics&rh=n%3A976419031%2Cn%3A29561348031%2Cp_89%3AZEBRONICS&pd_rd_w=sAFrU&content-id=amzn1.sym.82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_p=82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Starting ₹149 | Zebronics",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "fa701a2e-7066-4a55-9ced-e72d16e7e224",
+            "selector": "a",
+            "href": "/b/?_encoding=UTF8&ie=UTF8&node=1388921031&pd_rd_w=sAFrU&content-id=amzn1.sym.82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_p=82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "See all offers",
+            "id": "",
+            "class": "a-link-normal aok-block"
+        },
+        {
+            "uuid": "07acf1a3-dc9e-48ba-8801-0e955ce82031",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&i=home-improvement&bbn=61028133031&rh=n%3A61028133031%2Cp_72%3A1318476031%2Cp_36%3A-19900&_encoding=UTF8&qid=1714749719&rnid=3444809031&ref=sr_nr_p_36_3&pd_rd_w=2jDDX&content-id=amzn1.sym.0a250fc6-18a4-49da-8c15-ae7cde5579f2&pf_rd_p=0a250fc6-18a4-49da-8c15-ae7cde5579f2&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Under ₹199 | Cleaning supplies",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "d9870d49-5e09-4581-9c20-6ab6765d7048",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&i=home-improvement&rh=n%3A60834830031%2Cp_36%3A-39900%2Cp_72%3A1318476031&dc=&fs=true&qid=1714744556&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3AObcyf9vB3S72PU7NAfGZ%2FbllKjFxF%2BIh8NlJQg5c1A8%22&pd_rd_w=2jDDX&content-id=amzn1.sym.0a250fc6-18a4-49da-8c15-ae7cde5579f2&pf_rd_p=0a250fc6-18a4-49da-8c15-ae7cde5579f2&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Under ₹399 | Bathroom accessories",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "f9a246ab-b191-4ddd-8883-767461aea886",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&i=home-improvement&rh=n%3A95174669031%2Cp_36%3A3444810031%2Cp_72%3A1318476031&pd_rd_w=2jDDX&content-id=amzn1.sym.0a250fc6-18a4-49da-8c15-ae7cde5579f2&pf_rd_p=0a250fc6-18a4-49da-8c15-ae7cde5579f2&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Under ₹499 | Home tools",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "17295c19-2e04-4a86-87ed-5cfd461286ec",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&i=home-improvement&rh=n%3A87322479031%2Cp_36%3A-29900%2Cp_72%3A1318476031&dc=&fs=true&qid=1714750891&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3AKT2aFWvve4xsaDjrU17ctKHJFfdbS%2FW1Ex2L5A6belw&pd_rd_w=2jDDX&content-id=amzn1.sym.0a250fc6-18a4-49da-8c15-ae7cde5579f2&pf_rd_p=0a250fc6-18a4-49da-8c15-ae7cde5579f2&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Under ₹299 | Wallpapers",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_centerImage_30wh- aok-block image-window"
+        },
+        {
+            "uuid": "07a33844-0c31-4994-a94f-939f1eaf6706",
+            "selector": "a",
+            "href": "/b/?_encoding=UTF8&node=4286640031&pd_rd_w=2jDDX&content-id=amzn1.sym.0a250fc6-18a4-49da-8c15-ae7cde5579f2&pf_rd_p=0a250fc6-18a4-49da-8c15-ae7cde5579f2&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=uP2Au&pd_rd_r=3d5b17d2-6023-42dd-a716-56da0e1ee1a5&ref_=pd_hp_d_atf_unk",
+            "text": "Explore all",
+            "id": "",
+            "class": "a-link-normal aok-block"
+        },
+        {
+            "uuid": "3f7a2166-3f97-4796-ad4d-8e79bbfcf07d",
+            "selector": "a",
+            "href": "/ASIAN-Delta-20-Lightweight-Sneakers-Running/dp/B09WLDXXWW/?_encoding=UTF8&pd_rd_w=lipee&content-id=amzn1.sym.de84ee3f-a07f-47cd-ac44-50f5d6cbb587&pf_rd_p=de84ee3f-a07f-47cd-ac44-50f5d6cbb587&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_a2i_gw_cml",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "a2a81aa7-d3a9-42c9-97e5-5c4b59b01283",
+            "selector": "a",
+            "href": "/XYXX-Solid-Regular-XY_CR14_Polo-Tshirt_1_Blue/dp/B0CBBB5843/?_encoding=UTF8&pd_rd_w=lipee&content-id=amzn1.sym.de84ee3f-a07f-47cd-ac44-50f5d6cbb587&pf_rd_p=de84ee3f-a07f-47cd-ac44-50f5d6cbb587&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_a2i_gw_cml",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "107e3dbb-80f2-442d-8e82-36dd75208bb6",
+            "selector": "a",
+            "href": "/London-Hills-Cotton-Oversized-T-Shirts/dp/B0C8YKXJ5G/?_encoding=UTF8&pd_rd_w=lipee&content-id=amzn1.sym.de84ee3f-a07f-47cd-ac44-50f5d6cbb587&pf_rd_p=de84ee3f-a07f-47cd-ac44-50f5d6cbb587&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_a2i_gw_cml",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "12440275-3122-4190-bb34-4e1d8c8e903a",
+            "selector": "a",
+            "href": "/Campus-Womens-Raise-Running-Shoes/dp/B0BHH5BNKL/?_encoding=UTF8&pd_rd_w=lipee&content-id=amzn1.sym.de84ee3f-a07f-47cd-ac44-50f5d6cbb587&pf_rd_p=de84ee3f-a07f-47cd-ac44-50f5d6cbb587&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_a2i_gw_cml",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "58a8f164-bb61-4a05-adfa-8da868a1c776",
+            "selector": "a",
+            "href": "/s/?_encoding=UTF8&node=50916365031&pd_rd_w=lipee&content-id=amzn1.sym.de84ee3f-a07f-47cd-ac44-50f5d6cbb587&pf_rd_p=de84ee3f-a07f-47cd-ac44-50f5d6cbb587&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_a2i_gw_cml",
+            "text": "Explore more",
+            "id": "",
+            "class": "a-link-normal aok-block"
+        },
+        {
+            "uuid": "2154f91d-0978-4889-a3c6-525d977d85f5",
+            "selector": "a",
+            "href": "/b/?_encoding=UTF8&node=21469514031&pd_rd_w=zrFpR&content-id=amzn1.sym.a95e7412-77e6-4c7d-b438-2bfe15191377&pf_rd_p=a95e7412-77e6-4c7d-b438-2bfe15191377&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_unk",
+            "text": "See all offers",
+            "id": "",
+            "class": "a-link-normal _Zmx1a_bodyFooterLink_9LvH0"
+        },
+        {
+            "uuid": "5c54a4c0-282e-472e-95d4-0ee5a2153f64",
+            "selector": "a",
+            "href": "/ZEBRONICS-ZEB-KM2100-Multimedia-Including-Dedicated/dp/B077T3BG5L/?_encoding=UTF8&pd_rd_w=FpbhJ&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_crs_zg_bs_976392031",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "ba32a168-7a90-4b86-9779-c74bb7697254",
+            "selector": "a",
+            "href": "/Safari-Laptop-Backpack-Raincover-college/dp/B097JJ2CK6/?_encoding=UTF8&pd_rd_w=FpbhJ&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_crs_zg_bs_976392031",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "7299f7ba-2982-44f9-9f35-0732fbd82661",
+            "selector": "a",
+            "href": "/Lightning-Certified-iPhone-Charging-Compatible/dp/B0DFCGB2D6/?_encoding=UTF8&pd_rd_w=FpbhJ&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_crs_zg_bs_976392031",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "8536ce30-c4ae-4bd3-a0d5-c621fa756a39",
+            "selector": "a",
+            "href": "/Canon-PG-47-Ink-Cartridge-Black/dp/B00MOESXPE/?_encoding=UTF8&pd_rd_w=FpbhJ&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_crs_zg_bs_976392031",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "cf855b48-2638-4ba0-9972-cdc468262142",
+            "selector": "a",
+            "href": "/Nebelr-Air-Purifier-Ionizer-Negative/dp/B09BVMC6RD/?_encoding=UTF8&pd_rd_w=ggRBm&content-id=amzn1.sym.beef13f6-99a4-4169-9ba1-3b944ebbe980&pf_rd_p=beef13f6-99a4-4169-9ba1-3b944ebbe980&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_LPDEALS",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "a7f19552-859f-49e7-8fed-6fc8110f5cad",
+            "selector": "a",
+            "href": "/YELONA%C2%AE-Pump-Automatic-Fuel-Transfer/dp/B0BBJWQLHL/?_encoding=UTF8&pd_rd_w=ggRBm&content-id=amzn1.sym.beef13f6-99a4-4169-9ba1-3b944ebbe980&pf_rd_p=beef13f6-99a4-4169-9ba1-3b944ebbe980&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_LPDEALS",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "ab989661-91f5-4a2f-bd10-83bb40e05b92",
+            "selector": "a",
+            "href": "/Melbify-Leafy-Cocktail-Highball-Transparent/dp/B0D2921HN6/?_encoding=UTF8&pd_rd_w=ggRBm&content-id=amzn1.sym.beef13f6-99a4-4169-9ba1-3b944ebbe980&pf_rd_p=beef13f6-99a4-4169-9ba1-3b944ebbe980&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_LPDEALS",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "98061207-c88c-4eeb-9b91-d6d3fa628d4e",
+            "selector": "a",
+            "href": "/RBY-Traditional-Chapati-Wooden-Handle/dp/B08LQ51YNF/?_encoding=UTF8&pd_rd_w=ggRBm&content-id=amzn1.sym.beef13f6-99a4-4169-9ba1-3b944ebbe980&pf_rd_p=beef13f6-99a4-4169-9ba1-3b944ebbe980&pf_rd_r=61C7B08D7FZMJMD2NPSC&pd_rd_wg=UpLPd&pd_rd_r=4722ca25-a8f1-4b4e-b8bc-bd2d6929641d&ref_=pd_hp_d_btf_LPDEALS",
+            "text": "",
+            "id": "",
+            "class": "a-spacing-none a-link-normal _quad-multi-asin-card-v2_style_linkContainer__1pWUv a-text-normal"
+        },
+        {
+            "uuid": "fd4de31d-4a74-4b77-9b42-87315baa2b82",
+            "selector": "a[href='/gp/history']",
+            "href": "/gp/history",
+            "text": "View or edit your browsing history",
+            "id": "",
+            "class": ""
+        },
+        {
+            "uuid": "69fd6df0-eac7-45f7-a888-3d64549584bf",
+            "selector": "a[href='/gp/history']",
+            "href": "/gp/history",
+            "text": "View or edit your browsing history",
+            "id": "",
+            "class": ""
+        },
+        {
+            "uuid": "2b4f8a9b-2de0-4089-82c2-a87543bc4a57",
+            "selector": "a[href='https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer']",
+            "href": "https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer",
+            "text": "About Amazon",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "0c1045e8-9d67-4667-936d-ea69aa929afb",
+            "selector": "a[href='https://amazon.jobs']",
+            "href": "https://amazon.jobs",
+            "text": "Careers",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "c144b1b6-910c-41b1-ba74-a8d778f03abf",
+            "selector": "a[href='https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer']",
+            "href": "https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer",
+            "text": "Press Releases",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "27a9030c-435f-474b-84fd-a861ae8c0820",
+            "selector": "a[href='https://www.amazon.science']",
+            "href": "https://www.amazon.science",
+            "text": "Amazon Science",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "8c256a81-97b9-40ef-b757-ff11f0655fb7",
+            "selector": "a[href='https://www.facebook.com/AmazonIN']",
+            "href": "https://www.facebook.com/AmazonIN",
+            "text": "Facebook",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "dd17ea89-8606-4dc0-a5ad-c6fb65ea3e29",
+            "selector": "a[href='https://x.com/AmazonIN']",
+            "href": "https://x.com/AmazonIN",
+            "text": "Twitter",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "2eef7a3e-be7a-4132-9685-91641a1078bf",
+            "selector": "a[href='https://www.instagram.com/amazondotin']",
+            "href": "https://www.instagram.com/amazondotin",
+            "text": "Instagram",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "cecb8db0-41c5-4980-bce8-1ce5dc5fb446",
+            "selector": "a[href='/b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C']",
+            "href": "/b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C",
+            "text": "Sell on Amazon",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "c625ce88-cac2-49ca-a2ff-ace2fc1ba68e",
+            "selector": "a[href='https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT']",
+            "href": "https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT",
+            "text": "Sell under Amazon Accelerator",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "516e80c7-c109-4fee-a20c-fdd6c50a4e7b",
+            "selector": "a[href='https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT']",
+            "href": "https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT",
+            "text": "Protect and Build Your Brand",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "bd6f0505-39cd-4916-8a51-1753e47c1929",
+            "selector": "a",
+            "href": "https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1",
+            "text": "Amazon Global Selling",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "3aa07410-0888-42d4-8b87-3dc515c8f0fc",
+            "selector": "a[href='https://supply.amazon.com/?ref_=footer_sta&lang=en-IN']",
+            "href": "https://supply.amazon.com/?ref_=footer_sta&lang=en-IN",
+            "text": "Supply to Amazon",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "d396ef7d-caa9-422b-a1a8-0e6069b42fef",
+            "selector": "a",
+            "href": "https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc",
+            "text": "Become an Affiliate",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "2831bc50-b372-4bd4-909c-2ab3d7b6878a",
+            "selector": "a",
+            "href": "https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter",
+            "text": "Fulfilment by Amazon",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "1baf72d2-9f40-47f0-a49b-64cde4efa368",
+            "selector": "a[href='https://advertising.amazon.in/?ref=Amz.in']",
+            "href": "https://advertising.amazon.in/?ref=Amz.in",
+            "text": "Advertise Your Products",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "20391ba1-08f4-4fb4-80da-7c2b395d3d8c",
+            "selector": "a[href='https://www.amazonpay.in/merchant']",
+            "href": "https://www.amazonpay.in/merchant",
+            "text": "Amazon Pay on Merchants",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "8488a240-94cb-45b4-a629-ea5737ee8208",
+            "selector": "a[href='/gp/css/homepage.html?ref_=footer_ya']",
+            "href": "/gp/css/homepage.html?ref_=footer_ya",
+            "text": "Your Account",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "cf7099bd-371a-426a-947c-16c12af618c3",
+            "selector": "a[href='/gp/css/returns/homepage.html?ref_=footer_hy_f_4']",
+            "href": "/gp/css/returns/homepage.html?ref_=footer_hy_f_4",
+            "text": "Returns Centre",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "09b99502-ff57-42a9-876c-c00568517fc7",
+            "selector": "a[href='https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa']",
+            "href": "https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa",
+            "text": "Recalls and Product Safety Alerts",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "0a4fbed5-766d-47a6-80b6-305001566ab5",
+            "selector": "a[href='/gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc']",
+            "href": "/gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc",
+            "text": "100% Purchase Protection",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "bb18d379-3339-463d-9102-29ef188d5654",
+            "selector": "a[href='/gp/browse.html?node=6967393031&ref_=footer_mobapp']",
+            "href": "/gp/browse.html?node=6967393031&ref_=footer_mobapp",
+            "text": "Amazon App Download",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "bbe2f70c-c044-4fb1-93e9-266f74ed66b2",
+            "selector": "a[href='/gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he']",
+            "href": "/gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he",
+            "text": "Help",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "1e7a3f72-073e-4ad0-a95f-9e3e915febcf",
+            "selector": "a[href='/ref=footer_logo']",
+            "href": "/ref=footer_logo",
+            "text": "",
+            "id": "",
+            "class": ""
+        },
+        {
+            "uuid": "dceee7fa-b59f-499c-ac01-a99ed2791c05",
+            "selector": "a[href='/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang']",
+            "href": "/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang",
+            "text": "English",
+            "id": "",
+            "class": "icp-language-link"
+        },
+        {
+            "uuid": "e30280c9-a98c-4d31-8d52-5d402bae1b68",
+            "selector": "a[href='/customer-preferences/country?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_icp_cp']",
+            "href": "/customer-preferences/country?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_icp_cp",
+            "text": "India",
+            "id": "icp-touch-link-country",
+            "class": "icp-button"
+        },
+        {
+            "uuid": "3d8a52fb-cd9d-4eb8-afc9-7a442e3bbf78",
+            "selector": "a[href='https://www.abebooks.com/']",
+            "href": "https://www.abebooks.com/",
+            "text": "AbeBooksBooks, art& collectibles",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "9ce5bf12-bd0b-4d88-a5fb-510ca803c7af",
+            "selector": "a[href='https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter']",
+            "href": "https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter",
+            "text": "Amazon Web ServicesScalable CloudComputing Services",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "2adc749d-05f3-4301-aad4-ff257131d039",
+            "selector": "a[href='https://www.audible.in/']",
+            "href": "https://www.audible.in/",
+            "text": "AudibleDownloadAudio Books",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "c45602b5-be41-4f58-9380-c3fb3fb68cd7",
+            "selector": "a[href='https://www.imdb.com/']",
+            "href": "https://www.imdb.com/",
+            "text": "IMDbMovies, TV& Celebrities",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "54b1464a-a560-403e-bcc7-13e761d0ed04",
+            "selector": "a[href='https://www.shopbop.com/']",
+            "href": "https://www.shopbop.com/",
+            "text": "ShopbopDesignerFashion Brands",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "0a8b04bf-61f9-40f9-afee-2c6be796250a",
+            "selector": "a[href='/business?ref=footer_aingw']",
+            "href": "/business?ref=footer_aingw",
+            "text": "Amazon BusinessEverything ForYour Business",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "060a5214-a742-4762-9949-2afbdd827c0f",
+            "selector": "a[href='/now?ref=footer_amznow']",
+            "href": "/now?ref=footer_amznow",
+            "text": "Prime Now2-Hour Deliveryon Everyday Items",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "4ca876ab-cb7f-4090-939a-c70122d50899",
+            "selector": "a[href='/music/prime?ref=footer_apm']",
+            "href": "/music/prime?ref=footer_apm",
+            "text": "Amazon Prime Music100 million songs, ad-freeOver 15 million podcast episodes",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "50c13362-efe8-4087-b9f8-9da84dcf3497",
+            "selector": "a[href='/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou']",
+            "href": "/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+            "text": "Conditions of Use & Sale",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "654b3282-74c6-4b6f-a954-a928d458962c",
+            "selector": "a[href='/gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy']",
+            "href": "/gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy",
+            "text": "Privacy Notice",
+            "id": "",
+            "class": "nav_a"
+        },
+        {
+            "uuid": "b43d8d80-bf7f-483c-a7d0-a8e3b22a4014",
+            "selector": "a[href='/gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba']",
+            "href": "/gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba",
+            "text": "Interest-Based Ads",
+            "id": "",
+            "class": "nav_a"
+        }
+    ],
+    "form_selectors": [
+        {
+            "uuid": "a44f22f0-5932-4875-9633-6c6c0c190b20",
+            "tag": "form",
+            "action": "/s/ref=nb_sb_noss",
+            "method": "GET",
+            "id": "nav-search-bar-form",
+            "name": "site-search",
+            "selectors": [
+                "#nav-search-bar-form",
+                "form[name='site-search']",
+                "form[action='/s/ref=nb_sb_noss']"
+            ]
+        },
+        {
+            "uuid": "9c3a57f0-d72a-4a73-8318-5c025d4c833d",
+            "tag": "form",
+            "action": "get",
+            "method": "get",
+            "id": "",
+            "name": "ue_backdetect",
+            "selectors": [
+                "form[name='ue_backdetect']",
+                "form[action='get']"
+            ]
+        }
+    ],
+    "combined_selectors": [
+        {
+            "pattern": "input[type='submit']",
+            "description": "Login/Authentication related",
+            "count": 1,
+            "sample_elements": [
+                {
+                    "tag": "input",
+                    "attributes": {
+                        "id": "nav-search-submit-button",
+                        "type": "submit",
+                        "class": [
+                            "nav-input",
+                            "nav-progressive-attribute"
+                        ],
+                        "value": "Go",
+                        "tabindex": "0"
+                    },
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "pattern": "[class*='search']",
+            "description": "Search related",
+            "count": 8,
+            "sample_elements": [
+                {
+                    "tag": "form",
+                    "attributes": {
+                        "id": "nav-search-bar-form",
+                        "accept-charset": [
+                            "utf-8"
+                        ],
+                        "action": "/s/ref=nb_sb_noss",
+                        "class": [
+                            "nav-searchbar",
+                            "nav-progressive-attribute"
+                        ],
+                        "method": "GET",
+                        "name": "site-search",
+                        "role": "search"
+                    },
+                    "text": "AllSelect the department you want to search inAll "
+                },
+                {
+                    "tag": "div",
+                    "attributes": {
+                        "class": [
+                            "nav-search-scope",
+                            "nav-sprite"
+                        ]
+                    },
+                    "text": "AllSelect the department you want to search inAll "
+                },
+                {
+                    "tag": "div",
+                    "attributes": {
+                        "class": [
+                            "nav-search-facade"
+                        ],
+                        "data-value": "search-alias=aps"
+                    },
+                    "text": "All"
+                }
+            ]
+        },
+        {
+            "pattern": "[id*='search']",
+            "description": "Search related",
+            "count": 12,
+            "sample_elements": [
+                {
+                    "tag": "a",
+                    "attributes": {
+                        "id": "nav-assist-search",
+                        "role": "link",
+                        "tabindex": "-1",
+                        "class": [
+                            "nav-assistant-menu-item",
+                            "nav-assistant-link-item",
+                            "nav-assistant-keyboard-shortcut-item",
+                            "keyboard-shortcut-menu-container",
+                            "a-color-base",
+                            "a-color-link"
+                        ],
+                        "data-nav-assist-menu-item-index": "1",
+                        "data-behavior": "navigate",
+                        "data-actuators": "[{\"eventCode\":\"Slash\",\"eventKey\":\"÷\",\"isShiftRequired\":false},{\"eventCode\":\"Digit7\",\"eventKey\":\"\\\\\",\"isShiftRequired\":true},{\"eventCode\":\"Period\",\"eventKey\":\"\\\\\",\"isShiftRequired\":true},{\"eventCode\":\"Slash\",\"eventKey\":\"/\",\"isShiftRequired\":false},{\"eventCode\":\"Digit7\",\"eventKey\":\"/\",\"isShiftRequired\":true},{\"eventCode\":\"Period\",\"eventKey\":\"/\",\"isShiftRequired\":true},{\"eventKey\":\"/\",\"isShiftRequired\":false}]",
+                        "data-target": "#twotabsearchtextbox",
+                        "aria-label": "Search, alt, forward slash",
+                        "aria-describedby": "nav-assist-shortcut-help"
+                    },
+                    "text": "Searchalt+/"
+                },
+                {
+                    "tag": "div",
+                    "attributes": {
+                        "class": [
+                            "nav-fill"
+                        ],
+                        "id": "nav-fill-search"
+                    },
+                    "text": "AllSelect the department you want to search inAll "
+                },
+                {
+                    "tag": "div",
+                    "attributes": {
+                        "id": "nav-search"
+                    },
+                    "text": "AllSelect the department you want to search inAll "
+                }
+            ]
+        },
+        {
+            "pattern": "nav",
+            "description": "Navigation related",
+            "count": 1,
+            "sample_elements": [
+                {
+                    "tag": "nav",
+                    "attributes": {
+                        "id": "shortcut-menu",
+                        "class": [
+                            "nav-assistant"
+                        ],
+                        "aria-label": "Shortcuts menu",
+                        "tabindex": "-1",
+                        "role": "navigation",
+                        "data-skip-link-target-text": "Main content start",
+                        "data-hashed-id": ""
+                    },
+                    "text": "Skip toMain contentKeyboard shortcutsSearchalt+/Ca"
+                }
+            ]
+        },
+        {
+            "pattern": "[role='navigation']",
+            "description": "Navigation related",
+            "count": 2,
+            "sample_elements": [
+                {
+                    "tag": "nav",
+                    "attributes": {
+                        "id": "shortcut-menu",
+                        "class": [
+                            "nav-assistant"
+                        ],
+                        "aria-label": "Shortcuts menu",
+                        "tabindex": "-1",
+                        "role": "navigation",
+                        "data-skip-link-target-text": "Main content start",
+                        "data-hashed-id": ""
+                    },
+                    "text": "Skip toMain contentKeyboard shortcutsSearchalt+/Ca"
+                },
+                {
+                    "tag": "div",
+                    "attributes": {
+                        "id": "navbar",
+                        "cel_widget_id": "Navigation-desktop-navbar",
+                        "role": "navigation",
+                        "class": [
+                            "nav-sprite-v1",
+                            "celwidget",
+                            "nav-bluebeacon",
+                            "nav-a11y-t1",
+                            "bold-focus-hover",
+                            "layout2",
+                            "nav-flex",
+                            "layout3",
+                            "layout3-alt",
+                            "nav-packard-glow",
+                            "hamburger",
+                            "nav-progressive-attribute"
+                        ],
+                        "aria-label": "Primary"
+                    },
+                    "text": ".inDelivering to Delhi 110001Update locationAllSel"
+                }
+            ]
+        },
+        {
+            "pattern": "[class*='nav']",
+            "description": "Navigation related",
+            "count": 299,
+            "sample_elements": [
+                {
+                    "tag": "nav",
+                    "attributes": {
+                        "id": "shortcut-menu",
+                        "class": [
+                            "nav-assistant"
+                        ],
+                        "aria-label": "Shortcuts menu",
+                        "tabindex": "-1",
+                        "role": "navigation",
+                        "data-skip-link-target-text": "Main content start",
+                        "data-hashed-id": ""
+                    },
+                    "text": "Skip toMain contentKeyboard shortcutsSearchalt+/Ca"
+                },
+                {
+                    "tag": "h2",
+                    "attributes": {
+                        "id": "nav-assistant-links-heading",
+                        "class": [
+                            "nav-assistant-heading",
+                            "nav-assistant-headers-font"
+                        ]
+                    },
+                    "text": "Skip to"
+                },
+                {
+                    "tag": "ul",
+                    "attributes": {
+                        "aria-labelledby": "nav-assistant-links-heading",
+                        "class": [
+                            "nav-assistant-links-container"
+                        ]
+                    },
+                    "text": "Main content"
+                }
+            ]
+        }
+    ],
+    "statistics": {
+        "total_elements": 873,
+        "elements_with_id": 103,
+        "elements_with_class": 621,
+        "elements_with_name": 18,
+        "unique_tags": [
+            "nav",
+            "ul",
+            "noscript",
+            "ol",
+            "hr",
+            "h2",
+            "span",
+            "style",
+            "tr",
+            "header",
+            "title",
+            "button",
+            "br",
+            "body",
+            "form",
+            "div",
+            "html",
+            "head",
+            "meta",
+            "select",
+            "option",
+            "table",
+            "script",
+            "h5",
+            "i",
+            "li",
+            "td",
+            "link",
+            "input",
+            "img",
+            "label",
+            "a"
+        ],
+        "url": "https://www.amazon.in"
+    }
+}

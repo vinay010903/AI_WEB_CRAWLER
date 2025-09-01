@@ -1,0 +1,2640 @@
+{
+  "uncategorized_selector": [
+    {
+      "uuid": "ee506973-7e07-4e41-b77e-9dc516ec786b",
+      "confidence": 0.85,
+      "selector": "#a-page",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "ee506973-7e07-4e41-b77e-9dc516ec786b",
+        "selector": "#a-page",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "30709869-5244-4530-a2b2-65e954100f6b",
+      "confidence": 0.9,
+      "selector": "#authportal-center-section",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "30709869-5244-4530-a2b2-65e954100f6b",
+        "selector": "#authportal-center-section",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "4c4ec2d2-c471-43e7-8b96-42b05e6ded74",
+      "confidence": 0.8,
+      "selector": "#claim-collection-container",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "4c4ec2d2-c471-43e7-8b96-42b05e6ded74",
+        "selector": "#claim-collection-container",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "5cb9fd0a-a4b6-4f35-9acd-eb11d7ee3905",
+      "confidence": 0.95,
+      "selector": "#auth-js-alert-box",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "5cb9fd0a-a4b6-4f35-9acd-eb11d7ee3905",
+        "selector": "#auth-js-alert-box",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue."
+      }
+    },
+    {
+      "uuid": "af810bfd-00e0-4f8d-8d88-422d6e94d792",
+      "confidence": 0.6,
+      "selector": "#be",
+      "tag": "div",
+      "text_content": "",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "af810bfd-00e0-4f8d-8d88-422d6e94d792",
+        "selector": "#be",
+        "tag": "div",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "9a089fde-a3d2-4fff-9bc5-32d7fdb30ad0",
+      "confidence": 0.95,
+      "selector": ".a-local-storage",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "9a089fde-a3d2-4fff-9bc5-32d7fdb30ad0",
+        "selector": ".a-local-storage",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "8fb7fa02-6004-422f-b995-f2f7ad81953c",
+      "confidence": 0.95,
+      "selector": ".a-gradients",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "8fb7fa02-6004-422f-b995-f2f7ad81953c",
+        "selector": ".a-gradients",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "1f0617c4-4887-40d3-a1d9-97880e2396d8",
+      "confidence": 0.95,
+      "selector": ".a-transform3d",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "1f0617c4-4887-40d3-a1d9-97880e2396d8",
+        "selector": ".a-transform3d",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "4b616473-157f-44aa-b34a-775058a472da",
+      "confidence": 0.95,
+      "selector": ".a-touch-scrolling",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "4b616473-157f-44aa-b34a-775058a472da",
+        "selector": ".a-touch-scrolling",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "7145bed0-cd6b-4fc3-9975-5485287ecb2f",
+      "confidence": 0.95,
+      "selector": ".a-text-shadow",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "7145bed0-cd6b-4fc3-9975-5485287ecb2f",
+        "selector": ".a-text-shadow",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "a980624f-b72d-4b03-af49-1158666faa59",
+      "confidence": 0.95,
+      "selector": ".a-text-stroke",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "a980624f-b72d-4b03-af49-1158666faa59",
+        "selector": ".a-text-stroke",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "3ff0e649-5892-4811-8e12-6f9507b99c83",
+      "confidence": 0.95,
+      "selector": ".a-box-shadow",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "3ff0e649-5892-4811-8e12-6f9507b99c83",
+        "selector": ".a-box-shadow",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "318d0739-e85e-4116-8cc9-564cb495e714",
+      "confidence": 0.95,
+      "selector": ".a-border-radius",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "318d0739-e85e-4116-8cc9-564cb495e714",
+        "selector": ".a-border-radius",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "dbe04380-8a6c-4902-a1ee-6397d7860c80",
+      "confidence": 0.95,
+      "selector": ".a-border-image",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "dbe04380-8a6c-4902-a1ee-6397d7860c80",
+        "selector": ".a-border-image",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "743b0d89-673c-4707-ba0a-3e767756cd1a",
+      "confidence": 0.95,
+      "selector": ".a-opacity",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "743b0d89-673c-4707-ba0a-3e767756cd1a",
+        "selector": ".a-opacity",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "87e43f47-9580-4677-9530-205a11ddbc42",
+      "confidence": 0.95,
+      "selector": ".a-transform",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "87e43f47-9580-4677-9530-205a11ddbc42",
+        "selector": ".a-transform",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "0eb4512d-38c1-46d2-945f-423b5d4e7eee",
+      "confidence": 0.95,
+      "selector": ".a-ember",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "0eb4512d-38c1-46d2-945f-423b5d4e7eee",
+        "selector": ".a-ember",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "7b55a990-e031-4e54-b277-139d19725f02",
+      "confidence": 0.95,
+      "selector": ".a-ember-modern-display",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "7b55a990-e031-4e54-b277-139d19725f02",
+        "selector": ".a-ember-modern-display",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "460fab34-4c56-494a-82e7-451651b54aac",
+      "confidence": 0.95,
+      "selector": ".a-ember-modern-text",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "460fab34-4c56-494a-82e7-451651b54aac",
+        "selector": ".a-ember-modern-text",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "84d7c107-a694-4575-b404-c880fba58c3b",
+      "confidence": 0.95,
+      "selector": ".a-aui_72554-c",
+      "tag": "body",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "84d7c107-a694-4575-b404-c880fba58c3b",
+        "selector": ".a-aui_72554-c",
+        "tag": "body",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "79a931b7-1b6f-46cd-becc-e7b5781277bd",
+      "confidence": 0.95,
+      "selector": ".a-aui_a11y_6_837773-c",
+      "tag": "body",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "79a931b7-1b6f-46cd-becc-e7b5781277bd",
+        "selector": ".a-aui_a11y_6_837773-c",
+        "tag": "body",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "5d8f206d-7920-4e8f-9dd6-a6bbc78d77ed",
+      "confidence": 0.95,
+      "selector": ".a-aui_killswitch_csa_logger_372963-t1",
+      "tag": "body",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "5d8f206d-7920-4e8f-9dd6-a6bbc78d77ed",
+        "selector": ".a-aui_killswitch_csa_logger_372963-t1",
+        "tag": "body",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "80cffa38-a347-4bbd-a0e9-dae4055a5be9",
+      "confidence": 0.95,
+      "selector": ".a-aui_template_weblab_cache_333406-c",
+      "tag": "body",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "80cffa38-a347-4bbd-a0e9-dae4055a5be9",
+        "selector": ".a-aui_template_weblab_cache_333406-c",
+        "tag": "body",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "b656062e-8555-4f0a-9e1d-b584b8e82be2",
+      "confidence": 0.95,
+      "selector": ".a-bw_aui_cxc_alert_measurement_1074111-c",
+      "tag": "body",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "b656062e-8555-4f0a-9e1d-b584b8e82be2",
+        "selector": ".a-bw_aui_cxc_alert_measurement_1074111-c",
+        "tag": "body",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "8ea2f9ea-562d-4ebb-bfc8-ec97353f8e13",
+      "confidence": 0.75,
+      "selector": ".a-bw_aui_switch_redesign_measurement_1206055-c",
+      "tag": "body",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "8ea2f9ea-562d-4ebb-bfc8-ec97353f8e13",
+        "selector": ".a-bw_aui_switch_redesign_measurement_1206055-c",
+        "tag": "body",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "72e37d13-0a79-4781-9e97-a167d4b6f4d6",
+      "confidence": 0.65,
+      "selector": ".a-meter-animate",
+      "tag": "body",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "72e37d13-0a79-4781-9e97-a167d4b6f4d6",
+        "selector": ".a-meter-animate",
+        "tag": "body",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "f7796240-b9f2-438c-8500-3cb8ac9d1e58",
+      "confidence": 0.8,
+      "selector": ".a-container",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "f7796240-b9f2-438c-8500-3cb8ac9d1e58",
+        "selector": ".a-container",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "33990a0e-a1e2-4cb4-ad78-fa26651cd985",
+      "confidence": 0.7,
+      "selector": ".a-section",
+      "tag": "div",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "33990a0e-a1e2-4cb4-ad78-fa26651cd985",
+        "selector": ".a-section",
+        "tag": "div",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "24e77b66-bc7e-4be7-8694-df85982d0606",
+      "confidence": 0.85,
+      "selector": ".a-spacing-medium",
+      "tag": "div",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "24e77b66-bc7e-4be7-8694-df85982d0606",
+        "selector": ".a-spacing-medium",
+        "tag": "div",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "aa8c792a-cd13-4626-82f6-3d22715046d5",
+      "confidence": 0.9,
+      "selector": ".a-spacing-none",
+      "tag": "div",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "aa8c792a-cd13-4626-82f6-3d22715046d5",
+        "selector": ".a-spacing-none",
+        "tag": "div",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "933698e4-0fc1-43c8-9624-bda8a5e62ad4",
+      "confidence": 0.8,
+      "selector": ".a-text-center",
+      "tag": "div",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "933698e4-0fc1-43c8-9624-bda8a5e62ad4",
+        "selector": ".a-text-center",
+        "tag": "div",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "3dea4ea7-5a40-452a-ba9a-3db377806b60",
+      "confidence": 0.6,
+      "selector": "[name='encrypted-slate-token']",
+      "tag": "meta",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "3dea4ea7-5a40-452a-ba9a-3db377806b60",
+        "selector": "[name='encrypted-slate-token']",
+        "tag": "meta",
+        "type": "",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "92a70749-5397-480f-ab4c-c60f813b9a7d",
+      "confidence": 0.65,
+      "selector": "[name='flow-closure-id']",
+      "tag": "meta",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "92a70749-5397-480f-ab4c-c60f813b9a7d",
+        "selector": "[name='flow-closure-id']",
+        "tag": "meta",
+        "type": "",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "7035c82d-3f75-4078-bd73-1729ec0ddeb1",
+      "confidence": 0.7,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "7035c82d-3f75-4078-bd73-1729ec0ddeb1",
+        "tag": "input",
+        "type": "hidden",
+        "name": "appAction",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='appAction']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "appAction",
+      "placeholder": "",
+      "selectors": [
+        "input[name='appAction']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "15fc1380-c8b8-4fe4-84ed-038e1b2ac799",
+      "confidence": 0.7,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "15fc1380-c8b8-4fe4-84ed-038e1b2ac799",
+        "tag": "input",
+        "type": "hidden",
+        "name": "subPageType",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='subPageType']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "subPageType",
+      "placeholder": "",
+      "selectors": [
+        "input[name='subPageType']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "0c84f45f-fe5b-456e-b643-6389a459d0a4",
+      "confidence": 0.7,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "0c84f45f-fe5b-456e-b643-6389a459d0a4",
+        "tag": "input",
+        "type": "hidden",
+        "name": "claimCollectionWorkflow",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='claimCollectionWorkflow']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "claimCollectionWorkflow",
+      "placeholder": "",
+      "selectors": [
+        "input[name='claimCollectionWorkflow']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "433eb199-13e5-42a0-9a9a-1b47e7629b84",
+      "confidence": 0.7,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "433eb199-13e5-42a0-9a9a-1b47e7629b84",
+        "tag": "input",
+        "type": "hidden",
+        "name": "metadata1",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='metadata1']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "metadata1",
+      "placeholder": "",
+      "selectors": [
+        "input[name='metadata1']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "240ba988-a59a-47ac-aa8a-c96812da384e",
+      "confidence": 0.7,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "240ba988-a59a-47ac-aa8a-c96812da384e",
+        "tag": "input",
+        "type": "hidden",
+        "name": "claimType",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='claimType']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "claimType",
+      "placeholder": "",
+      "selectors": [
+        "input[name='claimType']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "4c4e4407-a310-4a19-ba2b-3402b84c2127",
+      "confidence": 0.7,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "4c4e4407-a310-4a19-ba2b-3402b84c2127",
+        "tag": "input",
+        "type": "hidden",
+        "name": "countryCode",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='countryCode']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "countryCode",
+      "placeholder": "",
+      "selectors": [
+        "input[name='countryCode']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "df2aa71b-d654-415e-bfad-f2982c9820ff",
+      "confidence": 0.7,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "df2aa71b-d654-415e-bfad-f2982c9820ff",
+        "tag": "input",
+        "type": "hidden",
+        "name": "isServerSideRouting",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='isServerSideRouting']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "isServerSideRouting",
+      "placeholder": "",
+      "selectors": [
+        "input[name='isServerSideRouting']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "1aca1fcd-22b4-402c-a3fd-032363538b1b",
+      "confidence": 0.7,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "1aca1fcd-22b4-402c-a3fd-032363538b1b",
+        "tag": "input",
+        "type": "hidden",
+        "name": "signalUnknownCredentialUnifiedAuthWeblabActive",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='signalUnknownCredentialUnifiedAuthWeblabActive']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "signalUnknownCredentialUnifiedAuthWeblabActive",
+      "placeholder": "",
+      "selectors": [
+        "input[name='signalUnknownCredentialUnifiedAuthWeblabActive']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "f6470ca8-e222-4775-bd7e-bf5697b2c7fe",
+      "confidence": 0.6,
+      "selector": "N/A",
+      "tag": "button",
+      "text_content": "",
+      "selector_type": "button_selectors",
+      "original_extracted_data": {
+        "uuid": "f6470ca8-e222-4775-bd7e-bf5697b2c7fe",
+        "tag": "button",
+        "type": "button",
+        "text": "",
+        "id": "claim-input-clear-button",
+        "name": "",
+        "selectors": [
+          "#claim-input-clear-button",
+          "button[type='button']"
+        ]
+      },
+      "button_type": "button",
+      "button_text": "",
+      "selectors": [
+        "#claim-input-clear-button",
+        "button[type='button']"
+      ]
+    },
+    {
+      "uuid": "8f94b81e-989b-4f1c-9e07-93986c94ff74",
+      "confidence": 0.3,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "button_selectors",
+      "original_extracted_data": {
+        "uuid": "8f94b81e-989b-4f1c-9e07-93986c94ff74",
+        "tag": "input",
+        "type": "submit",
+        "text": "",
+        "id": "",
+        "name": "",
+        "selectors": [
+          "input[type='submit']"
+        ]
+      },
+      "button_type": "submit",
+      "button_text": "",
+      "selectors": [
+        "input[type='submit']"
+      ]
+    },
+    {
+      "uuid": "ee522395-1cc7-4bc9-9580-19a222d7b06a",
+      "confidence": 0.1,
+      "selector": "N/A",
+      "tag": "form",
+      "text_content": "",
+      "selector_type": "form_selectors",
+      "original_extracted_data": {
+        "uuid": "ee522395-1cc7-4bc9-9580-19a222d7b06a",
+        "tag": "form",
+        "action": "/ax/claim?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&policy_handle=Retail-Checkout&openid.mode=checkid_setup&openid.assoc_handle=inflex&arb=a6a21887-9e63-434d-a2ed-6e345122da33",
+        "method": "post",
+        "id": "ap_login_form",
+        "name": "signIn",
+        "selectors": [
+          "#ap_login_form",
+          "form[name='signIn']",
+          "form[action='/ax/claim?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&policy_handle=Retail-Checkout&openid.mode=checkid_setup&openid.assoc_handle=inflex&arb=a6a21887-9e63-434d-a2ed-6e345122da33']"
+        ]
+      }
+    },
+    {
+      "uuid": "693263df-b580-4d1a-b1ac-1261b5fcbb3e",
+      "confidence": 0.1,
+      "selector": "N/A",
+      "tag": "form",
+      "text_content": "",
+      "selector_type": "form_selectors",
+      "original_extracted_data": {
+        "uuid": "693263df-b580-4d1a-b1ac-1261b5fcbb3e",
+        "tag": "form",
+        "action": "get",
+        "method": "get",
+        "id": "",
+        "name": "ue_backdetect",
+        "selectors": [
+          "form[name='ue_backdetect']",
+          "form[action='get']"
+        ]
+      }
+    },
+    {
+      "uuid": "e99729b1-b812-4d02-8704-fb626a398005",
+      "confidence": 0.1,
+      "selector": "N/A",
+      "tag": "form",
+      "text_content": "",
+      "selector_type": "form_selectors",
+      "original_extracted_data": {
+        "uuid": "e99729b1-b812-4d02-8704-fb626a398005",
+        "tag": "form",
+        "action": "get",
+        "method": "get",
+        "id": "",
+        "name": "ue_backdetect",
+        "selectors": [
+          "form[name='ue_backdetect']",
+          "form[action='get']"
+        ]
+      }
+    }
+  ],
+  "authentication_account": [
+    {
+      "uuid": "250a5179-cab7-4491-a4ff-a3d091b90750",
+      "confidence": 0.98,
+      "selector": "#ap_login_form",
+      "tag": "form",
+      "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "250a5179-cab7-4491-a4ff-a3d091b90750",
+        "selector": "#ap_login_form",
+        "tag": "form",
+        "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2"
+      }
+    },
+    {
+      "uuid": "6ec1d882-fefd-4d23-8a88-e24ee7fcc5a2",
+      "confidence": 0.85,
+      "selector": "#claim-input-container",
+      "tag": "div",
+      "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "6ec1d882-fefd-4d23-8a88-e24ee7fcc5a2",
+        "selector": "#claim-input-container",
+        "tag": "div",
+        "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2"
+      }
+    },
+    {
+      "uuid": "5aec5847-2034-4ca1-bff5-82f0720aa54e",
+      "confidence": 0.9,
+      "selector": "#claim-input-dropdown-select-element",
+      "tag": "select",
+      "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "5aec5847-2034-4ca1-bff5-82f0720aa54e",
+        "selector": "#claim-input-dropdown-select-element",
+        "tag": "select",
+        "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2"
+      }
+    },
+    {
+      "uuid": "879ed157-98b1-4379-ab92-767d6efab767",
+      "confidence": 0.95,
+      "selector": "#claim-input-dropdown",
+      "tag": "span",
+      "text_content": "IN +91",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "879ed157-98b1-4379-ab92-767d6efab767",
+        "selector": "#claim-input-dropdown",
+        "tag": "span",
+        "text_content": "IN +91"
+      }
+    },
+    {
+      "uuid": "9cc6d4ef-3f66-409c-aec9-fb069b53fe53",
+      "confidence": 0.95,
+      "selector": "#ap_email_login",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "9cc6d4ef-3f66-409c-aec9-fb069b53fe53",
+        "selector": "#ap_email_login",
+        "tag": "input",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "0e5d00c6-9823-4a3a-9b04-b5fa30d70cbb",
+      "confidence": 0.9,
+      "selector": "#claim-input-clear-button",
+      "tag": "button",
+      "text_content": "",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "0e5d00c6-9823-4a3a-9b04-b5fa30d70cbb",
+        "selector": "#claim-input-clear-button",
+        "tag": "button",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "70cae67e-d3c8-440d-9f48-bdbe2f5abbb8",
+      "confidence": 0.85,
+      "selector": "#auth-credential-autofill-hint",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "70cae67e-d3c8-440d-9f48-bdbe2f5abbb8",
+        "selector": "#auth-credential-autofill-hint",
+        "tag": "input",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "676c32d2-84b9-42bf-a253-481c5bb9f820",
+      "confidence": 0.95,
+      "selector": "#ab-registration-link-section",
+      "tag": "div",
+      "text_content": "Buying for work?Create a free business account",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "676c32d2-84b9-42bf-a253-481c5bb9f820",
+        "selector": "#ab-registration-link-section",
+        "tag": "div",
+        "text_content": "Buying for work?Create a free business account"
+      }
+    },
+    {
+      "uuid": "a2b13b9a-9094-4761-afd6-95aebf4b9937",
+      "confidence": 0.9,
+      "selector": "#ab-registration-ingress-link",
+      "tag": "a",
+      "text_content": "Create a free business account",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "a2b13b9a-9094-4761-afd6-95aebf4b9937",
+        "selector": "#ab-registration-ingress-link",
+        "tag": "a",
+        "text_content": "Create a free business account"
+      }
+    },
+    {
+      "uuid": "347365fc-e5f5-4fe3-b179-39930c8e10a9",
+      "confidence": 0.95,
+      "selector": ".auth-workflow",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "347365fc-e5f5-4fe3-b179-39930c8e10a9",
+        "selector": ".auth-workflow",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "8e784318-bc54-4fc4-aaaa-dad7bd8fa0f8",
+      "confidence": 0.9,
+      "selector": ".auth-pagelet-container",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "8e784318-bc54-4fc4-aaaa-dad7bd8fa0f8",
+        "selector": ".auth-pagelet-container",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "895c723f-ef65-411a-b2ce-f11448c0b94d",
+      "confidence": 0.9,
+      "selector": ".a-size-medium-plus",
+      "tag": "h1",
+      "text_content": "Sign in or create account",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "895c723f-ef65-411a-b2ce-f11448c0b94d",
+        "selector": ".a-size-medium-plus",
+        "tag": "h1",
+        "text_content": "Sign in or create account"
+      }
+    },
+    {
+      "uuid": "f8c412b4-0e24-4abe-876c-f39d6cc6aa3b",
+      "confidence": 0.9,
+      "selector": ".a-spacing-small",
+      "tag": "h1",
+      "text_content": "Sign in or create account",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "f8c412b4-0e24-4abe-876c-f39d6cc6aa3b",
+        "selector": ".a-spacing-small",
+        "tag": "h1",
+        "text_content": "Sign in or create account"
+      }
+    },
+    {
+      "uuid": "64d29663-ddc9-419f-a1cb-4fb0cc1aae81",
+      "confidence": 0.95,
+      "selector": ".a-spacing-micro",
+      "tag": "p",
+      "text_content": "Enter mobile number or email",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "64d29663-ddc9-419f-a1cb-4fb0cc1aae81",
+        "selector": ".a-spacing-micro",
+        "tag": "p",
+        "text_content": "Enter mobile number or email"
+      }
+    },
+    {
+      "uuid": "41307fac-3481-4737-b6ce-001343282173",
+      "confidence": 0.9,
+      "selector": ".a-text-bold",
+      "tag": "p",
+      "text_content": "Enter mobile number or email",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "41307fac-3481-4737-b6ce-001343282173",
+        "selector": ".a-text-bold",
+        "tag": "p",
+        "text_content": "Enter mobile number or email"
+      }
+    },
+    {
+      "uuid": "8688e61e-33d0-47e8-b33f-767511a8541b",
+      "confidence": 0.95,
+      "selector": ".a-declarative",
+      "tag": "span",
+      "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "8688e61e-33d0-47e8-b33f-767511a8541b",
+        "selector": ".a-declarative",
+        "tag": "span",
+        "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2"
+      }
+    },
+    {
+      "uuid": "95c9ba14-c4d3-43e3-8641-8963718fca27",
+      "confidence": 0.95,
+      "selector": ".a-form-focus",
+      "tag": "div",
+      "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "95c9ba14-c4d3-43e3-8641-8963718fca27",
+        "selector": ".a-form-focus",
+        "tag": "div",
+        "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2"
+      }
+    },
+    {
+      "uuid": "0e6fdcac-6de4-4797-9c10-72bf47f6cdcf",
+      "confidence": 0.9,
+      "selector": ".a-dropdown-container",
+      "tag": "span",
+      "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "0e6fdcac-6de4-4797-9c10-72bf47f6cdcf",
+        "selector": ".a-dropdown-container",
+        "tag": "span",
+        "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2"
+      }
+    },
+    {
+      "uuid": "f9c51da1-25a3-4849-9ab1-477447da1cde",
+      "confidence": 0.95,
+      "selector": ".a-native-dropdown",
+      "tag": "select",
+      "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "f9c51da1-25a3-4849-9ab1-477447da1cde",
+        "selector": ".a-native-dropdown",
+        "tag": "select",
+        "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2"
+      }
+    },
+    {
+      "uuid": "3b09259a-7ad4-4b03-8504-0c497d80b4f4",
+      "confidence": 0.9,
+      "selector": ".aok-hidden",
+      "tag": "select",
+      "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "3b09259a-7ad4-4b03-8504-0c497d80b4f4",
+        "selector": ".aok-hidden",
+        "tag": "select",
+        "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2"
+      }
+    },
+    {
+      "uuid": "1eef5d77-5897-451b-a67c-be763b388a95",
+      "confidence": 0.85,
+      "selector": ".a-button",
+      "tag": "span",
+      "text_content": "IN +91",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "1eef5d77-5897-451b-a67c-be763b388a95",
+        "selector": ".a-button",
+        "tag": "span",
+        "text_content": "IN +91"
+      }
+    },
+    {
+      "uuid": "3cdfcba4-0c6d-490f-8cab-8cfd257f5b4b",
+      "confidence": 0.85,
+      "selector": ".a-button-dropdown",
+      "tag": "span",
+      "text_content": "IN +91",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "3cdfcba4-0c6d-490f-8cab-8cfd257f5b4b",
+        "selector": ".a-button-dropdown",
+        "tag": "span",
+        "text_content": "IN +91"
+      }
+    },
+    {
+      "uuid": "197e1c21-4cad-42f8-b8cf-3f0698af5266",
+      "confidence": 0.8,
+      "selector": ".a-button-inner",
+      "tag": "span",
+      "text_content": "IN +91",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "197e1c21-4cad-42f8-b8cf-3f0698af5266",
+        "selector": ".a-button-inner",
+        "tag": "span",
+        "text_content": "IN +91"
+      }
+    },
+    {
+      "uuid": "11ee99bb-1515-4eac-a091-ba52f153f8fa",
+      "confidence": 0.8,
+      "selector": ".a-button-text",
+      "tag": "span",
+      "text_content": "IN +91",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "11ee99bb-1515-4eac-a091-ba52f153f8fa",
+        "selector": ".a-button-text",
+        "tag": "span",
+        "text_content": "IN +91"
+      }
+    },
+    {
+      "uuid": "6c5ca837-1337-4bb9-88d0-ee4a5799e87d",
+      "confidence": 0.85,
+      "selector": ".a-dropdown-prompt",
+      "tag": "span",
+      "text_content": "IN +91",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "6c5ca837-1337-4bb9-88d0-ee4a5799e87d",
+        "selector": ".a-dropdown-prompt",
+        "tag": "span",
+        "text_content": "IN +91"
+      }
+    },
+    {
+      "uuid": "13d45673-6f66-464b-8ec0-5650b88a38ff",
+      "confidence": 0.8,
+      "selector": ".a-icon-dropdown",
+      "tag": "i",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "13d45673-6f66-464b-8ec0-5650b88a38ff",
+        "selector": ".a-icon-dropdown",
+        "tag": "i",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "0961f3e2-555b-4364-a222-903ea22e5b63",
+      "confidence": 0.85,
+      "selector": ".a-input-text",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "0961f3e2-555b-4364-a222-903ea22e5b63",
+        "selector": ".a-input-text",
+        "tag": "input",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "07964f70-79d7-4ecf-9ddc-acbbb504d36b",
+      "confidence": 0.8,
+      "selector": ".clear-text-field-button",
+      "tag": "button",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "07964f70-79d7-4ecf-9ddc-acbbb504d36b",
+        "selector": ".clear-text-field-button",
+        "tag": "button",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "c9e8fe72-41f7-4e2b-946f-e89a5f836173",
+      "confidence": 0.9,
+      "selector": ".a-box-group",
+      "tag": "div",
+      "text_content": "@gmail.com@hotmail.com@yahoo.com@outlook.com@icloud.com@live.com",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "c9e8fe72-41f7-4e2b-946f-e89a5f836173",
+        "selector": ".a-box-group",
+        "tag": "div",
+        "text_content": "@gmail.com@hotmail.com@yahoo.com@outlook.com@icloud.com@live.com"
+      }
+    },
+    {
+      "uuid": "50e65c22-291b-4654-985d-f9a345df4655",
+      "confidence": 0.85,
+      "selector": ".email-suggestion",
+      "tag": "div",
+      "text_content": "@gmail.com",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "50e65c22-291b-4654-985d-f9a345df4655",
+        "selector": ".email-suggestion",
+        "tag": "div",
+        "text_content": "@gmail.com"
+      }
+    },
+    {
+      "uuid": "354fdadd-8e88-4cbc-81f4-a9a8ae6ded5c",
+      "confidence": 0.8,
+      "selector": ".a-padding-none",
+      "tag": "div",
+      "text_content": "@gmail.com",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "354fdadd-8e88-4cbc-81f4-a9a8ae6ded5c",
+        "selector": ".a-padding-none",
+        "tag": "div",
+        "text_content": "@gmail.com"
+      }
+    },
+    {
+      "uuid": "eeb06951-0b4e-42c8-a113-b002bf04af6e",
+      "confidence": 0.85,
+      "selector": ".email-suggestion-text",
+      "tag": "span",
+      "text_content": "@gmail.com",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "eeb06951-0b4e-42c8-a113-b002bf04af6e",
+        "selector": ".email-suggestion-text",
+        "tag": "span",
+        "text_content": "@gmail.com"
+      }
+    },
+    {
+      "uuid": "b8974cbe-3b18-4070-b9f8-711d66b51be8",
+      "confidence": 0.8,
+      "selector": ".email-suggestion-prefix",
+      "tag": "span",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "b8974cbe-3b18-4070-b9f8-711d66b51be8",
+        "selector": ".email-suggestion-prefix",
+        "tag": "span",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "6be083d7-7863-42b5-9bf4-20e6eb9bfecd",
+      "confidence": 0.95,
+      "selector": ".a-alert-inline",
+      "tag": "div",
+      "text_content": "Enter your mobile number or email",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "6be083d7-7863-42b5-9bf4-20e6eb9bfecd",
+        "selector": ".a-alert-inline",
+        "tag": "div",
+        "text_content": "Enter your mobile number or email"
+      }
+    },
+    {
+      "uuid": "96d918cc-d39c-4185-b9d2-348dc9ccabd7",
+      "confidence": 0.95,
+      "selector": ".a-alert-inline-error",
+      "tag": "div",
+      "text_content": "Enter your mobile number or email",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "96d918cc-d39c-4185-b9d2-348dc9ccabd7",
+        "selector": ".a-alert-inline-error",
+        "tag": "div",
+        "text_content": "Enter your mobile number or email"
+      }
+    },
+    {
+      "uuid": "47a7a5d9-aadb-4af8-ae97-7fe0c96bc79a",
+      "confidence": 0.8,
+      "selector": ".a-spacing-top-small",
+      "tag": "div",
+      "text_content": "Enter your mobile number or email",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "47a7a5d9-aadb-4af8-ae97-7fe0c96bc79a",
+        "selector": ".a-spacing-top-small",
+        "tag": "div",
+        "text_content": "Enter your mobile number or email"
+      }
+    },
+    {
+      "uuid": "b28e0ec7-afe9-48da-9db0-d38dbd2d259c",
+      "confidence": 0.85,
+      "selector": ".a-button-span12",
+      "tag": "span",
+      "text_content": "Continue",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "b28e0ec7-afe9-48da-9db0-d38dbd2d259c",
+        "selector": ".a-button-span12",
+        "tag": "span",
+        "text_content": "Continue"
+      }
+    },
+    {
+      "uuid": "a81ac063-a0e2-4406-ae13-2aff448f239e",
+      "confidence": 0.85,
+      "selector": ".a-button-primary",
+      "tag": "span",
+      "text_content": "Continue",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "a81ac063-a0e2-4406-ae13-2aff448f239e",
+        "selector": ".a-button-primary",
+        "tag": "span",
+        "text_content": "Continue"
+      }
+    },
+    {
+      "uuid": "4f3001d4-d8a7-4611-a711-eaa0a6f427e9",
+      "confidence": 0.8,
+      "selector": ".aok-relative",
+      "tag": "span",
+      "text_content": "Continue",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "4f3001d4-d8a7-4611-a711-eaa0a6f427e9",
+        "selector": ".aok-relative",
+        "tag": "span",
+        "text_content": "Continue"
+      }
+    },
+    {
+      "uuid": "e9ece3ae-31a5-474e-a4a2-1c397be9d950",
+      "confidence": 0.9,
+      "selector": ".a-button-input",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "e9ece3ae-31a5-474e-a4a2-1c397be9d950",
+        "selector": ".a-button-input",
+        "tag": "input",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "68580d15-d555-4398-a266-11dcb0fc6ecc",
+      "confidence": 0.98,
+      "selector": ".a-link-normal",
+      "tag": "a",
+      "text_content": "Create a free business account",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "68580d15-d555-4398-a266-11dcb0fc6ecc",
+        "selector": ".a-link-normal",
+        "tag": "a",
+        "text_content": "Create a free business account"
+      }
+    },
+    {
+      "uuid": "a78a3a64-4dc7-45d6-bdb7-e1a9fe6480af",
+      "confidence": 0.9,
+      "selector": "[name='signIn']",
+      "tag": "form",
+      "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "a78a3a64-4dc7-45d6-bdb7-e1a9fe6480af",
+        "selector": "[name='signIn']",
+        "tag": "form",
+        "type": "",
+        "text_content": "AF +93AL +355DZ +213AS +1AD +376AO +244AI +1AQ +0AG +1AR +54AM +374AW +297AC +247AU +61AT +43AZ +994BS +1BH +973BD +880BB +1BY +375BE +32BZ +501BJ +229BM +1BT +975BO +591BA +387BW +267BV +0BR +55IO +2"
+      }
+    },
+    {
+      "uuid": "6f20e23e-934e-49e4-bd23-800016e5fe65",
+      "confidence": 0.75,
+      "selector": "[name='appAction']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "6f20e23e-934e-49e4-bd23-800016e5fe65",
+        "selector": "[name='appAction']",
+        "tag": "input",
+        "type": "hidden",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "c718a538-c8ba-4f03-9a44-c32ba380e614",
+      "confidence": 0.7,
+      "selector": "[name='subPageType']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "c718a538-c8ba-4f03-9a44-c32ba380e614",
+        "selector": "[name='subPageType']",
+        "tag": "input",
+        "type": "hidden",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "c12d5353-701e-4b03-b4af-2f505792826f",
+      "confidence": 0.7,
+      "selector": "[name='claimCollectionWorkflow']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "c12d5353-701e-4b03-b4af-2f505792826f",
+        "selector": "[name='claimCollectionWorkflow']",
+        "tag": "input",
+        "type": "hidden",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "26c92079-acf9-4f4a-a38b-f2fcb3ed1262",
+      "confidence": 0.65,
+      "selector": "[name='metadata1']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "26c92079-acf9-4f4a-a38b-f2fcb3ed1262",
+        "selector": "[name='metadata1']",
+        "tag": "input",
+        "type": "hidden",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "ad29ba2d-a802-46a4-a9dc-e3e175f50008",
+      "confidence": 0.75,
+      "selector": "[name='claimType']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "ad29ba2d-a802-46a4-a9dc-e3e175f50008",
+        "selector": "[name='claimType']",
+        "tag": "input",
+        "type": "hidden",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "bdad6ebb-e4d4-4135-b390-d25a35f7de97",
+      "confidence": 0.85,
+      "selector": "[name='countryCode']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "bdad6ebb-e4d4-4135-b390-d25a35f7de97",
+        "selector": "[name='countryCode']",
+        "tag": "input",
+        "type": "hidden",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "a47c22f9-5b8e-496b-8d55-00694d83bfe9",
+      "confidence": 0.7,
+      "selector": "[name='isServerSideRouting']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "a47c22f9-5b8e-496b-8d55-00694d83bfe9",
+        "selector": "[name='isServerSideRouting']",
+        "tag": "input",
+        "type": "hidden",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "d93930f7-32f7-491b-9e73-99088182968c",
+      "confidence": 0.6,
+      "selector": "[name='signalUnknownCredentialUnifiedAuthWeblabActive']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "d93930f7-32f7-491b-9e73-99088182968c",
+        "selector": "[name='signalUnknownCredentialUnifiedAuthWeblabActive']",
+        "tag": "input",
+        "type": "hidden",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "162ca22c-2231-479d-be30-64ee10433dce",
+      "confidence": 0.95,
+      "selector": "[name='anti-csrftoken-a2z']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "162ca22c-2231-479d-be30-64ee10433dce",
+        "selector": "[name='anti-csrftoken-a2z']",
+        "tag": "input",
+        "type": "hidden",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "af00bf48-1021-4dde-97de-3cdf6c350249",
+      "confidence": 0.98,
+      "selector": "[name='email']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "af00bf48-1021-4dde-97de-3cdf6c350249",
+        "selector": "[name='email']",
+        "tag": "input",
+        "type": "email",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "fcecbf72-fc98-4cbd-9cc7-bab9712269fe",
+      "confidence": 0.97,
+      "selector": "[name='password']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "fcecbf72-fc98-4cbd-9cc7-bab9712269fe",
+        "selector": "[name='password']",
+        "tag": "input",
+        "type": "password",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "6a1a255f-a395-4134-9be7-57ace99e86bf",
+      "confidence": 0.85,
+      "selector": "[name='ue_backdetect']",
+      "tag": "form",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "6a1a255f-a395-4134-9be7-57ace99e86bf",
+        "selector": "[name='ue_backdetect']",
+        "tag": "form",
+        "type": "",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "84fcd1de-85fd-4ffd-925b-006fe532286c",
+      "confidence": 0.8,
+      "selector": "[name='ue_back']",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "name_selectors",
+      "original_extracted_data": {
+        "uuid": "84fcd1de-85fd-4ffd-925b-006fe532286c",
+        "selector": "[name='ue_back']",
+        "tag": "input",
+        "type": "hidden",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "596de889-5947-41c3-bda7-93c324e9c475",
+      "confidence": 0.9,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "596de889-5947-41c3-bda7-93c324e9c475",
+        "tag": "input",
+        "type": "hidden",
+        "name": "anti-csrftoken-a2z",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='anti-csrftoken-a2z']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "anti-csrftoken-a2z",
+      "placeholder": "",
+      "selectors": [
+        "input[name='anti-csrftoken-a2z']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "bb3552fc-6ba6-4ba8-b667-c63ce94f1f88",
+      "confidence": 0.95,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "bb3552fc-6ba6-4ba8-b667-c63ce94f1f88",
+        "tag": "input",
+        "type": "email",
+        "name": "email",
+        "id": "ap_email_login",
+        "placeholder": "",
+        "selectors": [
+          "#ap_email_login",
+          "input[name='email']",
+          "input[type='email']"
+        ]
+      },
+      "input_type": "email",
+      "name": "email",
+      "placeholder": "",
+      "selectors": [
+        "#ap_email_login",
+        "input[name='email']",
+        "input[type='email']"
+      ]
+    },
+    {
+      "uuid": "fec4dc3c-88fe-4331-a82f-c129ccb56958",
+      "confidence": 0.95,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "fec4dc3c-88fe-4331-a82f-c129ccb56958",
+        "tag": "input",
+        "type": "password",
+        "name": "password",
+        "id": "auth-credential-autofill-hint",
+        "placeholder": "",
+        "selectors": [
+          "#auth-credential-autofill-hint",
+          "input[name='password']",
+          "input[type='password']"
+        ]
+      },
+      "input_type": "password",
+      "name": "password",
+      "placeholder": "",
+      "selectors": [
+        "#auth-credential-autofill-hint",
+        "input[name='password']",
+        "input[type='password']"
+      ]
+    },
+    {
+      "uuid": "6f63e3d6-b02c-4c2a-82c8-a50b8905bf21",
+      "confidence": 0.85,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "6f63e3d6-b02c-4c2a-82c8-a50b8905bf21",
+        "tag": "input",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[type='submit']"
+        ]
+      },
+      "input_type": "submit",
+      "name": "",
+      "placeholder": "",
+      "selectors": [
+        "input[type='submit']"
+      ]
+    },
+    {
+      "uuid": "77abd694-73c8-4152-9317-e4f760cc2161",
+      "confidence": 0.8,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "77abd694-73c8-4152-9317-e4f760cc2161",
+        "tag": "input",
+        "type": "hidden",
+        "name": "ue_back",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='ue_back']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "ue_back",
+      "placeholder": "",
+      "selectors": [
+        "input[name='ue_back']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "5c93bd63-e0fe-4a62-9ce9-1dbc30126d6a",
+      "confidence": 0.8,
+      "selector": "N/A",
+      "tag": "input",
+      "text_content": "",
+      "selector_type": "input_selectors",
+      "original_extracted_data": {
+        "uuid": "5c93bd63-e0fe-4a62-9ce9-1dbc30126d6a",
+        "tag": "input",
+        "type": "hidden",
+        "name": "ue_back",
+        "id": "",
+        "placeholder": "",
+        "selectors": [
+          "input[name='ue_back']",
+          "input[type='hidden']"
+        ]
+      },
+      "input_type": "hidden",
+      "name": "ue_back",
+      "placeholder": "",
+      "selectors": [
+        "input[name='ue_back']",
+        "input[type='hidden']"
+      ]
+    },
+    {
+      "uuid": "16233513-0976-4448-94f1-75328b3bca6c",
+      "confidence": 0.92,
+      "selector": "a[href='/business/register/org/landing?ref_=ab_reg_signin_unifiedauth']",
+      "tag": "N/A",
+      "text_content": "Create a free business account",
+      "selector_type": "link_selectors",
+      "original_extracted_data": {
+        "uuid": "16233513-0976-4448-94f1-75328b3bca6c",
+        "selector": "a[href='/business/register/org/landing?ref_=ab_reg_signin_unifiedauth']",
+        "href": "/business/register/org/landing?ref_=ab_reg_signin_unifiedauth",
+        "text": "Create a free business account",
+        "id": "ab-registration-ingress-link",
+        "class": "a-link-normal"
+      },
+      "href": "/business/register/org/landing?ref_=ab_reg_signin_unifiedauth"
+    }
+  ],
+  "support_misc": [
+    {
+      "uuid": "4fc822ef-22ec-4872-b8ef-3240dc1483bd",
+      "confidence": 0.8,
+      "selector": "#email-autocomplete-desktop-container",
+      "tag": "div",
+      "text_content": "@gmail.com@hotmail.com@yahoo.com@outlook.com@icloud.com@live.com",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "4fc822ef-22ec-4872-b8ef-3240dc1483bd",
+        "selector": "#email-autocomplete-desktop-container",
+        "tag": "div",
+        "text_content": "@gmail.com@hotmail.com@yahoo.com@outlook.com@icloud.com@live.com"
+      }
+    },
+    {
+      "uuid": "fa966aa0-4af1-40fa-b027-16cfa6df0ba7",
+      "confidence": 0.8,
+      "selector": "#empty-claim-alert",
+      "tag": "div",
+      "text_content": "Enter your mobile number or email",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "fa966aa0-4af1-40fa-b027-16cfa6df0ba7",
+        "selector": "#empty-claim-alert",
+        "tag": "div",
+        "text_content": "Enter your mobile number or email"
+      }
+    },
+    {
+      "uuid": "60c3eed7-5613-4f4a-9128-5d6ee61142c3",
+      "confidence": 0.9,
+      "selector": "#invalid-phone-alert",
+      "tag": "div",
+      "text_content": "Invalid mobile number",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "60c3eed7-5613-4f4a-9128-5d6ee61142c3",
+        "selector": "#invalid-phone-alert",
+        "tag": "div",
+        "text_content": "Invalid mobile number"
+      }
+    },
+    {
+      "uuid": "1572bed8-ccaa-47a7-980e-3144bcb2d1de",
+      "confidence": 0.9,
+      "selector": "#invalid-email-alert",
+      "tag": "div",
+      "text_content": "Invalid email address.",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "1572bed8-ccaa-47a7-980e-3144bcb2d1de",
+        "selector": "#invalid-email-alert",
+        "tag": "div",
+        "text_content": "Invalid email address."
+      }
+    },
+    {
+      "uuid": "29ae0c7e-4239-448d-82e1-6b05814cd2e5",
+      "confidence": 0.95,
+      "selector": "#error-alert",
+      "tag": "div",
+      "text_content": "Something is not right. Try again.",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "29ae0c7e-4239-448d-82e1-6b05814cd2e5",
+        "selector": "#error-alert",
+        "tag": "div",
+        "text_content": "Something is not right. Try again."
+      }
+    },
+    {
+      "uuid": "f08a34e9-4d19-4816-994b-047c98c2816f",
+      "confidence": 0.9,
+      "selector": "#passkey-error-alert",
+      "tag": "div",
+      "text_content": "Passkey errorSomething went wrong. Please sign in another way or follow any instructions provided by your device.Sorry, your passkey is not working. There might be a problem with the server. Sign in w",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "f08a34e9-4d19-4816-994b-047c98c2816f",
+        "selector": "#passkey-error-alert",
+        "tag": "div",
+        "text_content": "Passkey errorSomething went wrong. Please sign in another way or follow any instructions provided by your device.Sorry, your passkey is not working. There might be a problem with the server. Sign in w"
+      }
+    },
+    {
+      "uuid": "d2ff35f3-3569-4560-849f-c99fb1e7c0ff",
+      "confidence": 0.85,
+      "selector": "#passkey-client-error-message",
+      "tag": "p",
+      "text_content": "Something went wrong. Please sign in another way or follow any instructions provided by your device.",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "d2ff35f3-3569-4560-849f-c99fb1e7c0ff",
+        "selector": "#passkey-client-error-message",
+        "tag": "p",
+        "text_content": "Something went wrong. Please sign in another way or follow any instructions provided by your device."
+      }
+    },
+    {
+      "uuid": "87423c57-b1bd-4770-a532-ab4d90369c79",
+      "confidence": 0.9,
+      "selector": "#passkey-generic-server-error-message",
+      "tag": "p",
+      "text_content": "Sorry, your passkey is not working. There might be a problem with the server. Sign in with your password or try your passkey again later.",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "87423c57-b1bd-4770-a532-ab4d90369c79",
+        "selector": "#passkey-generic-server-error-message",
+        "tag": "p",
+        "text_content": "Sorry, your passkey is not working. There might be a problem with the server. Sign in with your password or try your passkey again later."
+      }
+    },
+    {
+      "uuid": "8f277794-73d1-4273-bee3-3999eefc3646",
+      "confidence": 0.85,
+      "selector": "#claim-submit-spinner",
+      "tag": "span",
+      "text_content": "",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "8f277794-73d1-4273-bee3-3999eefc3646",
+        "selector": "#claim-submit-spinner",
+        "tag": "span",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "fbfde922-965f-439a-8136-cc956e79b864",
+      "confidence": 0.8,
+      "selector": "#a-popover-root",
+      "tag": "div",
+      "text_content": "",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "fbfde922-965f-439a-8136-cc956e79b864",
+        "selector": "#a-popover-root",
+        "tag": "div",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "0ddd9c77-7b0c-4ec1-b95d-5352b8ac91b1",
+      "confidence": 0.95,
+      "selector": ".a-ws",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "0ddd9c77-7b0c-4ec1-b95d-5352b8ac91b1",
+        "selector": ".a-ws",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "dc12aee8-0100-46c1-96a6-0cb525088a97",
+      "confidence": 0.95,
+      "selector": ".a-js",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "dc12aee8-0100-46c1-96a6-0cb525088a97",
+        "selector": ".a-js",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "d9da0592-9658-4592-8325-c544b5fe60c7",
+      "confidence": 0.9,
+      "selector": ".a-audio",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "d9da0592-9658-4592-8325-c544b5fe60c7",
+        "selector": ".a-audio",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "71d0adfc-f25b-466e-b8f9-9d04af5044fb",
+      "confidence": 0.85,
+      "selector": ".a-video",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "71d0adfc-f25b-466e-b8f9-9d04af5044fb",
+        "selector": ".a-video",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "e4977ca6-2b02-4946-82ce-63738503ec44",
+      "confidence": 0.8,
+      "selector": ".a-canvas",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "e4977ca6-2b02-4946-82ce-63738503ec44",
+        "selector": ".a-canvas",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "41952ad0-ff95-4e6d-b6cd-e3693b8fa71e",
+      "confidence": 0.8,
+      "selector": ".a-svg",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "41952ad0-ff95-4e6d-b6cd-e3693b8fa71e",
+        "selector": ".a-svg",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "2a044d9e-ec2d-49bf-98e8-ae73d39cebd6",
+      "confidence": 0.75,
+      "selector": ".a-drag-drop",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "2a044d9e-ec2d-49bf-98e8-ae73d39cebd6",
+        "selector": ".a-drag-drop",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "35e7e625-7ccd-4349-8d1a-b8944dfa7bd5",
+      "confidence": 0.7,
+      "selector": ".a-geolocation",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "35e7e625-7ccd-4349-8d1a-b8944dfa7bd5",
+        "selector": ".a-geolocation",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "d8a5aab3-b625-4a02-8500-b70e069d933e",
+      "confidence": 0.75,
+      "selector": ".a-history",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "d8a5aab3-b625-4a02-8500-b70e069d933e",
+        "selector": ".a-history",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "22084d16-64cd-44dd-be99-18d6f6df270c",
+      "confidence": 0.7,
+      "selector": ".a-webworker",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "22084d16-64cd-44dd-be99-18d6f6df270c",
+        "selector": ".a-webworker",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "a290e01a-6bed-4cab-9940-76b5e0d79e62",
+      "confidence": 0.65,
+      "selector": ".a-autofocus",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "a290e01a-6bed-4cab-9940-76b5e0d79e62",
+        "selector": ".a-autofocus",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "172390a5-8826-4cb9-a2ba-22ebfca45afe",
+      "confidence": 0.6,
+      "selector": ".a-input-placeholder",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "172390a5-8826-4cb9-a2ba-22ebfca45afe",
+        "selector": ".a-input-placeholder",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "c51ce668-3c2b-4d6d-99ee-dc8c56cc1421",
+      "confidence": 0.6,
+      "selector": ".a-textarea-placeholder",
+      "tag": "html",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "c51ce668-3c2b-4d6d-99ee-dc8c56cc1421",
+        "selector": ".a-textarea-placeholder",
+        "tag": "html",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "0e89a948-e350-4163-8922-e09ea85ad61c",
+      "confidence": 0.9,
+      "selector": ".a-alert",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "0e89a948-e350-4163-8922-e09ea85ad61c",
+        "selector": ".a-alert",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue."
+      }
+    },
+    {
+      "uuid": "090f6cab-f37c-4177-95c4-12eb8dddea93",
+      "confidence": 0.95,
+      "selector": ".a-alert-error",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "090f6cab-f37c-4177-95c4-12eb8dddea93",
+        "selector": ".a-alert-error",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue."
+      }
+    },
+    {
+      "uuid": "569204d2-cd9e-468d-a8be-783315cfd19c",
+      "confidence": 0.95,
+      "selector": ".a-alert-container",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "569204d2-cd9e-468d-a8be-783315cfd19c",
+        "selector": ".a-alert-container",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue."
+      }
+    },
+    {
+      "uuid": "6f46fda2-60f6-4d7e-8dd2-3fdfe49f817a",
+      "confidence": 0.85,
+      "selector": ".a-icon-alert",
+      "tag": "i",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "6f46fda2-60f6-4d7e-8dd2-3fdfe49f817a",
+        "selector": ".a-icon-alert",
+        "tag": "i",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "375d4ec2-d473-4a10-b1cc-9ce8945101b8",
+      "confidence": 0.95,
+      "selector": ".a-alert-content",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "375d4ec2-d473-4a10-b1cc-9ce8945101b8",
+        "selector": ".a-alert-content",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue."
+      }
+    },
+    {
+      "uuid": "eed99b19-7547-476e-a350-1c65a7ee4dfb",
+      "confidence": 0.95,
+      "selector": ".a-icon-close",
+      "tag": "i",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "eed99b19-7547-476e-a350-1c65a7ee4dfb",
+        "selector": ".a-icon-close",
+        "tag": "i",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "2f478825-485f-4e46-92e1-81cffa86157c",
+      "confidence": 0.7,
+      "selector": ".a-color-secondary",
+      "tag": "span",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "2f478825-485f-4e46-92e1-81cffa86157c",
+        "selector": ".a-color-secondary",
+        "tag": "span",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "55ef75b8-c969-4bc7-9c16-f5cd5a79eed0",
+      "confidence": 0.9,
+      "selector": ".a-alert-heading",
+      "tag": "h4",
+      "text_content": "Passkey error",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "55ef75b8-c969-4bc7-9c16-f5cd5a79eed0",
+        "selector": ".a-alert-heading",
+        "tag": "h4",
+        "text_content": "Passkey error"
+      }
+    },
+    {
+      "uuid": "5b32e595-bf07-4400-ba8e-8382281b3b86",
+      "confidence": 0.7,
+      "selector": ".a-spinner",
+      "tag": "span",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "5b32e595-bf07-4400-ba8e-8382281b3b86",
+        "selector": ".a-spinner",
+        "tag": "span",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "ed99f725-35d9-45af-be49-1a929d53d6ca",
+      "confidence": 0.75,
+      "selector": ".a-spinner-medium",
+      "tag": "span",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "ed99f725-35d9-45af-be49-1a929d53d6ca",
+        "selector": ".a-spinner-medium",
+        "tag": "span",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "12357919-c31a-44fa-972b-f7114f7041a4",
+      "confidence": 0.95,
+      "selector": ".a-spacing-top-medium",
+      "tag": "p",
+      "text_content": "By continuing, you agree to Amazon'sConditions of UseandPrivacy Notice.",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "12357919-c31a-44fa-972b-f7114f7041a4",
+        "selector": ".a-spacing-top-medium",
+        "tag": "p",
+        "text_content": "By continuing, you agree to Amazon'sConditions of UseandPrivacy Notice."
+      }
+    },
+    {
+      "uuid": "c831e09a-3fae-4d68-9578-05c9acbadb94",
+      "confidence": 0.9,
+      "selector": ".a-size-small",
+      "tag": "p",
+      "text_content": "By continuing, you agree to Amazon'sConditions of UseandPrivacy Notice.",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "c831e09a-3fae-4d68-9578-05c9acbadb94",
+        "selector": ".a-size-small",
+        "tag": "p",
+        "text_content": "By continuing, you agree to Amazon'sConditions of UseandPrivacy Notice."
+      }
+    },
+    {
+      "uuid": "fdf190ac-30f3-4117-92b9-ca9d49b5c9f4",
+      "confidence": 0.95,
+      "selector": ".legal-text",
+      "tag": "p",
+      "text_content": "By continuing, you agree to Amazon'sConditions of UseandPrivacy Notice.",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "fdf190ac-30f3-4117-92b9-ca9d49b5c9f4",
+        "selector": ".legal-text",
+        "tag": "p",
+        "text_content": "By continuing, you agree to Amazon'sConditions of UseandPrivacy Notice."
+      }
+    },
+    {
+      "uuid": "37520047-a87d-41b1-8675-e2439e531375",
+      "confidence": 0.92,
+      "selector": ".a-spacing-top-extra-large",
+      "tag": "div",
+      "text_content": "Conditions of UsePrivacy NoticeHelp© 1996–2025, Amazon.com, Inc. or its affiliates",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "37520047-a87d-41b1-8675-e2439e531375",
+        "selector": ".a-spacing-top-extra-large",
+        "tag": "div",
+        "text_content": "Conditions of UsePrivacy NoticeHelp© 1996–2025, Amazon.com, Inc. or its affiliates"
+      }
+    },
+    {
+      "uuid": "2c3bd069-584f-46ff-bc8b-057cd6fc452c",
+      "confidence": 0.95,
+      "selector": ".auth-footer",
+      "tag": "div",
+      "text_content": "Conditions of UsePrivacy NoticeHelp© 1996–2025, Amazon.com, Inc. or its affiliates",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "2c3bd069-584f-46ff-bc8b-057cd6fc452c",
+        "selector": ".auth-footer",
+        "tag": "div",
+        "text_content": "Conditions of UsePrivacy NoticeHelp© 1996–2025, Amazon.com, Inc. or its affiliates"
+      }
+    },
+    {
+      "uuid": "4a5c66f6-0b72-40af-baa5-0d7b1cfdd214",
+      "confidence": 0.8,
+      "selector": ".auth-footer-seperator",
+      "tag": "span",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "4a5c66f6-0b72-40af-baa5-0d7b1cfdd214",
+        "selector": ".auth-footer-seperator",
+        "tag": "span",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "76f98b83-db98-4555-8cec-fc38525a2236",
+      "confidence": 0.85,
+      "selector": ".a-size-mini",
+      "tag": "a",
+      "text_content": "Conditions of Use",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "76f98b83-db98-4555-8cec-fc38525a2236",
+        "selector": ".a-size-mini",
+        "tag": "a",
+        "text_content": "Conditions of Use"
+      }
+    },
+    {
+      "uuid": "e3c65b90-b84e-4bf0-99c8-06fac7eed548",
+      "confidence": 0.98,
+      "selector": "a[href='/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940']",
+      "tag": "N/A",
+      "text_content": "Conditions of Use",
+      "selector_type": "link_selectors",
+      "original_extracted_data": {
+        "uuid": "e3c65b90-b84e-4bf0-99c8-06fac7eed548",
+        "selector": "a[href='/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940']",
+        "href": "/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940",
+        "text": "Conditions of Use",
+        "id": "",
+        "class": ""
+      },
+      "href": "/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940"
+    },
+    {
+      "uuid": "579a1b60-de99-48b7-a6cc-a6871c9b34dc",
+      "confidence": 0.97,
+      "selector": "a[href='/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380']",
+      "tag": "N/A",
+      "text_content": "Privacy Notice",
+      "selector_type": "link_selectors",
+      "original_extracted_data": {
+        "uuid": "579a1b60-de99-48b7-a6cc-a6871c9b34dc",
+        "selector": "a[href='/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380']",
+        "href": "/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380",
+        "text": "Privacy Notice",
+        "id": "",
+        "class": ""
+      },
+      "href": "/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=200534380"
+    },
+    {
+      "uuid": "9a098d41-7704-4036-a8f8-fc15ff017751",
+      "confidence": 0.96,
+      "selector": "a[href='/help']",
+      "tag": "N/A",
+      "text_content": "Help",
+      "selector_type": "link_selectors",
+      "original_extracted_data": {
+        "uuid": "9a098d41-7704-4036-a8f8-fc15ff017751",
+        "selector": "a[href='/help']",
+        "href": "/help",
+        "text": "Help",
+        "id": "",
+        "class": "a-size-mini a-link-normal"
+      },
+      "href": "/help"
+    }
+  ],
+  "navigation_layout": [
+    {
+      "uuid": "790037da-b512-42c5-9a5d-6c15e1a849ed",
+      "confidence": 0.95,
+      "selector": "#continue",
+      "tag": "span",
+      "text_content": "Continue",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "790037da-b512-42c5-9a5d-6c15e1a849ed",
+        "selector": "#continue",
+        "tag": "span",
+        "text_content": "Continue"
+      }
+    },
+    {
+      "uuid": "e68dd0c1-940c-4284-a7aa-1890a0a28363",
+      "confidence": 0.9,
+      "selector": "#continue-announce",
+      "tag": "span",
+      "text_content": "Continue",
+      "selector_type": "id_selectors",
+      "original_extracted_data": {
+        "uuid": "e68dd0c1-940c-4284-a7aa-1890a0a28363",
+        "selector": "#continue-announce",
+        "tag": "span",
+        "text_content": "Continue"
+      }
+    },
+    {
+      "uuid": "51ade064-0686-4a0f-a33c-65cc5319b259",
+      "confidence": 0.9,
+      "selector": ".a-link-nav-icon",
+      "tag": "a",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "51ade064-0686-4a0f-a33c-65cc5319b259",
+        "selector": ".a-link-nav-icon",
+        "tag": "a",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "53003993-cd0f-4d70-89b2-2592c251d3d2",
+      "confidence": 0.85,
+      "selector": ".a-icon",
+      "tag": "i",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "53003993-cd0f-4d70-89b2-2592c251d3d2",
+        "selector": ".a-icon",
+        "tag": "i",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "0e8d6086-80ba-4390-aa96-6d7fe691a961",
+      "confidence": 0.95,
+      "selector": ".a-icon-logo",
+      "tag": "i",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "0e8d6086-80ba-4390-aa96-6d7fe691a961",
+        "selector": ".a-icon-logo",
+        "tag": "i",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "26252c1d-4907-4912-9405-293b40aac5d5",
+      "confidence": 0.8,
+      "selector": ".a-icon-domain-in",
+      "tag": "i",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "26252c1d-4907-4912-9405-293b40aac5d5",
+        "selector": ".a-icon-domain-in",
+        "tag": "i",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "c559e7e2-182b-43ec-9b93-3a77d392f03a",
+      "confidence": 0.85,
+      "selector": ".a-icon-domain",
+      "tag": "i",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "c559e7e2-182b-43ec-9b93-3a77d392f03a",
+        "selector": ".a-icon-domain",
+        "tag": "i",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "744fa3fc-9395-46a1-a156-e76683dccab7",
+      "confidence": 0.8,
+      "selector": ".a-spacing-base",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "744fa3fc-9395-46a1-a156-e76683dccab7",
+        "selector": ".a-spacing-base",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue."
+      }
+    },
+    {
+      "uuid": "5c56cb49-d062-4656-976a-cd9dda3f8984",
+      "confidence": 0.95,
+      "selector": ".a-divider-normal",
+      "tag": "hr",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "5c56cb49-d062-4656-976a-cd9dda3f8984",
+        "selector": ".a-divider-normal",
+        "tag": "hr",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "dec28dd5-4929-4730-a20d-f7110c311083",
+      "confidence": 0.85,
+      "selector": ".a-divider",
+      "tag": "div",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "dec28dd5-4929-4730-a20d-f7110c311083",
+        "selector": ".a-divider",
+        "tag": "div",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "fed58b8d-de5f-4587-9685-7c335c790cb1",
+      "confidence": 0.88,
+      "selector": ".a-divider-section",
+      "tag": "div",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "fed58b8d-de5f-4587-9685-7c335c790cb1",
+        "selector": ".a-divider-section",
+        "tag": "div",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "c80d80b3-d620-486e-8522-db69b227ce71",
+      "confidence": 0.82,
+      "selector": ".a-divider-inner",
+      "tag": "div",
+      "text_content": "",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "c80d80b3-d620-486e-8522-db69b227ce71",
+        "selector": ".a-divider-inner",
+        "tag": "div",
+        "text_content": ""
+      }
+    },
+    {
+      "uuid": "94ffa594-345c-4f48-bd06-95e9b2318180",
+      "confidence": 0.95,
+      "selector": "a[href='/ref=ap_frn_logo']",
+      "tag": "N/A",
+      "text_content": "",
+      "selector_type": "link_selectors",
+      "original_extracted_data": {
+        "uuid": "94ffa594-345c-4f48-bd06-95e9b2318180",
+        "selector": "a[href='/ref=ap_frn_logo']",
+        "href": "/ref=ap_frn_logo",
+        "text": "",
+        "id": "",
+        "class": "a-link-nav-icon"
+      },
+      "href": "/ref=ap_frn_logo"
+    },
+    {
+      "uuid": "6e0db502-f1f5-4438-ab30-44617708ef79",
+      "confidence": 0.94,
+      "selector": "a[href='/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940']",
+      "tag": "N/A",
+      "text_content": "Conditions of Use",
+      "selector_type": "link_selectors",
+      "original_extracted_data": {
+        "uuid": "6e0db502-f1f5-4438-ab30-44617708ef79",
+        "selector": "a[href='/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940']",
+        "href": "/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940",
+        "text": "Conditions of Use",
+        "id": "",
+        "class": "a-size-mini a-link-normal"
+      },
+      "href": "/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940"
+    },
+    {
+      "uuid": "1cfaaf67-7c4d-4340-ae0d-75a601f2a80f",
+      "confidence": 0.93,
+      "selector": "a[href='/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380']",
+      "tag": "N/A",
+      "text_content": "Privacy Notice",
+      "selector_type": "link_selectors",
+      "original_extracted_data": {
+        "uuid": "1cfaaf67-7c4d-4340-ae0d-75a601f2a80f",
+        "selector": "a[href='/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380']",
+        "href": "/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380",
+        "text": "Privacy Notice",
+        "id": "",
+        "class": "a-size-mini a-link-normal"
+      },
+      "href": "/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380"
+    }
+  ],
+  "category_listing": [
+    {
+      "uuid": "1324b3f3-f8c2-4cfa-baed-03ea71dd655f",
+      "confidence": 0.85,
+      "selector": ".a-box",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "1324b3f3-f8c2-4cfa-baed-03ea71dd655f",
+        "selector": ".a-box",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "99351b13-dad5-495b-b6af-ff404e7c2e1c",
+      "confidence": 0.8,
+      "selector": ".a-box-inner",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "99351b13-dad5-495b-b6af-ff404e7c2e1c",
+        "selector": ".a-box-inner",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    },
+    {
+      "uuid": "7b169543-01e0-4c6c-b60c-0ec34efce5c1",
+      "confidence": 0.85,
+      "selector": ".a-padding-extra-large",
+      "tag": "div",
+      "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI",
+      "selector_type": "class_selectors",
+      "original_extracted_data": {
+        "uuid": "7b169543-01e0-4c6c-b60c-0ec34efce5c1",
+        "selector": ".a-padding-extra-large",
+        "tag": "div",
+        "text_content": "This site requires JavaScript to function correctly. Please enable JavaScript on your browser to continue.Sign in or create accountEnter mobile number or emailAF +93AL +355DZ +213AS +1AD +376AO +244AI"
+      }
+    }
+  ]
+}

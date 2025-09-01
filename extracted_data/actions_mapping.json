@@ -1,0 +1,215 @@
+{
+    "metadata": {
+        "created": "2025-08-29T20:46:15.637821",
+        "last_updated": "2025-08-29T20:58:50.370574",
+        "total_actions": 5
+    },
+    "actions": {
+        "49bac4e2b29cc1c0b5275bca820f6f6f": {
+            "action_id": "49bac4e2b29cc1c0b5275bca820f6f6f",
+            "action_string": "GOTO URL : https://example.com",
+            "url": "https://example.com",
+            "selector_file_path": "selectors/selectors_example_com_1756480576_c984d06a.json",
+            "absolute_selector_file_path": "/Users/mayank/Personal/Learning/amazonScraper/AI_WEB_CRAWLER/extracted_data/selectors/selectors_example_com_1756480576_c984d06a.json",
+            "timestamp": "2025-08-29T20:46:16.851693",
+            "status": "completed",
+            "statistics": {
+                "total_elements": 13,
+                "elements_with_id": 0,
+                "elements_with_class": 0,
+                "elements_with_name": 1,
+                "unique_tags": [
+                    "div",
+                    "body",
+                    "head",
+                    "meta",
+                    "a",
+                    "style",
+                    "title",
+                    "p",
+                    "html",
+                    "h1"
+                ],
+                "url": "https://example.com"
+            },
+            "total_selectors": {
+                "id_selectors": 0,
+                "class_selectors": 0,
+                "name_selectors": 1,
+                "input_selectors": 0,
+                "button_selectors": 0,
+                "link_selectors": 1,
+                "form_selectors": 0,
+                "attribute_selectors": 0,
+                "combined_patterns": 0
+            }
+        },
+        "cdc83a215c08cbbe022f95943c815750": {
+            "action_id": "cdc83a215c08cbbe022f95943c815750",
+            "action_string": "GO TO URL : https://httpbin.org/status/200",
+            "url": "https://httpbin.org/status/200",
+            "selector_file_path": "selectors/selectors_httpbin_org_1756480584_6b488ef1.json",
+            "absolute_selector_file_path": "/Users/mayank/Personal/Learning/amazonScraper/AI_WEB_CRAWLER/extracted_data/selectors/selectors_httpbin_org_1756480584_6b488ef1.json",
+            "timestamp": "2025-08-29T20:46:24.286760",
+            "status": "completed",
+            "statistics": {
+                "total_elements": 0,
+                "elements_with_id": 0,
+                "elements_with_class": 0,
+                "elements_with_name": 0,
+                "unique_tags": [],
+                "url": "https://httpbin.org/status/200"
+            },
+            "total_selectors": {
+                "id_selectors": 0,
+                "class_selectors": 0,
+                "name_selectors": 0,
+                "input_selectors": 0,
+                "button_selectors": 0,
+                "link_selectors": 0,
+                "form_selectors": 0,
+                "attribute_selectors": 0,
+                "combined_patterns": 0
+            }
+        },
+        "6407920172282fd247f44d5394d2cce6": {
+            "action_id": "6407920172282fd247f44d5394d2cce6",
+            "action_string": "GOTO URL : https://example.com",
+            "url": "https://example.com",
+            "selector_file_path": "selectors/selectors_example_com_1756480628_c984d06a.json",
+            "absolute_selector_file_path": "/Users/mayank/Personal/Learning/amazonScraper/AI_WEB_CRAWLER/extracted_data/selectors/selectors_example_com_1756480628_c984d06a.json",
+            "timestamp": "2025-08-29T20:47:08.675778",
+            "status": "completed",
+            "statistics": {
+                "total_elements": 13,
+                "elements_with_id": 0,
+                "elements_with_class": 0,
+                "elements_with_name": 1,
+                "unique_tags": [
+                    "div",
+                    "head",
+                    "body",
+                    "title",
+                    "h1",
+                    "html",
+                    "meta",
+                    "a",
+                    "p",
+                    "style"
+                ],
+                "url": "https://example.com"
+            },
+            "total_selectors": {
+                "id_selectors": 0,
+                "class_selectors": 0,
+                "name_selectors": 1,
+                "input_selectors": 0,
+                "button_selectors": 0,
+                "link_selectors": 1,
+                "form_selectors": 0,
+                "attribute_selectors": 0,
+                "combined_patterns": 0
+            }
+        },
+        "b28b7ee1b922d1cf4c2ba40f78a38db3": {
+            "action_string": "GO TO URL : https://httpbin.org/status/200",
+            "url": "https://httpbin.org/status/200",
+            "error": "503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/status/200",
+            "timestamp": "2025-08-29T20:47:10.996786",
+            "status": "failed"
+        },
+        "37b8ca1b8680162b026b7f74c10cdd70": {
+            "action_id": "37b8ca1b8680162b026b7f74c10cdd70",
+            "action_string": "https://www.w3.org",
+            "url": "https://www.w3.org",
+            "selector_file_path": "selectors/selectors_www_w3_org_1756480632_08bbfdb3.json",
+            "absolute_selector_file_path": "/Users/mayank/Personal/Learning/amazonScraper/AI_WEB_CRAWLER/extracted_data/selectors/selectors_www_w3_org_1756480632_08bbfdb3.json",
+            "timestamp": "2025-08-29T20:47:12.152242",
+            "status": "completed",
+            "statistics": {
+                "total_elements": 371,
+                "elements_with_id": 5,
+                "elements_with_class": 134,
+                "elements_with_name": 9,
+                "unique_tags": [
+                    "ul",
+                    "section",
+                    "title",
+                    "aside",
+                    "h3",
+                    "html",
+                    "button",
+                    "sup",
+                    "header",
+                    "img",
+                    "abbr",
+                    "li",
+                    "head",
+                    "body",
+                    "figure",
+                    "br",
+                    "nav",
+                    "script",
+                    "p",
+                    "div",
+                    "footer",
+                    "a",
+                    "span",
+                    "link",
+                    "h2",
+                    "h1",
+                    "meta",
+                    "main",
+                    "figcaption"
+                ],
+                "url": "https://www.w3.org"
+            },
+            "total_selectors": {
+                "id_selectors": 5,
+                "class_selectors": 62,
+                "name_selectors": 9,
+                "input_selectors": 0,
+                "button_selectors": 1,
+                "link_selectors": 100,
+                "form_selectors": 0,
+                "attribute_selectors": 6,
+                "combined_patterns": 4
+            }
+        },
+        "7dbf4544def777d274487540e7d4ebd6": {
+            "action_id": "7dbf4544def777d274487540e7d4ebd6",
+            "action_string": "GOTO URL : https://httpbin.org/html",
+            "url": "https://httpbin.org/html",
+            "selector_file_path": "selectors/selectors_httpbin_org_1756481330_28f3848e.json",
+            "absolute_selector_file_path": "/Users/mayank/Personal/Learning/amazonScraper/AI_WEB_CRAWLER/extracted_data/selectors/selectors_httpbin_org_1756481330_28f3848e.json",
+            "timestamp": "2025-08-29T20:58:50.370558",
+            "status": "completed",
+            "statistics": {
+                "total_elements": 6,
+                "elements_with_id": 0,
+                "elements_with_class": 0,
+                "elements_with_name": 0,
+                "unique_tags": [
+                    "html",
+                    "head",
+                    "p",
+                    "h1",
+                    "body",
+                    "div"
+                ],
+                "url": "https://httpbin.org/html"
+            },
+            "total_selectors": {
+                "id_selectors": 0,
+                "class_selectors": 0,
+                "name_selectors": 0,
+                "input_selectors": 0,
+                "button_selectors": 0,
+                "link_selectors": 0,
+                "form_selectors": 0,
+                "attribute_selectors": 0,
+                "combined_patterns": 0
+            }
+        }
+    }
+}

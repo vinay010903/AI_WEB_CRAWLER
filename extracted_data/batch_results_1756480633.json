@@ -1,0 +1,70 @@
+{
+    "summary": {
+        "total_actions": 3,
+        "successful_actions": 2,
+        "failed_actions": 1,
+        "success_rate": 66.66666666666666,
+        "total_selectors_extracted": 189,
+        "successful_urls": [
+            "https://example.com",
+            "https://www.w3.org"
+        ],
+        "failed_urls": [
+            "https://httpbin.org/status/200"
+        ],
+        "errors": [
+            {
+                "url": "https://httpbin.org/status/200",
+                "error": "503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/status/200"
+            }
+        ]
+    },
+    "timestamp": 1756480633.154238,
+    "results": [
+        {
+            "success": true,
+            "action_id": "6407920172282fd247f44d5394d2cce6",
+            "action": "GOTO URL : https://example.com",
+            "url": "https://example.com",
+            "selector_file_path": "../extracted_data/selectors/selectors_example_com_1756480628_c984d06a.json",
+            "relative_path": "selectors/selectors_example_com_1756480628_c984d06a.json",
+            "selectors_count": {
+                "id_selectors": 0,
+                "class_selectors": 0,
+                "name_selectors": 1,
+                "input_selectors": 0,
+                "button_selectors": 0,
+                "link_selectors": 1,
+                "form_selectors": 0,
+                "attribute_selectors": 0,
+                "combined_patterns": 0
+            }
+        },
+        {
+            "success": false,
+            "error": "503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/status/200",
+            "action": "GO TO URL : https://httpbin.org/status/200",
+            "url": "https://httpbin.org/status/200",
+            "action_id": "b28b7ee1b922d1cf4c2ba40f78a38db3"
+        },
+        {
+            "success": true,
+            "action_id": "37b8ca1b8680162b026b7f74c10cdd70",
+            "action": "https://www.w3.org",
+            "url": "https://www.w3.org",
+            "selector_file_path": "../extracted_data/selectors/selectors_www_w3_org_1756480632_08bbfdb3.json",
+            "relative_path": "selectors/selectors_www_w3_org_1756480632_08bbfdb3.json",
+            "selectors_count": {
+                "id_selectors": 5,
+                "class_selectors": 62,
+                "name_selectors": 9,
+                "input_selectors": 0,
+                "button_selectors": 1,
+                "link_selectors": 100,
+                "form_selectors": 0,
+                "attribute_selectors": 6,
+                "combined_patterns": 4
+            }
+        }
+    ]
+}
