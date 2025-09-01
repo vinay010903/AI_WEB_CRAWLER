@@ -95,7 +95,10 @@ async def ask_local_ai_for_specific_selectors(category_selectors, request_type="
             Return JSON: {{"password_selector": "exact_selector_string"}}""",
             "submit_button": f"""Find the BEST selector for the submit/continue button.
             SELECTORS: {selectors_json}
-            Return JSON: {{"submit_button_selector": "exact_selector_string"}}"""
+            Return JSON: {{"submit_button_selector": "exact_selector_string"}}""",
+            "search": f"""Find the BEST selector for the search input field or search box.
+            SELECTORS: {selectors_json}
+            Return JSON: {{"search_selector": "exact_selector_string"}}"""
         }
         
         prompt = prompts.get(request_type, prompts["sign_in"])
@@ -311,10 +314,34 @@ async def run_ai_pipeline_navigator(model_name=None):
                 await browser.close()
                 return
             
+            await asyncio.sleep(2)
+            html_content = await page.content()
+            logged_home_selectors_file = "extracted_data/selectors/logged_home_all_selectors.json"
+            logged_home_categorized_file = "extracted_data/categorized_selectors/logged_home_categorized.json"
+            logged_home_grouped_file = "extracted_data/grouped_selectors/logged_home_grouped.json"
+            logged_home_grouped_selectors = await loop.run_in_executor(None, get_create_grouped_selectors, html_content, logged_home_selectors_file, logged_home_categorized_file, logged_home_grouped_file)
+
+            search_selectors = logged_home_grouped_selectors.get('search_filters', [])
+            if not search_selectors:
+                search_selectors = logged_home_grouped_selectors.get('input_form', [])
+            
+            if search_selectors:
+                ai_response = await ask_local_ai_for_specific_selectors(search_selectors, "search", model_name)
+                search_selector = ai_response.get('search_selector')
+                if search_selector:
+                    try:
+                        product_name = os.getenv("PRODUCT_NAME", "sony camera")
+                        await page.fill(search_selector, product_name)
+                        await asyncio.sleep(1)
+                        await page.keyboard.press("Enter")
+                        await page.wait_for_load_state("domcontentloaded", timeout=10000)
+                    except Exception:
+                        pass
+            
         except Exception:
             pass
         finally:
-            await asyncio.sleep(5)
+            await asyncio.sleep(50)
             await browser.close()
 
 if __name__ == "__main__":
