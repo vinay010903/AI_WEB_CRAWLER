@@ -131,14 +131,15 @@ async def ask_local_ai_for_specific_selectors(category_selectors, request_type="
                 try:
                     ai_response = json.loads(result)
                     print(f" ====>. Response from AI : {ai_response}")
-                    # Ensure the response is in the correct format and value is not None or null
+                    # Ensure the response is in the correct format and neither key nor value is None or null
                     if isinstance(ai_response, dict) and len(ai_response) == 1:
-                        _, value = next(iter(ai_response.items()))
-                        if value and value.lower() != "none" or value.lower() != "null":
+                        key, value = next(iter(ai_response.items()))
+                        if key and key.lower() not in ["none", "null"] and value and value.lower() not in ["none", "null"]:
                             print(f"✅ Found valid selector in batch {batch_start//batch_size + 1}: {ai_response}")
                             return ai_response
                         else:
-                            print(f"❌ Selector value is invalid (None or 'none') in batch {batch_start//batch_size + 1}: {ai_response}")
+                            print(f"❌ Selector key or value is invalid ('none' or 'null') in batch {batch_start//batch_size + 1}: {ai_response}")
+                            continue
                     else:
                         print(f"❌ Invalid JSON format in batch {batch_start//batch_size + 1}: {ai_response}")
                         
@@ -1271,7 +1272,6 @@ async def run_ai_pipeline_navigator(model_name=None):
             # with open(home_categorized_file, 'w') as f:
             #     json.dump(categorized_selectors, f, indent=2)
 
-            
             
             # ========== STEP 3.5: GROUP SELECTORS BY CATEGORY ==========
             print("🗂️ Step 3.5: GROUP SELECTORS BY CATEGORY with detailed information")
