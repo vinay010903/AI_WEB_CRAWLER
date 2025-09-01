@@ -6,11 +6,258 @@ import json
 import time
 import os
 from dotenv import load_dotenv
-
+from test_extract_selector import extract_all_selectors
+import httpx
+from utilities_local_ai import ask_ai_local_model, local_ai_selector_categorizer
 load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 api_key = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=api_key)
+
+async def ask_local_ai_for_specific_selectors(category_selectors, request_type="sign_in", model_name="openai/gpt-oss-20b"):
+    """
+    Query local AI to find specific selectors from categorized selectors with enriched data.
+    Iterates through selectors in batches of 25 until a valid selector is found or all are exhausted.
+    
+    Args:
+        category_selectors (list): List of enriched selectors from specific category
+        request_type (str): Type of selector needed (sign_in, username, password, submit, etc.)
+        model_name (str): Name of the local model to use (default: "openai/gpt-oss-20b")
+    
+    Returns:
+        dict: Dictionary with specific selectors recommended by AI
+    """
+    batch_size = 25
+    total_selectors = len(category_selectors)
+    print(f"🔍 Starting AI search through {total_selectors} selectors in batches of {batch_size}")
+    
+    # Iterate through selectors in batches
+    for batch_start in range(0, total_selectors, batch_size):
+        batch_end = min(batch_start + batch_size, total_selectors)
+        current_batch = category_selectors[batch_start:batch_end]
+        
+        print(f"📊 Processing batch {batch_start//batch_size + 1}: selectors {batch_start + 1}-{batch_end} of {total_selectors}")
+        
+        # Prepare clean selector list for AI analysis
+        selectors_list = []
+        for i, sel in enumerate(current_batch):
+            if sel.get('selector'):
+                selector_entry = {
+                    "selector": sel['selector'],
+                    "tag": sel.get('tag', ''),
+                    "text": sel.get('text_content', '')[:200]  # Limit text length
+                }
+                
+                # Add relevant attributes based on selector type
+                selector_type = sel.get('selector_type', '')
+                if 'input' in selector_type and sel.get('input_type'):
+                    selector_entry['input_type'] = sel.get('input_type')
+                if sel.get('name'):
+                    selector_entry['name'] = sel.get('name')
+                if 'button' in selector_type and sel.get('button_text'):
+                    selector_entry['button_text'] = sel.get('button_text')[:50]
+                if sel.get('href'):
+                    selector_entry['href'] = sel.get('href')[:50]
+                    
+                selectors_list.append(selector_entry)
+        
+        if not selectors_list:
+            print(f"⚠️ No valid selectors in batch {batch_start//batch_size + 1}, skipping...")
+            continue
+        
+        selectors_json = json.dumps(selectors_list, indent=2)
+        
+        # Define sleek prompts for different request types
+        prompts = {
+            "sign_in": f"""Find the BEST selector for clicking "Sign In" or "Login".
+
+            SELECTORS:
+            {selectors_json}
+
+            CRITERIA: Look for text containing "login", "signin", "sign-in", "account"
+
+            Return JSON: {{"sign_in_selector": "exact_selector_string"}}""",
+                            
+            "username": f"""Find the BEST selector for the username/email input field.
+
+            SELECTORS:
+            {selectors_json}
+
+            CRITERIA: Look for input_type "email"/"text", name containing "email"/"username", or relevant text. Prefer high confidence scores.
+
+            Return JSON: {{"username_selector": "exact_selector_string"}}""",
+                            
+            "password": f"""Find the BEST selector for the password input field.
+
+            SELECTORS:
+            {selectors_json}
+
+            CRITERIA: Look for input_type "password", name containing "password"/"pwd", or relevant text. Prefer high confidence scores.
+
+            Return JSON: {{"password_selector": "exact_selector_string"}}""",
+                            
+            "submit_button": f"""Find the BEST selector for the submit/continue button.
+
+            SELECTORS:
+            {selectors_json}
+
+            CRITERIA: Look for button_text containing "Continue"/"Submit"/"Next"/"Login", or input_type "submit". Prefer high confidence scores.
+
+            Return JSON: {{"submit_button_selector": "exact_selector_string"}}"""
+        }
+        
+        prompt = prompts.get(request_type, prompts["sign_in"])
+        print(f"🤖 Querying AI for batch {batch_start//batch_size + 1}...")
+        
+        try:
+            async with httpx.AsyncClient(timeout=120.0) as http_client:
+                payload = {
+                    "model": model_name,
+                    "messages": [
+                        {"role": "system", "content": "You are a helpful assistant that analyzes web selectors and returns JSON responses."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    "max_tokens": 4000,
+                }
+                response = await http_client.post("http://localhost:1234/v1/chat/completions", json=payload)
+                result = response.json()["choices"][0]["message"]["content"]
+                
+                if result.startswith("```json"):
+                        result = result[7:]
+                if result.endswith("```"):
+                        result = result[:-3]
+                
+                # Parse JSON response
+                try:
+                    ai_response = json.loads(result)
+                    print(f" ====>. Response from AI : {ai_response}")
+                    # Ensure the response is in the correct format and value is not None or null
+                    if isinstance(ai_response, dict) and len(ai_response) == 1:
+                        _, value = next(iter(ai_response.items()))
+                        if value and value.lower() != "none" or value.lower() != "null":
+                            print(f"✅ Found valid selector in batch {batch_start//batch_size + 1}: {ai_response}")
+                            return ai_response
+                        else:
+                            print(f"❌ Selector value is invalid (None or 'none') in batch {batch_start//batch_size + 1}: {ai_response}")
+                    else:
+                        print(f"❌ Invalid JSON format in batch {batch_start//batch_size + 1}: {ai_response}")
+                        
+                except json.JSONDecodeError:
+                    print(f"❌ Failed to parse AI response for batch {batch_start//batch_size + 1}: {result}")
+                    
+        except Exception as e:
+            print(f"❌ Error querying local AI for batch {batch_start//batch_size + 1}: {e}")
+    
+    print(f"❌ No valid selector found after checking all {total_selectors} selectors across {(total_selectors - 1) // batch_size + 1} batches")
+    return {}
+
+def group_selectors_by_category(extracted_selectors, categorized_selectors, output_file_path=None):
+    """
+    Group selectors by category, merging extracted selector details with categorization results.
+    
+    Args:
+        extracted_selectors (dict): Full selector data from extract_all_selectors()
+        categorized_selectors (list): Categorized results with category, uuid, confidence
+        output_file_path (str): Optional path to save grouped results
+    
+    Returns:
+        dict: Selectors grouped by category with complete information
+    """
+    print("🔄 Grouping selectors by category with detailed information...")
+    
+    # Create a UUID lookup dictionary from extracted selectors
+    uuid_lookup = {}
+    
+    # Process all selector types from extracted data
+    selector_types = [
+        'id_selectors', 'class_selectors', 'name_selectors', 'type_selectors',
+        'attribute_selectors', 'input_selectors', 'button_selectors', 
+        'link_selectors', 'form_selectors'
+    ]
+    
+    for selector_type in selector_types:
+        if selector_type in extracted_selectors:
+            for selector_item in extracted_selectors[selector_type]:
+                if isinstance(selector_item, dict) and 'uuid' in selector_item:
+                    uuid_lookup[selector_item['uuid']] = {
+                        'selector_type': selector_type,
+                        'data': selector_item
+                    }
+    
+    # Initialize category groups
+    grouped_by_category = {}
+    
+    # Process categorized selectors and enrich with extracted data
+    matched_count = 0
+    unmatched_count = 0
+    
+    for categorized_item in categorized_selectors:
+        if isinstance(categorized_item, dict) and 'uuid' in categorized_item:
+            uuid = categorized_item['uuid']
+            category = categorized_item.get('category', 'uncategorized')
+            confidence = categorized_item.get('confidence', 0.0)
+            
+            # Find matching extracted selector data
+            if uuid in uuid_lookup:
+                extracted_data = uuid_lookup[uuid]['data']
+                selector_type = uuid_lookup[uuid]['selector_type']
+                
+                # Create enriched selector entry
+                enriched_selector = {
+                    'uuid': uuid,
+                    'confidence': confidence,
+                    'selector': extracted_data.get('selector', 'N/A'),
+                    'tag': extracted_data.get('tag', 'N/A'),
+                    'text_content': extracted_data.get('text_content', extracted_data.get('text', ''))[:200],
+                    'selector_type': selector_type,
+                    'original_extracted_data': extracted_data
+                }
+                
+                # Add type-specific information
+                if selector_type == 'input_selectors':
+                    enriched_selector['input_type'] = extracted_data.get('type', '')
+                    enriched_selector['name'] = extracted_data.get('name', '')
+                    enriched_selector['placeholder'] = extracted_data.get('placeholder', '')
+                    enriched_selector['selectors'] = extracted_data.get('selectors', [])
+                elif selector_type == 'button_selectors':
+                    enriched_selector['button_type'] = extracted_data.get('type', '')
+                    enriched_selector['button_text'] = extracted_data.get('text', '')
+                    enriched_selector['selectors'] = extracted_data.get('selectors', [])
+                elif selector_type == 'link_selectors':
+                    enriched_selector['href'] = extracted_data.get('href', '')
+                elif selector_type == 'attribute_selectors':
+                    enriched_selector['attribute'] = extracted_data.get('attribute', '')
+                    enriched_selector['value'] = extracted_data.get('value', '')
+                
+                # Add to category group
+                if category not in grouped_by_category:
+                    grouped_by_category[category] = []
+                
+                grouped_by_category[category].append(enriched_selector)
+                matched_count += 1
+            else:
+                unmatched_count += 1
+                print(f"⚠️ Warning: UUID {uuid} not found in extracted selectors")
+    
+    print(f"✅ Grouping completed: {matched_count} matched, {unmatched_count} unmatched selectors")
+    
+    # Print category summary
+    print("\n📊 Selectors grouped by category:")
+    for category, selectors in grouped_by_category.items():
+        print(f"  - {category}: {len(selectors)} selectors")
+    
+    # Save to file if path provided
+    if output_file_path:
+        try:
+            os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
+            with open(output_file_path, 'w', encoding='utf-8') as f:
+                json.dump(grouped_by_category, f, indent=2, ensure_ascii=False)
+            print(f"💾 Grouped selectors saved to: {output_file_path}")
+        except Exception as e:
+            print(f"❌ Error saving grouped selectors: {e}")
+    
+    return grouped_by_category
+
 async def go_to_login(page, hover_selector, login_selector):
     try:
         if hover_selector and hover_selector.strip().lower() != "none":
@@ -137,31 +384,31 @@ Don't provide any text except for the JSON. Only use valid CSS selectors.
 # ---- Step 5: Use LLM to pick password/submit selectors ----
 def find_password_selectors(elements):
     prompt = f"""
-You are given HTML tags from a password page. Identify the best CSS selectors for password field and submit button.
+        You are given HTML tags from a password page. Identify the best CSS selectors for password field and submit button.
 
-HTML Elements (showing first 30):
-{elements[:30]}  # limiting to first 30 elements
+        HTML Elements (showing first 30):
+        {elements[:30]}  # limiting to first 30 elements
 
-IMPORTANT RULES:
-1. Only use VALID CSS selectors (no jQuery syntax like :contains())
-2. Use attribute selectors like [id="something"], [name="something"], [type="something"]
-3. Use class selectors like .class-name
-4. Use ID selectors like #element-id
-5. For buttons, look for specific IDs, names, or classes, NOT text content
-6. Example valid selectors: input[type="password"], #ap_password, input[name="password"], #signInSubmit
+        IMPORTANT RULES:
+        1. Only use VALID CSS selectors (no jQuery syntax like :contains())
+        2. Use attribute selectors like [id="something"], [name="something"], [type="something"]
+        3. Use class selectors like .class-name
+        4. Use ID selectors like #element-id
+        5. For buttons, look for specific IDs, names, or classes, NOT text content
+        6. Example valid selectors: input[type="password"], #ap_password, input[name="password"], #signInSubmit
 
-Look for:
-- Password field: input with type="password", name="password", id containing "password", etc.
-- Submit button: button or input with id containing "submit", "signin", "login", or similar
+        Look for:
+        - Password field: input with type="password", name="password", id containing "password", etc.
+        - Submit button: button or input with id containing "submit", "signin", "login", or similar
 
-CRITICAL: Use EXACTLY these JSON keys - "password" and "submit" (not "Sign in" or any other text)
+        CRITICAL: Use EXACTLY these JSON keys - "password" and "submit" (not "Sign in" or any other text)
 
-Output JSON format only:
-{{
-  "password": ["selector1","selector2"],
-  "submit": ["selector1","selector2"]
-}}
-Don't provide any text except for the JSON. Only use valid CSS selectors and EXACT key names.
+        Output JSON format only:
+        {{
+        "password": ["selector1","selector2"],
+        "submit": ["selector1","selector2"]
+        }}
+        Don't provide any text except for the JSON. Only use valid CSS selectors and EXACT key names.
 """
     response = client.chat.completions.create(
         model="llama-3.1-8b-instant",
@@ -961,6 +1208,272 @@ async def perform_password_entry(page, selectors, password):
     
     return True
 
+async def run_ai_pipeline_navigator(model_name=None):
+    """
+    AI-driven web navigation pipeline using extract_all_selectors and category-based selector filtering.
+    Flow: EXTRACT ALL → CATEGORIZE → FILTER BY CATEGORY → ASK LOCAL AI → ACT → REPEAT
+    
+    Args:
+        model_name (str, optional): Model name for local AI. Defaults to environment variable or "openai/gpt-oss-20b"
+    """
+    url = "https://www.amazon.in"
+    username = os.getenv("AMAZON_USERNAME")
+    password = os.getenv("AMAZON_PASSWORD")
+    search_product = "polo Tshirt"
+    
+    # Configure model name from parameter, environment variable, or default
+    if model_name is None:
+        model_name = os.getenv("LOCAL_AI_MODEL", "openai/gpt-oss-20b")
+    print(f"🤖 Using AI model: {model_name}")
+    
+    # Import the categorizer
+    from selector_categorizer import SelectorCategorizer
+    
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=False, slow_mo=1000)
+        page = await browser.new_page()
+        page.set_default_timeout(15000)
+        
+        loop = asyncio.get_running_loop()
+        try:
+            # ========== STEP 1: GOTO URL ==========
+            print("🌐 Step 1: GOTO URL")
+            await page.goto(url)
+            print(f"✅ Loaded: {url}")
+            await asyncio.sleep(2)
+            
+            ##################################################
+
+            # # ========== STEP 2: EXTRACT ALL Selectors ==========
+            # print("📊 Step 2: EXTRACT ALL Selectors from homepage")
+            # html_content = await page.content()
+            # all_selectors = extract_all_selectors(html_content, url)
+            
+            # # Save extracted selectors
+            # os.makedirs("extracted_data/selectors", exist_ok=True)
+            # home_selectors_file = "extracted_data/selectors/home_all_selectors.json"
+            # with open(home_selectors_file, 'w') as f:
+            #     json.dump(all_selectors, f, indent=2)
+            # print(f"💾 Saved all selectors to: {home_selectors_file}")
+            
+            
+            # # run the blocking function in the default ThreadPoolExecutor
+            # # result = await loop.run_in_executor(None, blocking_task, 3, 4)
+
+            # # ========== STEP 3: CATEGORIZE Selectors ==========
+            # print("🤖 Step 3: CATEGORIZE Selectors")
+            # categorizer = SelectorCategorizer(provider="local",local_model_name=model_name)
+            # categorized_selectors = await loop.run_in_executor(None,local_ai_selector_categorizer,all_selectors,model_name)
+            
+            # # Save categorized selectors
+            # os.makedirs("extracted_data/categorized_selectors", exist_ok=True)
+            # home_categorized_file = "extracted_data/categorized_selectors/home_categorized.json"
+            # with open(home_categorized_file, 'w') as f:
+            #     json.dump(categorized_selectors, f, indent=2)
+
+            
+            
+            # ========== STEP 3.5: GROUP SELECTORS BY CATEGORY ==========
+            print("🗂️ Step 3.5: GROUP SELECTORS BY CATEGORY with detailed information")
+            grouped_selectors = {}
+            grouped_selectors_file = "extracted_data/grouped_selectors/home_grouped.json"
+            with open(grouped_selectors_file, "r", encoding="utf-8") as f:
+                grouped_selectors = json.load(f)
+            # grouped_selectors = group_selectors_by_category(
+            #     all_selectors, 
+            #     categorized_selectors, 
+            #     grouped_selectors_file
+            # )
+            
+            # ========== STEP 4: FILTER AUTHENTICATION SELECTORS & ASK LOCAL AI ==========
+            print("🔐 Step 4: FILTER AUTHENTICATION Selectors & ASK LOCAL AI for Sign In")
+            auth_selectors = grouped_selectors.get('authentication_account', [])
+            
+            if not auth_selectors:
+                print("❌ No authentication selectors found")
+                await browser.close()
+                return
+            
+            # Ask local AI to find the best sign-in selector
+            ai_response = await ask_local_ai_for_specific_selectors(auth_selectors, "sign_in", model_name)
+            sign_in_selector = ai_response.get('sign_in_selector')
+            
+            if not sign_in_selector:
+                print("❌ Local AI could not find sign-in selector")
+                await browser.close()
+                return
+            
+            # ========== STEP 5: CLICK SIGN IN ==========
+            print(f"🔗 Step 5: CLICK SIGN IN with selector: {sign_in_selector}")
+            try:
+                await page.click(sign_in_selector)
+                await page.wait_for_load_state("domcontentloaded", timeout=10000)
+                print(f"✅ Clicked sign in successfully")
+            except Exception as e:
+                print(f"❌ Failed to click sign in: {e}")
+                await browser.close()
+                return
+            
+            # ========== STEP 6: EXTRACT ALL Selectors from login page ==========
+            # print("📊 Step 6: EXTRACT ALL Selectors from login page")
+            # await asyncio.sleep(2)
+            # html_content = await page.content()
+            # login_selectors = extract_all_selectors(html_content, page.url)
+            
+            # # Save login page selectors
+            # login_selectors_file = "extracted_data/selectors/login_all_selectors.json"
+            # with open(login_selectors_file, 'w') as f:
+            #     json.dump(login_selectors, f, indent=2)
+            
+            # # ========== STEP 7: CATEGORIZE Login Page Selectors ==========
+            # print("🤖 Step 7: CATEGORIZE Login Page Selectors")
+            # login_categorized = await loop.run_in_executor(None,local_ai_selector_categorizer,login_selectors,model_name)
+            
+            # login_categorized_file = "extracted_data/categorized_selectors/login_categorized.json"
+            # with open(login_categorized_file, 'w') as f:
+            #     json.dump(login_categorized, f, indent=2)
+            
+            # ========== STEP 7.5: GROUP LOGIN PAGE SELECTORS BY CATEGORY ==========
+            print("🗂️ Step 7.5: GROUP LOGIN PAGE SELECTORS BY CATEGORY")
+            login_grouped_file = "extracted_data/grouped_selectors/login_grouped.json"
+            login_grouped_selectors = {}
+            with open(login_grouped_file, "r", encoding="utf-8") as f:
+                login_grouped_selectors = json.load(f)
+            # login_grouped_selectors = group_selectors_by_category(
+            #     login_selectors, 
+            #     login_categorized, 
+            #     login_grouped_file
+            # )
+            
+            # ========== STEP 8: FILTER AUTH SELECTORS & ASK LOCAL AI for USERNAME ==========
+            print("🔐 Step 8: FILTER AUTH Selectors & ASK LOCAL AI for Username Field")
+            login_auth_selectors = login_grouped_selectors.get('authentication_account', [])
+            
+            # Ask local AI to find the best username selector
+            ai_response = await ask_local_ai_for_specific_selectors(login_auth_selectors, "username", model_name)
+            username_selector = ai_response.get('username_selector')
+            
+            if not username_selector:
+                print("❌ Local AI could not find username selector")
+                await browser.close()
+                return
+            
+            # ========== STEP 9: ENTER USERNAME ==========
+            print(f"📝 Step 9: ENTER USERNAME with selector: {username_selector}")
+            try:
+                await page.fill(username_selector, username)
+                print(f"✅ Filled username successfully")
+            except Exception as e:
+                print(f"❌ Failed to fill username: {e}")
+                await browser.close()
+                return
+            
+            # ========== STEP 10: ASK LOCAL AI for CONTINUE BUTTON ==========
+            print("🔘 Step 10: ASK LOCAL AI for Continue Button")
+            ai_response = await ask_local_ai_for_specific_selectors(login_auth_selectors, "submit_button", model_name)
+            continue_selector = ai_response.get('submit_button_selector')
+            
+            if not continue_selector:
+                print("❌ Local AI could not find continue button")
+                await browser.close()
+                return
+            
+            # ========== STEP 11: CLICK CONTINUE ==========
+            print(f"🔗 Step 11: CLICK CONTINUE with selector: {continue_selector}")
+            try:
+                await page.click(continue_selector)
+                await page.wait_for_load_state("domcontentloaded", timeout=10000)
+                print(f"✅ Clicked continue successfully")
+            except Exception as e:
+                print(f"❌ Failed to click continue: {e}")
+                await browser.close()
+                return
+            
+            # ========== STEP 12: EXTRACT ALL Selectors from password page ==========
+            # print("📊 Step 12: EXTRACT ALL Selectors from password page")
+            # await asyncio.sleep(2)
+            # html_content = await page.content()
+            # password_selectors = extract_all_selectors(html_content, page.url)
+            
+            # # Save password page selectors
+            # password_selectors_file = "extracted_data/selectors/password_all_selectors.json"
+            # with open(password_selectors_file, 'w') as f:
+            #     json.dump(password_selectors, f, indent=2)
+            
+            # # ========== STEP 13: CATEGORIZE Password Page Selectors ==========
+            # print("🤖 Step 13: CATEGORIZE Password Page Selectors")
+            # password_categorized = await loop.run_in_executor(None,local_ai_selector_categorizer,password_selectors,model_name)
+            
+            # password_categorized_file = "extracted_data/categorized_selectors/password_categorized.json"
+            # with open(password_categorized_file, 'w') as f:
+            #     json.dump(password_categorized, f, indent=2)
+            
+            # ========== STEP 13.5: GROUP PASSWORD PAGE SELECTORS BY CATEGORY ==========
+            print("🗂️ Step 13.5: GROUP PASSWORD PAGE SELECTORS BY CATEGORY")
+            password_grouped_selectors = {}
+            password_grouped_file = "extracted_data/grouped_selectors/password_grouped.json"
+            with open(password_grouped_file, "r", encoding="utf-8") as f:
+                password_grouped_selectors = json.load(f)
+            # password_grouped_selectors = group_selectors_by_category(
+            #     password_selectors, 
+            #     password_categorized, 
+            #     password_grouped_file
+            # )
+            
+            # ========== STEP 14: FILTER AUTH SELECTORS & ASK LOCAL AI for PASSWORD ==========
+            print("🔐 Step 14: FILTER AUTH Selectors & ASK LOCAL AI for Password Field")
+            password_auth_selectors = password_grouped_selectors.get('authentication_account', [])
+            
+            # Ask local AI to find the best password selector
+            ai_response = await ask_local_ai_for_specific_selectors(password_auth_selectors, "password", model_name)
+            password_field_selector = ai_response.get('password_selector')
+            
+            if not password_field_selector:
+                print("❌ Local AI could not find password selector")
+                await browser.close()
+                return
+            
+            # ========== STEP 15: ENTER PASSWORD ==========
+            print(f"📝 Step 15: ENTER PASSWORD with selector: {password_field_selector}")
+            try:
+                await page.fill(password_field_selector, password)
+                print(f"✅ Filled password successfully")
+            except Exception as e:
+                print(f"❌ Failed to fill password: {e}")
+                await browser.close()
+                return
+            
+            # ========== STEP 16: ASK LOCAL AI for SUBMIT BUTTON ==========
+            print("🔘 Step 16: ASK LOCAL AI for Submit Button")
+            ai_response = await ask_local_ai_for_specific_selectors(password_auth_selectors, "submit_button", model_name)
+            submit_selector = ai_response.get('submit_button_selector')
+            
+            if not submit_selector:
+                print("❌ Local AI could not find submit button")
+                await browser.close()
+                return
+            
+            # ========== STEP 17: CLICK SUBMIT ==========
+            print(f"🔗 Step 17: CLICK SUBMIT with selector: {submit_selector}")
+            try:
+                await page.click(submit_selector)
+                await page.wait_for_url("https://www.amazon.in/**", timeout=15000)
+                print(f"✅ Login completed successfully - redirected to main page")
+            except Exception as e:
+                print(f"❌ Failed to submit login: {e}")
+                await browser.close()
+                return
+            
+            print("🎉 AI Pipeline Navigator completed successfully! Login process finished using extract_all_selectors and category-based filtering.")
+            
+        except Exception as e:
+            print(f"❌ Pipeline error: {e}")
+        
+        finally:
+            print("⏳ Waiting 5 seconds before closing...")
+            await asyncio.sleep(5)
+            await browser.close()
+
 
 # ---- Main Pipeline ----
 async def run_pipeline():
@@ -1153,4 +1666,9 @@ async def run_pipeline():
 
 
 if __name__ == "__main__":
-    asyncio.run(run_pipeline())
+    # You can pass a custom model name here, or it will use environment variable LOCAL_AI_MODEL
+    # Examples:
+    # asyncio.run(run_ai_pipeline_navigator("openai/gpt-4o-mini"))
+    # asyncio.run(run_ai_pipeline_navigator("local/custom-model"))
+    model = "qwen/qwen3-4b-2507"
+    asyncio.run(run_ai_pipeline_navigator(model))

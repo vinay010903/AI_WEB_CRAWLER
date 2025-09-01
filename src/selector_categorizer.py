@@ -260,7 +260,6 @@ class SelectorCategorizer:
                 # Create the prompt for this batch
                 system_role = self.get_system_role()
                 prompt = self.create_categorization_prompt(batch)
-                print(f"📝 Prompt prepared : {prompt} )")
                 
                 # Call AI provider
                 if self.provider == "groq":
@@ -312,7 +311,7 @@ class SelectorCategorizer:
                 # Rate limiting: sleep for 100 seconds after every 10 API calls
                 if api_call_count % 10 == 0 and batch_idx < total_batches:
                     print(f"⏱️ Rate limiting: Sleeping for 100 seconds after {api_call_count} API calls...")
-                    time.sleep(100)
+                    time.sleep(1)
                 
                 # Small delay between batches
                 elif batch_idx < total_batches:
