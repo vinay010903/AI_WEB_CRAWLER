@@ -21,7 +21,7 @@ async def ask_local_ai_for_specific_selectors(category_selectors, request_type="
     
     Args:
         category_selectors (list): List of enriched selectors from specific category
-        request_type (str): Type of selector needed (sign_in, username, password, submit, etc.)
+        request_type (str): Type of selector needed (sign_in, username, password, submit,search bar, selector which will take me to the product page , reviews, selector which will take me to the next review page basically next selector etc.)
         model_name (str): Name of the local model to use (default: "openai/gpt-oss-20b")
     
     Returns:
@@ -103,9 +103,16 @@ async def ask_local_ai_for_specific_selectors(category_selectors, request_type="
 
             CRITERIA: Look for button_text containing "Continue"/"Submit"/"Next"/"Login", or input_type "submit". Prefer high confidence scores.
 
-            Return JSON: {{"submit_button_selector": "exact_selector_string"}}"""
-        }
-        
+            Return JSON: {{"submit_button_selector": "exact_selector_string"}}""",
+
+            "search_bar": f"""Find the BEST selector for the main search input field.
+
+            SELECTORS:
+            {selectors_json}
+
+            CRITERIA: Look for input_type "search"/"text", id/name containing "search", "query", or "keyword". It is a primary navigation element. Prefer high confidence scores and distinctive IDs like '#twotabsearchtextbox'.
+            Return JSON: {{"search_bar_selector": "exact_selector_string"}}"""
+        }  
         prompt = prompts.get(request_type, prompts["sign_in"])
         print(f"🤖 Querying AI for batch {batch_start//batch_size + 1}...")
         
@@ -1009,7 +1016,6 @@ async def process_products_and_reviews(page, product_links, max_products=3):
         'products_processed': 0,
         'products': []
     }
-    
     for i, product in enumerate(product_links[:max_products]):
         print(f"\n🛍️ Processing product {i + 1}/{min(max_products, len(product_links))}: {product['title'][:50]}...")
         try:
@@ -1027,7 +1033,6 @@ async def process_products_and_reviews(page, product_links, max_products=3):
             with open(file_path_product, "w", encoding="utf-8") as f:
                 for element in elements_product:
                     f.write(element + "\n")
-            
             # Get LLM recommendations for review page links
             print("🤖 Getting LLM recommendations for review page links...")
             temp_review_link_selectors = find_review_link_selectors(elements_product)
@@ -1039,7 +1044,6 @@ async def process_products_and_reviews(page, product_links, max_products=3):
             # Navigate to review page
             print("🔗 Navigating to dedicated review page...")
             navigation_success = await navigate_to_review_page(page, review_link_selectors)
-            
             if navigation_success:
                 # Extract selectors from review page
                 print("📊 Extracting review page selectors...")
@@ -1089,7 +1093,6 @@ async def process_products_and_reviews(page, product_links, max_products=3):
                     'reviews_found': 0,
                     'reviews': []
                 })
-            
         except Exception as e:
             print(f"❌ Error processing product {i + 1}: {e}")
             # Add error entry
@@ -1107,7 +1110,6 @@ async def process_products_and_reviews(page, product_links, max_products=3):
 
 
 async def perform_product_search(page, selectors, product_query):
-    # Try multiple search box selectors
     search_filled = False
     for selector in selectors.get("search_box", []):
         try:
@@ -1125,7 +1127,6 @@ async def perform_product_search(page, selectors, product_query):
     
     # Small delay before clicking search
     await asyncio.sleep(1)
-    
     # Try multiple search button selectors - ONLY LLM PROVIDED SELECTORS
     search_clicked = False
     for selector in selectors.get("search_button", []):
@@ -1443,6 +1444,7 @@ async def run_ai_pipeline_navigator(model_name=None):
                 await browser.close()
                 return
             
+
             # ========== STEP 16: ASK LOCAL AI for SUBMIT BUTTON ==========
             print("🔘 Step 16: ASK LOCAL AI for Submit Button")
             ai_response = await ask_local_ai_for_specific_selectors(password_auth_selectors, "submit_button", model_name)
@@ -1465,6 +1467,344 @@ async def run_ai_pipeline_navigator(model_name=None):
                 return
             
             print("🎉 AI Pipeline Navigator completed successfully! Login process finished using extract_all_selectors and category-based filtering.")
+            print("🎉 Login completed successfully!")
+            await asyncio.sleep(3)
+            
+            # ========== STEP 18: EXTRACT ALL Selectors from main page after login ==========
+            # print("📊 Step 18: EXTRACT ALL Selectors from main page after login")
+            # html_content = await page.content()
+            # main_selectors = extract_all_selectors(html_content, page.url)
+            
+            # # Save main page selectors
+            # os.makedirs("extracted_data/selectors", exist_ok=True)
+            # main_selectors_file = "extracted_data/selectors/main_all_selectors.json"
+            # with open(main_selectors_file, 'w') as f:
+            #     json.dump(main_selectors, f, indent=2)
+            # print(f"💾 Saved main page selectors to: {main_selectors_file}")
+            
+            # # ========== STEP 19: CATEGORIZE Main Page Selectors ==========
+            # print("🤖 Step 19: CATEGORIZE Main Page Selectors")
+            # main_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, main_selectors, model_name)
+            
+            # main_categorized_file = "extracted_data/categorized_selectors/main_categorized.json"
+            # with open(main_categorized_file, 'w') as f:
+            #     json.dump(main_categorized, f, indent=2)
+            
+            # ========== STEP 19.5: GROUP MAIN PAGE SELECTORS BY CATEGORY ==========
+            print("🗂️ Step 19.5: GROUP MAIN PAGE SELECTORS BY CATEGORY")
+            main_grouped_selectors = {}
+            main_grouped_file = "extracted_data/grouped_selectors/main_grouped.json"
+            with open(main_grouped_file, "r", encoding="utf-8") as f:
+                main_grouped_selectors = json.load(f)   
+            # main_grouped_selectors = group_selectors_by_category(
+            #     main_selectors, 
+            #     main_categorized, 
+            #     main_grouped_file
+            # )
+            
+            # ========== STEP 20: FILTER SEARCH SELECTORS & ASK LOCAL AI ==========
+            print("🔍 Step 20: FILTER SEARCH Selectors & ASK LOCAL AI for Search Bar")
+            search_selectors = main_grouped_selectors.get('navigation_layout', [])
+            
+            if not search_selectors:
+                print("❌ No search selectors found")
+                await browser.close()
+                return
+            
+            # Ask local AI to find the best search bar selector
+            ai_response = await ask_local_ai_for_specific_selectors(search_selectors, "search_bar", model_name)
+            search_bar_selector = ai_response.get('search_bar_selector')
+            
+            if not search_bar_selector:
+                print("❌ Local AI could not find search bar selector")
+                await browser.close()
+                return
+            
+            # ========== STEP 21: ENTER SEARCH QUERY ==========
+            print(f"🔍 Step 21: ENTER SEARCH QUERY '{search_product}' with selector: {search_bar_selector}")
+            try:
+                await page.fill(search_bar_selector, search_product)
+                await page.press(search_bar_selector, 'Enter')
+                await page.wait_for_load_state("domcontentloaded", timeout=10000)
+                print(f"✅ Search query entered successfully")
+            except Exception as e:
+                print(f"❌ Failed to enter search query: {e}")
+                await browser.close()
+                return
+            
+            await asyncio.sleep(3)
+            
+            # ========== STEP 22: EXTRACT ALL Selectors from search results page ==========
+            print("📊 Step 22: EXTRACT ALL Selectors from search results page")
+            html_content = await page.content()
+            search_results_selectors = extract_all_selectors(html_content, page.url)
+            
+            # Save search results selectors
+            search_results_selectors_file = "extracted_data/selectors/search_results_all_selectors.json"
+            with open(search_results_selectors_file, 'w') as f:
+                json.dump(search_results_selectors, f, indent=2)
+            
+            # ========== STEP 23: CATEGORIZE Search Results Selectors ==========
+            print("🤖 Step 23: CATEGORIZE Search Results Selectors")
+            search_results_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, search_results_selectors, model_name)
+            
+            search_results_categorized_file = "extracted_data/categorized_selectors/search_results_categorized.json"
+            with open(search_results_categorized_file, 'w') as f:
+                json.dump(search_results_categorized, f, indent=2)
+            
+            # ========== STEP 23.5: GROUP SEARCH RESULTS SELECTORS BY CATEGORY ==========
+            print("🗂️ Step 23.5: GROUP SEARCH RESULTS SELECTORS BY CATEGORY")
+            search_results_grouped_file = "extracted_data/grouped_selectors/search_results_grouped.json"
+            search_results_grouped_selectors = group_selectors_by_category(
+                search_results_selectors, 
+                search_results_categorized, 
+                search_results_grouped_file
+            )
+            
+            # ========== STEP 24: FILTER PRODUCT SELECTORS & ASK LOCAL AI ==========
+            print("🛍️ Step 24: FILTER PRODUCT Selectors & ASK LOCAL AI for First Product")
+            product_selectors = search_results_grouped_selectors.get('product_listing', [])
+            
+            if not product_selectors:
+                print("❌ No product selectors found")
+                await browser.close()
+                return
+            
+            # Ask local AI to find the first product selector
+            ai_response = await ask_local_ai_for_specific_selectors(product_selectors, "first_product", model_name)
+            first_product_selector = ai_response.get('first_product_selector')
+            
+            if not first_product_selector:
+                print("❌ Local AI could not find first product selector")
+                await browser.close()
+                return
+            
+            # ========== STEP 25: CLICK FIRST PRODUCT ==========
+            print(f"🛍️ Step 25: CLICK FIRST PRODUCT with selector: {first_product_selector}")
+            try:
+                await page.click(first_product_selector)
+                await page.wait_for_load_state("domcontentloaded", timeout=10000)
+                print(f"✅ Clicked first product successfully")
+            except Exception as e:
+                print(f"❌ Failed to click first product: {e}")
+                await browser.close()
+                return
+            
+            await asyncio.sleep(3)
+            
+            # ========== STEP 26: EXTRACT ALL Selectors from product page ==========
+            print("📊 Step 26: EXTRACT ALL Selectors from product page")
+            html_content = await page.content()
+            product_page_selectors = extract_all_selectors(html_content, page.url)
+            
+            # Save product page selectors
+            product_page_selectors_file = "extracted_data/selectors/product_page_all_selectors.json"
+            with open(product_page_selectors_file, 'w') as f:
+                json.dump(product_page_selectors, f, indent=2)
+            
+            # ========== STEP 27: CATEGORIZE Product Page Selectors ==========
+            print("🤖 Step 27: CATEGORIZE Product Page Selectors")
+            product_page_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, product_page_selectors, model_name)
+            
+            product_page_categorized_file = "extracted_data/categorized_selectors/product_page_categorized.json"
+            with open(product_page_categorized_file, 'w') as f:
+                json.dump(product_page_categorized, f, indent=2)
+            
+            # ========== STEP 27.5: GROUP PRODUCT PAGE SELECTORS BY CATEGORY ==========
+            print("🗂️ Step 27.5: GROUP PRODUCT PAGE SELECTORS BY CATEGORY")
+            product_page_grouped_file = "extracted_data/grouped_selectors/product_page_grouped.json"
+            product_page_grouped_selectors = group_selectors_by_category(
+                product_page_selectors, 
+                product_page_categorized, 
+                product_page_grouped_file
+            )
+            
+            # ========== STEP 28: FILTER REVIEW SELECTORS & ASK LOCAL AI ==========
+            print("⭐ Step 28: FILTER REVIEW Selectors & ASK LOCAL AI for Reviews Section")
+            review_selectors = product_page_grouped_selectors.get('review_rating', [])
+            
+            if not review_selectors:
+                print("❌ No review selectors found")
+                await browser.close()
+                return
+            
+            # Ask local AI to find the reviews section link
+            ai_response = await ask_local_ai_for_specific_selectors(review_selectors, "reviews_link", model_name)
+            reviews_link_selector = ai_response.get('reviews_link_selector')
+            
+            if not reviews_link_selector:
+                print("❌ Local AI could not find reviews link selector")
+                await browser.close()
+                return
+            
+            # ========== STEP 29: CLICK TO VIEW ALL REVIEWS ==========
+            print(f"⭐ Step 29: CLICK TO VIEW ALL REVIEWS with selector: {reviews_link_selector}")
+            try:
+                await page.click(reviews_link_selector)
+                await page.wait_for_load_state("domcontentloaded", timeout=10000)
+                print(f"✅ Navigated to reviews page successfully")
+            except Exception as e:
+                print(f"❌ Failed to navigate to reviews: {e}")
+                await browser.close()
+                return
+            
+            await asyncio.sleep(3)
+            
+            # ========== STEP 30: START REVIEW EXTRACTION LOOP ==========
+            print("📝 Step 30: START REVIEW EXTRACTION LOOP")
+            all_reviews = []
+            page_number = 1
+            max_pages = 5  # Limit to prevent infinite loops
+            
+            while page_number <= max_pages:
+                print(f"\n📄 Processing Review Page {page_number}")
+                
+                # ========== EXTRACT ALL Selectors from current reviews page ==========
+                print(f"📊 Extracting selectors from review page {page_number}")
+                html_content = await page.content()
+                reviews_page_selectors = extract_all_selectors(html_content, page.url)
+                
+                # Save review page selectors
+                reviews_page_selectors_file = f"extracted_data/selectors/reviews_page_{page_number}_all_selectors.json"
+                with open(reviews_page_selectors_file, 'w') as f:
+                    json.dump(reviews_page_selectors, f, indent=2)
+                
+                # ========== CATEGORIZE Review Page Selectors ==========
+                print(f"🤖 Categorizing review page {page_number} selectors")
+                reviews_page_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, reviews_page_selectors, model_name)
+                
+                reviews_page_categorized_file = f"extracted_data/categorized_selectors/reviews_page_{page_number}_categorized.json"
+                with open(reviews_page_categorized_file, 'w') as f:
+                    json.dump(reviews_page_categorized, f, indent=2)
+                
+                # ========== GROUP REVIEW PAGE SELECTORS BY CATEGORY ==========
+                print(f"🗂️ Grouping review page {page_number} selectors by category")
+                reviews_page_grouped_file = f"extracted_data/grouped_selectors/reviews_page_{page_number}_grouped.json"
+                reviews_page_grouped_selectors = group_selectors_by_category(
+                    reviews_page_selectors, 
+                    reviews_page_categorized, 
+                    reviews_page_grouped_file
+                )
+                
+                # ========== EXTRACT REVIEWS FROM CURRENT PAGE ==========
+                print(f"⭐ Extracting reviews from page {page_number}")
+                review_content_selectors = reviews_page_grouped_selectors.get('review_rating', [])
+                
+                if review_content_selectors:
+                    # Ask local AI to identify review content selectors
+                    ai_response = await ask_local_ai_for_specific_selectors(review_content_selectors, "review_content", model_name)
+                    review_text_selectors = ai_response.get('review_content_selectors', [])
+                    
+                    if review_text_selectors:
+                        # Extract review texts from the page
+                        page_reviews = []
+                        for selector in review_text_selectors[:10]:  # Limit to first 10 reviews per page
+                            try:
+                                review_elements = await page.query_selector_all(selector)
+                                for element in review_elements:
+                                    review_text = await element.inner_text()
+                                    if review_text and len(review_text.strip()) > 10:  # Filter out empty/short text
+                                        page_reviews.append({
+                                            'page': page_number,
+                                            'selector': selector,
+                                            'text': review_text.strip(),
+                                            'url': page.url
+                                        })
+                                        break  # Only take first valid review from each selector
+                            except Exception as e:
+                                print(f"⚠️ Error extracting review with selector {selector}: {e}")
+                                continue
+                        
+                        all_reviews.extend(page_reviews)
+                        print(f"✅ Extracted {len(page_reviews)} reviews from page {page_number}")
+                        
+                        # Save reviews from current page
+                        os.makedirs("extracted_data/reviews", exist_ok=True)
+                        page_reviews_file = f"extracted_data/reviews/page_{page_number}_reviews.json"
+                        with open(page_reviews_file, 'w', encoding='utf-8') as f:
+                            json.dump(page_reviews, f, indent=2, ensure_ascii=False)
+                    else:
+                        print(f"❌ No review content selectors found on page {page_number}")
+                else:
+                    print(f"❌ No review category selectors found on page {page_number}")
+                
+                # ========== LOOK FOR NEXT PAGE BUTTON ==========
+                print(f"🔍 Looking for next page button on page {page_number}")
+                navigation_selectors = reviews_page_grouped_selectors.get('navigation_pagination', [])
+                
+                if not navigation_selectors:
+                    print(f"❌ No navigation selectors found on page {page_number} - trying general navigation")
+                    navigation_selectors = reviews_page_grouped_selectors.get('navigation_menu', [])
+                
+                if navigation_selectors:
+                    # Ask local AI to find next page button
+                    ai_response = await ask_local_ai_for_specific_selectors(navigation_selectors, "next_page", model_name)
+                    next_page_selector = ai_response.get('next_page_selector')
+                    
+                    if next_page_selector:
+                        print(f"➡️ Found next page selector: {next_page_selector}")
+                        try:
+                            # Check if next page button is available and clickable
+                            next_button = await page.query_selector(next_page_selector)
+                            if next_button:
+                                is_disabled = await next_button.get_attribute('disabled')
+                                if not is_disabled:
+                                    await page.click(next_page_selector)
+                                    await page.wait_for_load_state("domcontentloaded", timeout=10000)
+                                    print(f"✅ Navigated to page {page_number + 1}")
+                                    page_number += 1
+                                    await asyncio.sleep(2)
+                                else:
+                                    print(f"🏁 Next page button is disabled - reached last page")
+                                    break
+                            else:
+                                print(f"🏁 Next page button not found - reached last page")
+                                break
+                        except Exception as e:
+                            print(f"❌ Failed to click next page: {e}")
+                            break
+                    else:
+                        print(f"🏁 No next page button found - reached last page")
+                        break
+                else:
+                    print(f"🏁 No navigation selectors found - reached last page")
+                    break
+            
+            # ========== STEP 31: SAVE ALL EXTRACTED REVIEWS ==========
+            print("💾 Step 31: SAVE ALL EXTRACTED REVIEWS")
+            all_reviews_file = "extracted_data/reviews/all_reviews_combined.json"
+            with open(all_reviews_file, 'w', encoding='utf-8') as f:
+                json.dump(all_reviews, f, indent=2, ensure_ascii=False)
+            
+            print(f"🎉 Review extraction completed!")
+            print(f"📊 Total reviews extracted: {len(all_reviews)} from {page_number} pages")
+            print(f"💾 All reviews saved to: {all_reviews_file}")
+            
+            # ========== STEP 32: GENERATE REVIEW SUMMARY ==========
+            print("📋 Step 32: GENERATE REVIEW SUMMARY")
+            if all_reviews:
+                summary = {
+                    'total_reviews': len(all_reviews),
+                    'pages_processed': page_number,
+                    'search_query': search_product,
+                    'product_url': page.url,
+                    'extraction_timestamp': asyncio.get_event_loop().time(),
+                    'reviews_by_page': {}
+                }
+                
+                for review in all_reviews:
+                    page_num = review['page']
+                    if page_num not in summary['reviews_by_page']:
+                        summary['reviews_by_page'][page_num] = 0
+                    summary['reviews_by_page'][page_num] += 1
+                
+                summary_file = "extracted_data/reviews/extraction_summary.json"
+                with open(summary_file, 'w') as f:
+                    json.dump(summary, f, indent=2)
+                
+                print(f"📋 Review summary saved to: {summary_file}")
+            
+            print("🎉 AI Pipeline Navigator completed successfully! Full workflow: Login → Search → Product → Reviews → Pagination completed.")
             
         except Exception as e:
             print(f"❌ Pipeline error: {e}")
@@ -1473,196 +1813,197 @@ async def run_ai_pipeline_navigator(model_name=None):
             print("⏳ Waiting 5 seconds before closing...")
             await asyncio.sleep(5)
             await browser.close()
+            
 
 
 # ---- Main Pipeline ----
-async def run_pipeline():
-    with open("../selectors/final2.json", "r") as f:
-        selectors = json.load(f)
-    hover_selector = selectors[0].get("hover_selector")
-    login_selector = selectors[0].get("login_selector")
-    url = "https://www.amazon.in"
-    username = os.getenv("AMAZON_USERNAME")
-    password = os.getenv("AMAZON_PASSWORD")
-    search_product = "polo Tshirt" 
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False, slow_mo=1000)  
-        page = await browser.new_page()
-        # Set longer timeout
-        page.set_default_timeout(15000)
+# async def run_pipeline():
+#     with open("../selectors/final2.json", "r") as f:
+#         selectors = json.load(f)
+#     hover_selector = selectors[0].get("hover_selector")
+#     login_selector = selectors[0].get("login_selector")
+#     url = "https://www.amazon.in"
+#     username = os.getenv("AMAZON_USERNAME")
+#     password = os.getenv("AMAZON_PASSWORD")
+#     search_product = "polo Tshirt" 
+#     async with async_playwright() as p:
+#         browser = await p.chromium.launch(headless=False, slow_mo=1000)  
+#         page = await browser.new_page()
+#         # Set longer timeout
+#         page.set_default_timeout(15000)
         
-        await page.goto(url)
-        print("✅ Loaded Amazon homepage")
+#         await page.goto(url)
+#         print("✅ Loaded Amazon homepage")
 
-        # Step 1: go to login
-        redirected_url = await go_to_login(page, hover_selector, login_selector)
-        if not redirected_url:
-            print("❌ Could not navigate to login page")
-            await browser.close()
-            return
-        print("📊 Extracting username page selectors...")
-        elements, l = await extract_selectors(page, "username")
-        # Create directories if they don't exist
-        os.makedirs("../selectors2", exist_ok=True)
-        os.makedirs("../selectors", exist_ok=True)
-        # Save username page elements
-        file_path1 = "../selectors2/stage1_username_selectors.txt"
-        with open(file_path1, "w", encoding="utf-8") as f:
-            for element in elements:
-                f.write(element + "\n")
+#         # Step 1: go to login
+#         redirected_url = await go_to_login(page, hover_selector, login_selector)
+#         if not redirected_url:
+#             print("❌ Could not navigate to login page")
+#             await browser.close()
+#             return
+#         print("📊 Extracting username page selectors...")
+#         elements, l = await extract_selectors(page, "username")
+#         # Create directories if they don't exist
+#         os.makedirs("../selectors2", exist_ok=True)
+#         os.makedirs("../selectors", exist_ok=True)
+#         # Save username page elements
+#         file_path1 = "../selectors2/stage1_username_selectors.txt"
+#         with open(file_path1, "w", encoding="utf-8") as f:
+#             for element in elements:
+#                 f.write(element + "\n")
         
-        file_path_temp = "../selectors2/username_page.html"
-        with open(file_path_temp, "w", encoding="utf-8") as f:
-            f.write(l)
+#         file_path_temp = "../selectors2/username_page.html"
+#         with open(file_path_temp, "w", encoding="utf-8") as f:
+#             f.write(l)
 
-        # Step 3: let LLM choose username page selectors
-        print("🤖 Getting LLM recommendations for username page...")
-        temp_selectors = find_username_selectors(elements)
-        print(f"Username LLM Response: {temp_selectors}")
+#         # Step 3: let LLM choose username page selectors
+#         print("🤖 Getting LLM recommendations for username page...")
+#         temp_selectors = find_username_selectors(elements)
+#         print(f"Username LLM Response: {temp_selectors}")
 
-        # Parse LLM response for username page
-        username_selectors = json.loads(temp_selectors)
+#         # Parse LLM response for username page
+#         username_selectors = json.loads(temp_selectors)
 
-        file_path2 = "../selectors/stage2_username_selectors.json"
-        with open(file_path2, "w", encoding="utf-8") as f:
-            json.dump(username_selectors, f, indent=4)
+#         file_path2 = "../selectors/stage2_username_selectors.json"
+#         with open(file_path2, "w", encoding="utf-8") as f:
+#             json.dump(username_selectors, f, indent=4)
 
-        # Step 4: perform username entry
-        print("🔐 Entering username...")
-        username_success = await perform_username_entry(page, username_selectors, username)
-        if not username_success:
-            print("❌ Username entry failed")
-            await browser.close()
-            return
+#         # Step 4: perform username entry
+#         print("🔐 Entering username...")
+#         username_success = await perform_username_entry(page, username_selectors, username)
+#         if not username_success:
+#             print("❌ Username entry failed")
+#             await browser.close()
+#             return
 
-        # Step 5: extract selectors from password page
-        print("📊 Extracting password page selectors...")
-        elements_pwd, l_pwd = await extract_selectors(page, "password")
+#         # Step 5: extract selectors from password page
+#         print("📊 Extracting password page selectors...")
+#         elements_pwd, l_pwd = await extract_selectors(page, "password")
         
-        # Save password page elements
-        file_path3 = "../selectors2/stage1_password_selectors.txt"
-        with open(file_path3, "w", encoding="utf-8") as f:
-            for element in elements_pwd:
-                f.write(element + "\n")
+#         # Save password page elements
+#         file_path3 = "../selectors2/stage1_password_selectors.txt"
+#         with open(file_path3, "w", encoding="utf-8") as f:
+#             for element in elements_pwd:
+#                 f.write(element + "\n")
         
-        file_path_temp_pwd = "../selectors2/password_page.html"
-        with open(file_path_temp_pwd, "w", encoding="utf-8") as f:
-            f.write(l_pwd)
+#         file_path_temp_pwd = "../selectors2/password_page.html"
+#         with open(file_path_temp_pwd, "w", encoding="utf-8") as f:
+#             f.write(l_pwd)
 
-        # Step 6: let LLM choose password page selectors
-        print("🤖 Getting LLM recommendations for password page...")
-        temp_pwd_selectors = find_password_selectors(elements_pwd)
-        print(f"Password LLM Response: {temp_pwd_selectors}")
+#         # Step 6: let LLM choose password page selectors
+#         print("🤖 Getting LLM recommendations for password page...")
+#         temp_pwd_selectors = find_password_selectors(elements_pwd)
+#         print(f"Password LLM Response: {temp_pwd_selectors}")
 
-        # Parse LLM response for password page
-        password_selectors = json.loads(temp_pwd_selectors)
+#         # Parse LLM response for password page
+#         password_selectors = json.loads(temp_pwd_selectors)
 
-        file_path4 = "../selectors/stage2_password_selectors.json"
-        with open(file_path4, "w", encoding="utf-8") as f:
-            json.dump(password_selectors, f, indent=4)
+#         file_path4 = "../selectors/stage2_password_selectors.json"
+#         with open(file_path4, "w", encoding="utf-8") as f:
+#             json.dump(password_selectors, f, indent=4)
 
-        # Step 7: perform password entry and submit
-        print("🔐 Entering password and submitting...")
-        password_success = await perform_password_entry(page, password_selectors, password)
+#         # Step 7: perform password entry and submit
+#         print("🔐 Entering password and submitting...")
+#         password_success = await perform_password_entry(page, password_selectors, password)
         
-        if password_success:
-            print("🎉 Login completed successfully!")
-        else:
-            print("❌ Password entry/submit failed")
-            await browser.close()
-            return
+#         if password_success:
+#             print("🎉 Login completed successfully!")
+#         else:
+#             print("❌ Password entry/submit failed")
+#             await browser.close()
+#             return
 
-        # Step 8: Extract selectors from main page for search
-        print("📊 Extracting main page search selectors...")
-        elements_search, l_search = await extract_selectors(page, "search")
+#         # Step 8: Extract selectors from main page for search
+#         print("📊 Extracting main page search selectors...")
+#         elements_search, l_search = await extract_selectors(page, "search")
         
-        # Save main page search elements
-        file_path5 = "../selectors2/stage1_search_selectors.txt"
-        with open(file_path5, "w", encoding="utf-8") as f:
-            for element in elements_search:
-                f.write(element + "\n")
+#         # Save main page search elements
+#         file_path5 = "../selectors2/stage1_search_selectors.txt"
+#         with open(file_path5, "w", encoding="utf-8") as f:
+#             for element in elements_search:
+#                 f.write(element + "\n")
         
-        file_path_temp_search = "../selectors2/main_page.html"
-        with open(file_path_temp_search, "w", encoding="utf-8") as f:
-            f.write(l_search)
+#         file_path_temp_search = "../selectors2/main_page.html"
+#         with open(file_path_temp_search, "w", encoding="utf-8") as f:
+#             f.write(l_search)
 
-        # Step 9: Let LLM choose search selectors
-        print("🤖 Getting LLM recommendations for search functionality...")
-        temp_search_selectors = find_search_selectors(elements_search)
-        print(f"Search LLM Response: {temp_search_selectors}")
+#         # Step 9: Let LLM choose search selectors
+#         print("🤖 Getting LLM recommendations for search functionality...")
+#         temp_search_selectors = find_search_selectors(elements_search)
+#         print(f"Search LLM Response: {temp_search_selectors}")
 
-        # Parse LLM response for search
-        search_selectors = json.loads(temp_search_selectors)
+#         # Parse LLM response for search
+#         search_selectors = json.loads(temp_search_selectors)
 
-        file_path6 = "../selectors/stage2_search_selectors.json"
-        with open(file_path6, "w", encoding="utf-8") as f:
-            json.dump(search_selectors, f, indent=4)
+#         file_path6 = "../selectors/stage2_search_selectors.json"
+#         with open(file_path6, "w", encoding="utf-8") as f:
+#             json.dump(search_selectors, f, indent=4)
 
-        # Step 10: Perform product search
-        print(f"🔍 Searching for product: '{search_product}'...")
-        search_success = await perform_product_search(page, search_selectors, search_product)
+#         # Step 10: Perform product search
+#         print(f"🔍 Searching for product: '{search_product}'...")
+#         search_success = await perform_product_search(page, search_selectors, search_product)
         
-        if search_success:
-            print("🎉 Product search completed successfully!")
-            print(f"🔗 Current URL: {page.url}")
+#         if search_success:
+#             print("🎉 Product search completed successfully!")
+#             print(f"🔗 Current URL: {page.url}")
             
-            # Step 11: Extract product links from search results
-            print("📊 Extracting product links from search results...")
-            elements_results, l_results = await extract_selectors(page, "search")
+#             # Step 11: Extract product links from search results
+#             print("📊 Extracting product links from search results...")
+#             elements_results, l_results = await extract_selectors(page, "search")
             
-            # Save search results elements
-            file_path7 = "../selectors2/stage1_results_selectors.txt"
-            with open(file_path7, "w", encoding="utf-8") as f:
-                for element in elements_results:
-                    f.write(element + "\n")
+#             # Save search results elements
+#             file_path7 = "../selectors2/stage1_results_selectors.txt"
+#             with open(file_path7, "w", encoding="utf-8") as f:
+#                 for element in elements_results:
+#                     f.write(element + "\n")
             
-            # Get LLM recommendations for product links
-            print("🤖 Getting LLM recommendations for product links...")
-            temp_product_selectors = find_product_selectors(elements_results)
-            print(f"Product Links LLM Response: {temp_product_selectors}")
+#             # Get LLM recommendations for product links
+#             print("🤖 Getting LLM recommendations for product links...")
+#             temp_product_selectors = find_product_selectors(elements_results)
+#             print(f"Product Links LLM Response: {temp_product_selectors}")
             
-            # Parse LLM response for product links
-            product_link_selectors = json.loads(temp_product_selectors)
+#             # Parse LLM response for product links
+#             product_link_selectors = json.loads(temp_product_selectors)
             
-            file_path8 = "../selectors/stage2_product_selectors.json"
-            with open(file_path8, "w", encoding="utf-8") as f:
-                json.dump(product_link_selectors, f, indent=4)
+#             file_path8 = "../selectors/stage2_product_selectors.json"
+#             with open(file_path8, "w", encoding="utf-8") as f:
+#                 json.dump(product_link_selectors, f, indent=4)
             
-            # Step 12: Extract product links
-            print("🔗 Extracting product links...")
-            product_links = await extract_product_links(page, product_link_selectors, max_products=5)
+#             # Step 12: Extract product links
+#             print("🔗 Extracting product links...")
+#             product_links = await extract_product_links(page, product_link_selectors, max_products=5)
             
-            if product_links:
-                # Step 13: Process products and extract reviews from dedicated review pages
-                print("📝 Processing products and extracting reviews from review pages...")
-                final_results = await process_products_and_reviews(page, product_links, max_products=1)
+#             if product_links:
+#                 # Step 13: Process products and extract reviews from dedicated review pages
+#                 print("📝 Processing products and extracting reviews from review pages...")
+#                 final_results = await process_products_and_reviews(page, product_links, max_products=1)
                 
-                # Add search query to results
-                final_results['search_query'] = search_product
+#                 # Add search query to results
+#                 final_results['search_query'] = search_product
                 
-                # Save final results
-                os.makedirs("../extracted_date", exist_ok=True)  # Ensure directory exists
-                final_file_path = "../extracted_date/final_result_llm_2.json"
-                with open(final_file_path, "w", encoding="utf-8") as f:
-                    json.dump(final_results, f, indent=4, ensure_ascii=False)  # Overwrite if exists
+#                 # Save final results
+#                 os.makedirs("../extracted_date", exist_ok=True)  # Ensure directory exists
+#                 final_file_path = "../extracted_date/final_result_llm_2.json"
+#                 with open(final_file_path, "w", encoding="utf-8") as f:
+#                     json.dump(final_results, f, indent=4, ensure_ascii=False)  # Overwrite if exists
                 
-                print(f"🎉 All data extracted and saved to {final_file_path}")
-                print(f"📊 Summary:")
-                print(f"   - Search Query: {final_results['search_query']}")
-                print(f"   - Products Found: {final_results['total_products_found']}")
-                print(f"   - Products Processed: {final_results['products_processed']}")
-                total_reviews = sum(p['reviews_found'] for p in final_results['products'])
-                print(f"   - Total Reviews Extracted: {total_reviews}")
+#                 print(f"🎉 All data extracted and saved to {final_file_path}")
+#                 print(f"📊 Summary:")
+#                 print(f"   - Search Query: {final_results['search_query']}")
+#                 print(f"   - Products Found: {final_results['total_products_found']}")
+#                 print(f"   - Products Processed: {final_results['products_processed']}")
+#                 total_reviews = sum(p['reviews_found'] for p in final_results['products'])
+#                 print(f"   - Total Reviews Extracted: {total_reviews}")
                 
-            else:
-                print("❌ No product links found")
+#             else:
+#                 print("❌ No product links found")
         
-        else:
-            print("❌ Product search failed")
-        print("⏳ Waiting 10 seconds before closing...")
-        await asyncio.sleep(10)
-        await browser.close()
-    print("✅ Pipeline completed")
+#         else:
+#             print("❌ Product search failed")
+#         print("⏳ Waiting 10 seconds before closing...")
+#         await asyncio.sleep(10)
+#         await browser.close()
+#     print("✅ Pipeline completed")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,146 @@
+{
+    "search_query": "sony headphones",
+    "total_products_found": 5,
+    "products_processed": 1,
+    "products": [
+        {
+            "product_index": 1,
+            "product_title": "No title found",
+            "product_url": "https://www.amazon.in/Sony-Bluetooth-Headphones-Multipoint-Connectivity/dp/B0BS1RT9S2/ref=sr_1_3?crid=33WQLHEDZ7IKX&dib=eyJ2IjoiMSJ9.dzHFSqzy1HlTV6jsaFzXJB6zpcL_ntk5tWSLbZ9poiwkqlQc1D0Tv453rUL77mzjxJshiVINSkAHgV9M5CmAIYBzze-M87ugAtLuAOrofoMyS6-Y9T3Ns5Jw1JrA1BrhmlhMlzW0w7dOQTPg8Sj9fUW4jaAoKoR_iaa0FKcKBs5QnB3PR9NqEefugCitb6VDLbkhhD81oy9EtMv1VtRNa68WCfOF5Zz4hfNb5m0rBl0.6Xv6yjOijicnMhwwRdNtdcb48chaR0NLY-DZmJaWOa0&dib_tag=se&keywords=sony+headphones&nsdOptOutParam=true&qid=1756465440&sprefix=sony+headphones%2Caps%2C364&sr=8-3",
+            "review_page_url": "https://www.amazon.in/product-reviews/B09QMQK8NT/ref=cm_cr_arp_d_paging_btm_next_2?ie=UTF8&showViewpoints=1&pageNumber=2",
+            "reviews_found": 13,
+            "reviews": [
+                {
+                    "review_text": "Superb product..😘",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 1 April 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 1,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "No valid update",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 5 August 2025",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "A must product to buy",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 21 October 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Thanks Laxmi for great support,🫂🗿😘",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 6 January 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 5,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "One assist team not having proper support team to register the warranties , registration has problems so think about claim how much problems we are going to face when we claim it .I wont recommend this to any one",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 30 November 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 8,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Dekte hae in future hlp hotahae ya nhi",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 28 August 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 9,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Must have extended warranty to this divice.",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 16 August 2024",
+                    "verified_purchase": "Unknown",
+                    "review_index": 10,
+                    "page_number": 1,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Liked the assistant",
+                    "reviewer_name": "Unknown",
+                    "rating": "4",
+                    "review_date": "Reviewed in India on 23 May 2022",
+                    "verified_purchase": "Unknown",
+                    "review_index": 2,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good speed delivery",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 14 June 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 3,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "This insurance is very good",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 23 February 2023",
+                    "verified_purchase": "Unknown",
+                    "review_index": 4,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Good service",
+                    "reviewer_name": "Unknown",
+                    "rating": "5",
+                    "review_date": "Reviewed in India on 15 October 2022",
+                    "verified_purchase": "Unknown",
+                    "review_index": 5,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Returning the defective item associated with the warranty so it’s useless for me",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 14 October 2022",
+                    "verified_purchase": "Unknown",
+                    "review_index": 6,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                },
+                {
+                    "review_text": "Waste money very bad",
+                    "reviewer_name": "Unknown",
+                    "rating": "1",
+                    "review_date": "Reviewed in India on 19 November 2022",
+                    "verified_purchase": "Unknown",
+                    "review_index": 7,
+                    "page_number": 2,
+                    "extraction_method": "llm_container_based"
+                }
+            ]
+        }
+    ]
+}
