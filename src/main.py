@@ -1471,40 +1471,41 @@ async def run_ai_pipeline_navigator(model_name=None):
             await asyncio.sleep(3)
             
             # ========== STEP 18: EXTRACT ALL Selectors from main page after login ==========
-            # print("📊 Step 18: EXTRACT ALL Selectors from main page after login")
-            # html_content = await page.content()
-            # main_selectors = extract_all_selectors(html_content, page.url)
+            print("📊 Step 18: EXTRACT ALL Selectors from main page after login")
+            html_content = await page.content()
+            main_selectors = extract_all_selectors(html_content, page.url)
             
-            # # Save main page selectors
-            # os.makedirs("extracted_data/selectors", exist_ok=True)
-            # main_selectors_file = "extracted_data/selectors/main_all_selectors.json"
-            # with open(main_selectors_file, 'w') as f:
-            #     json.dump(main_selectors, f, indent=2)
-            # print(f"💾 Saved main page selectors to: {main_selectors_file}")
+            # Save main page selectors
+            os.makedirs("extracted_data/selectors", exist_ok=True)
+            main_selectors_file = "extracted_data/selectors/main_all_selectors.json"
+            with open(main_selectors_file, 'w') as f:
+                json.dump(main_selectors, f, indent=2)
+            print(f"💾 Saved main page selectors to: {main_selectors_file}")
             
-            # # ========== STEP 19: CATEGORIZE Main Page Selectors ==========
-            # print("🤖 Step 19: CATEGORIZE Main Page Selectors")
-            # main_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, main_selectors, model_name)
+            # ========== STEP 19: CATEGORIZE Main Page Selectors ==========
+            print("🤖 Step 19: CATEGORIZE Main Page Selectors")
+            main_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, main_selectors, model_name)
+            # main_categorized = {}
             
-            # main_categorized_file = "extracted_data/categorized_selectors/main_categorized.json"
-            # with open(main_categorized_file, 'w') as f:
-            #     json.dump(main_categorized, f, indent=2)
+            main_categorized_file = "extracted_data/categorized_selectors/main_categorized.json"
+            with open(main_categorized_file, 'w') as f:
+                json.dump(main_categorized, f, indent=2)
             
             # ========== STEP 19.5: GROUP MAIN PAGE SELECTORS BY CATEGORY ==========
             print("🗂️ Step 19.5: GROUP MAIN PAGE SELECTORS BY CATEGORY")
             main_grouped_selectors = {}
             main_grouped_file = "extracted_data/grouped_selectors/main_grouped.json"
-            with open(main_grouped_file, "r", encoding="utf-8") as f:
-                main_grouped_selectors = json.load(f)   
-            # main_grouped_selectors = group_selectors_by_category(
-            #     main_selectors, 
-            #     main_categorized, 
-            #     main_grouped_file
-            # )
+            # with open(main_grouped_file, "r", encoding="utf-8") as f:
+            #     main_grouped_selectors = json.load(f)   
+            main_grouped_selectors = group_selectors_by_category(
+                main_selectors, 
+                main_categorized, 
+                main_grouped_file
+            )
             
             # ========== STEP 20: FILTER SEARCH SELECTORS & ASK LOCAL AI ==========
             print("🔍 Step 20: FILTER SEARCH Selectors & ASK LOCAL AI for Search Bar")
-            search_selectors = main_grouped_selectors.get('navigation_layout', [])
+            search_selectors = main_grouped_selectors.get('search_filters', [])
             
             if not search_selectors:
                 print("❌ No search selectors found")
