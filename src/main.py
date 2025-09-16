@@ -106,12 +106,33 @@ async def ask_local_ai_for_specific_selectors(category_selectors, request_type="
             Return JSON: {{"submit_button_selector": "exact_selector_string"}}""",
 
             "search_bar": f"""Find the BEST selector for the main search input field.
-
             SELECTORS:
             {selectors_json}
 
-            CRITERIA: Look for input_type "search"/"text", id/name containing "search", "query", or "keyword". It is a primary navigation element. Prefer high confidence scores and distinctive IDs like '#twotabsearchtextbox'.
-            Return JSON: {{"search_bar_selector": "exact_selector_string"}}"""
+            CRITERIA: Look for visible input fields with:
+               - name="field-keywords" 
+               - id containing "search" or "twotab"
+               - placeholder containing "Search" 
+               - type="text" (NOT type="hidden")
+               - Used for product/item searches
+            AVOID: Hidden inputs, location inputs, dropdown selections, address fields
+            Return JSON: {{"search_bar_selector": "exact_selector_string"}}""",
+            "first_product": f"""Find the BEST CSS selector for clicking the FIRST product in search results.
+SELECTORS:
+{selectors_json}
+
+IMPORTANT: 
+- Return ONLY actual CSS selectors that exist in the HTML (like '.product', '#result', 'a[href*="/dp/"]')
+- NEVER return UUIDs, internal IDs, or artificial identifiers
+- Selectors should be short, meaningful, and actually target visible elements
+
+CRITERIA: Look for elements that:
+- Are typically anchor tags (<a>) or clickable divs
+- Contain product titles, names, or images
+- Have href attributes pointing to product pages
+- Common patterns: [data-asin], .s-result-item, .product, .item, .card
+
+Return JSON: {{"first_product_selector": "valid_css_selector"}}""",
         }  
         prompt = prompts.get(request_type, prompts["sign_in"])
         print(f"🤖 Querying AI for batch {batch_start//batch_size + 1}...")
@@ -1472,36 +1493,36 @@ async def run_ai_pipeline_navigator(model_name=None):
             
             # ========== STEP 18: EXTRACT ALL Selectors from main page after login ==========
             print("📊 Step 18: EXTRACT ALL Selectors from main page after login")
-            html_content = await page.content()
-            main_selectors = extract_all_selectors(html_content, page.url)
+            # html_content = await page.content()
+            # main_selectors = extract_all_selectors(html_content, page.url)
             
             # Save main page selectors
-            os.makedirs("extracted_data/selectors", exist_ok=True)
-            main_selectors_file = "extracted_data/selectors/main_all_selectors.json"
-            with open(main_selectors_file, 'w') as f:
-                json.dump(main_selectors, f, indent=2)
-            print(f"💾 Saved main page selectors to: {main_selectors_file}")
+            # os.makedirs("extracted_data/selectors", exist_ok=True)
+            # main_selectors_file = "extracted_data/selectors/main_all_selectors.json"
+            # with open(main_selectors_file, 'w') as f:
+            #     json.dump(main_selectors, f, indent=2)
+            # print(f"💾 Saved main page selectors to: {main_selectors_file}")
             
             # ========== STEP 19: CATEGORIZE Main Page Selectors ==========
-            print("🤖 Step 19: CATEGORIZE Main Page Selectors")
-            main_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, main_selectors, model_name)
+            # print("🤖 Step 19: CATEGORIZE Main Page Selectors")
+            # main_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, main_selectors, model_name)
             # main_categorized = {}
             
-            main_categorized_file = "extracted_data/categorized_selectors/main_categorized.json"
-            with open(main_categorized_file, 'w') as f:
-                json.dump(main_categorized, f, indent=2)
+            # main_categorized_file = "extracted_data/categorized_selectors/main_categorized.json"
+            # with open(main_categorized_file, 'w') as f:
+            #     json.dump(main_categorized, f, indent=2)
             
             # ========== STEP 19.5: GROUP MAIN PAGE SELECTORS BY CATEGORY ==========
             print("🗂️ Step 19.5: GROUP MAIN PAGE SELECTORS BY CATEGORY")
             main_grouped_selectors = {}
             main_grouped_file = "extracted_data/grouped_selectors/main_grouped.json"
-            # with open(main_grouped_file, "r", encoding="utf-8") as f:
-            #     main_grouped_selectors = json.load(f)   
-            main_grouped_selectors = group_selectors_by_category(
-                main_selectors, 
-                main_categorized, 
-                main_grouped_file
-            )
+            with open(main_grouped_file, "r", encoding="utf-8") as f:
+                main_grouped_selectors = json.load(f)   
+            # main_grouped_selectors = group_selectors_by_category(
+            #     main_selectors, 
+            #     main_categorized, 
+            #     main_grouped_file
+            # )
             
             # ========== STEP 20: FILTER SEARCH SELECTORS & ASK LOCAL AI ==========
             print("🔍 Step 20: FILTER SEARCH Selectors & ASK LOCAL AI for Search Bar")
@@ -1537,34 +1558,37 @@ async def run_ai_pipeline_navigator(model_name=None):
             
             # ========== STEP 22: EXTRACT ALL Selectors from search results page ==========
             print("📊 Step 22: EXTRACT ALL Selectors from search results page")
-            html_content = await page.content()
-            search_results_selectors = extract_all_selectors(html_content, page.url)
+            # html_content = await page.content()
+            # search_results_selectors = extract_all_selectors(html_content, page.url)
             
             # Save search results selectors
-            search_results_selectors_file = "extracted_data/selectors/search_results_all_selectors.json"
-            with open(search_results_selectors_file, 'w') as f:
-                json.dump(search_results_selectors, f, indent=2)
+            # search_results_selectors_file = "extracted_data/selectors/search_results_all_selectors.json"
+            # with open(search_results_selectors_file, 'w') as f:
+            #     json.dump(search_results_selectors, f, indent=2)
             
             # ========== STEP 23: CATEGORIZE Search Results Selectors ==========
-            print("🤖 Step 23: CATEGORIZE Search Results Selectors")
-            search_results_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, search_results_selectors, model_name)
+            # print("🤖 Step 23: CATEGORIZE Search Results Selectors")
+            # search_results_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, search_results_selectors, model_name)
             
-            search_results_categorized_file = "extracted_data/categorized_selectors/search_results_categorized.json"
-            with open(search_results_categorized_file, 'w') as f:
-                json.dump(search_results_categorized, f, indent=2)
+            # search_results_categorized_file = "extracted_data/categorized_selectors/search_results_categorized.json"
+            # with open(search_results_categorized_file, 'w') as f:
+            #     json.dump(search_results_categorized, f, indent=2)
             
             # ========== STEP 23.5: GROUP SEARCH RESULTS SELECTORS BY CATEGORY ==========
             print("🗂️ Step 23.5: GROUP SEARCH RESULTS SELECTORS BY CATEGORY")
+            search_results_grouped_selectors = {}
             search_results_grouped_file = "extracted_data/grouped_selectors/search_results_grouped.json"
-            search_results_grouped_selectors = group_selectors_by_category(
-                search_results_selectors, 
-                search_results_categorized, 
-                search_results_grouped_file
-            )
+            with open(search_results_grouped_file, "r", encoding="utf-8") as f:
+                search_results_grouped_selectors = json.load(f)
+            # search_results_grouped_selectors = group_selectors_by_category(
+            #     search_results_selectors, 
+            #     search_results_categorized, 
+            #     search_results_grouped_file
+            # )
             
             # ========== STEP 24: FILTER PRODUCT SELECTORS & ASK LOCAL AI ==========
             print("🛍️ Step 24: FILTER PRODUCT Selectors & ASK LOCAL AI for First Product")
-            product_selectors = search_results_grouped_selectors.get('product_listing', [])
+            product_selectors = search_results_grouped_selectors.get('product_details', [])
             
             if not product_selectors:
                 print("❌ No product selectors found")
