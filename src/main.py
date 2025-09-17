@@ -1243,6 +1243,7 @@ async def run_ai_pipeline_navigator(model_name=None):
     username = os.getenv("AMAZON_USERNAME")
     password = os.getenv("AMAZON_PASSWORD")
     search_product = "polo Tshirt"
+    model1_name, model2_name = "qwen/qwen3-4b-2507","qwen/qwen3-4b-2507:2"
     
     # Configure model name from parameter, environment variable, or default
     if model_name is None:
@@ -1618,35 +1619,46 @@ async def run_ai_pipeline_navigator(model_name=None):
             await asyncio.sleep(3)
             
             # ========== STEP 26: EXTRACT ALL Selectors from product page ==========
-            print("📊 Step 26: EXTRACT ALL Selectors from product page")
-            html_content = await page.content()
-            product_page_selectors = extract_all_selectors(html_content, page.url)
+            # print("📊 Step 26: EXTRACT ALL Selectors from product page")
+            # html_content = await page.content()
+            # product_page_selectors = extract_all_selectors(html_content, page.url)
             
-            # Save product page selectors
-            product_page_selectors_file = "extracted_data/selectors/product_page_all_selectors.json"
-            with open(product_page_selectors_file, 'w') as f:
-                json.dump(product_page_selectors, f, indent=2)
+            # # Save product page selectors
+            # product_page_selectors_file = "extracted_data/selectors/product_page_all_selectors.json"
+            # with open(product_page_selectors_file, 'w') as f:
+            #     json.dump(product_page_selectors, f, indent=2)
             
-            # ========== STEP 27: CATEGORIZE Product Page Selectors ==========
-            print("🤖 Step 27: CATEGORIZE Product Page Selectors")
-            product_page_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, product_page_selectors, model_name)
+            # # ========== STEP 27: CATEGORIZE Product Page Selectors ==========
+            # print("🤖 Step 27: CATEGORIZE Product Page Selectors")
+            # product_page_categorized = await local_ai_selector_categorizer(product_page_selectors, model1_name, model2_name, max_concurrent_per_model=5)
             
-            product_page_categorized_file = "extracted_data/categorized_selectors/product_page_categorized.json"
-            with open(product_page_categorized_file, 'w') as f:
-                json.dump(product_page_categorized, f, indent=2)
+            # product_page_categorized_file = "extracted_data/categorized_selectors/product_page_categorized.json"
+            # with open(product_page_categorized_file, 'w') as f:
+            #     json.dump(product_page_categorized, f, indent=2)
             
             # ========== STEP 27.5: GROUP PRODUCT PAGE SELECTORS BY CATEGORY ==========
             print("🗂️ Step 27.5: GROUP PRODUCT PAGE SELECTORS BY CATEGORY")
             product_page_grouped_file = "extracted_data/grouped_selectors/product_page_grouped.json"
-            product_page_grouped_selectors = group_selectors_by_category(
-                product_page_selectors, 
-                product_page_categorized, 
-                product_page_grouped_file
-            )
+            # product_page_grouped_selectors = group_selectors_by_category(
+            #     product_page_selectors, 
+            #     product_page_categorized, 
+            #     product_page_grouped_file
+            # )
+
+            product_page_grouped_selectors = {}
+            # search_results_grouped_file = "extracted_data/grouped_selectors/search_results_grouped.json"
+            with open(product_page_grouped_file, "r", encoding="utf-8") as f:
+                product_page_grouped_selectors = json.load(f)
+            # search_results_grouped_selectors = group_selectors_by_category(
+            #     search_results_selectors, 
+            #     search_results_categorized, 
+            #     search_results_grouped_file
+            # )
+            
             
             # ========== STEP 28: FILTER REVIEW SELECTORS & ASK LOCAL AI ==========
-            print("⭐ Step 28: FILTER REVIEW Selectors & ASK LOCAL AI for Reviews Section")
-            review_selectors = product_page_grouped_selectors.get('review_rating', [])
+            print("⭐ Step 28: FILTER REVIEW Selectors & ASK LOCAL AI for Reviews Section") 
+            review_selectors = product_page_grouped_selectors.get('category_listing', [])
             
             if not review_selectors:
                 print("❌ No review selectors found")
@@ -1696,7 +1708,7 @@ async def run_ai_pipeline_navigator(model_name=None):
                 
                 # ========== CATEGORIZE Review Page Selectors ==========
                 print(f"🤖 Categorizing review page {page_number} selectors")
-                reviews_page_categorized = await loop.run_in_executor(None, local_ai_selector_categorizer, reviews_page_selectors, model_name)
+                reviews_page_categorized = await local_ai_selector_categorizer(reviews_page_selectors, model_name, model_name, max_concurrent_per_model=5)
                 
                 reviews_page_categorized_file = f"extracted_data/categorized_selectors/reviews_page_{page_number}_categorized.json"
                 with open(reviews_page_categorized_file, 'w') as f:
